@@ -1,0 +1,37 @@
+{"id": "syn-jezyk_polski-06-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-1-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-1-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-1-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-1-05", "payload": "Klemens Janicki", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-1-06", "payload": "1-C, 2-B, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-05", "payload": "Oda do młodości", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-06", "payload": "Aleksander Fredro", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-2-07", "payload": "1-C, 2-D, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-05", "payload": "Jan Długosz", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-06", "payload": "trivium", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-3-07", "payload": "1-B, 2-A, 3-C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-4-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-4-05", "payload": "Homer", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-4-06", "payload": "1-D, 2-B, 3-C", "confidence": "high", "concern": "Article lists Safona/Teokryt under 'Liryka' and Ezop under 'Epika i proza' but never explicitly links them to melika/sielanka/bajka; answer rests on general knowledge (correct, but not directly supported by the source)."}
+{"id": "syn-jezyk_polski-06-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-5-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-5-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-5-05", "payload": "przenośnia", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-5-06", "payload": "1-D, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-5-07", "payload": "Arystoteles", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-6-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-6-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-6-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-06-6-04", "payload": "morfem zerowy", "confidence": "high", "concern": "Article uses both 'morfemy zerowe' and 'zero morfologiczne' for the same thing; key should accept both 'morfem zerowy' and 'zero morfologiczne'."}

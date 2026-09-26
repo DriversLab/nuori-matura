@@ -1,0 +1,29 @@
+{
+  "exam_id": "test-history-fixture-v1",
+  "answers": [
+    {
+      "id": "1",
+      "answer": ""
+    },
+    {
+      "id": "2.1",
+      "answer": ""
+    },
+    {
+      "id": "2.2",
+      "answer": ""
+    },
+    {
+      "id": "3",
+      "answer": ""
+    },
+    {
+      "id": "4",
+      "answer": ""
+    },
+    {
+      "id": "5",
+      "answer": ""
+    }
+  ]
+}

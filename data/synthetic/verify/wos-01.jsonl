@@ -1,0 +1,38 @@
+{"id": "syn-wos-01-1-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-1-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-1-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-1-06", "payload": "ochlokracja", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-1-07", "payload": "B, D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-05", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-06", "payload": "4", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-2-07", "payload": "A, C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-3-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-3-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-3-05", "payload": "Strasburg", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-3-06", "payload": "B, E", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-4-04", "payload": "P, F, P", "confidence": "medium", "concern": "Statement 3 treats Franco's Spain as a fascist state that lasted until 1975. The article says this, but historians dispute it; Franco's Spain is often classed as an authoritarian regime instead."}
+{"id": "syn-wos-01-4-05", "payload": "F, P, F", "confidence": "high", "concern": "Minor: in statement 3 the phrase 'nie zachowywano żadnych pozorów' makes it false per the article. But in 1939 the elected chamber really was replaced by the unelected Camera dei Fasci e delle Corporazioni, so the part about abolishing elections of deputies is historically partly true."}
+{"id": "syn-wos-01-4-06", "payload": "korporacjonizm", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-4-07", "payload": "C, E", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-06", "payload": "glokalizacja", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-5-07", "payload": "A, D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-6-01", "payload": "C", "confidence": "high", "concern": "Minor: the stem cites the Polish Constitution, but the article never mentions it. The article only says that communes are usually the basic unit of local government. The answer is still correct under art. 164(1) of the Constitution."}
+{"id": "syn-wos-01-6-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-6-03", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-01-6-04", "payload": "dualistyczny", "confidence": "high", "concern": "Minor: the article describes the three models but never says which one applies in Poland. The answer 'dualistyczny' needs outside knowledge or an inference (council plus a directly elected one-person executive)."}

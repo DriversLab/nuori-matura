@@ -1,0 +1,2274 @@
+{
+ "created": "2026-09-16T15:39:17+00:00",
+ "stages": {
+  "raw": 2744,
+  "invalid": 0,
+  "duplicate_id": 0,
+  "verify_skipped": 0,
+  "unverified": 0,
+  "disagree": 2,
+  "low_conf": 0,
+  "concern": 125,
+  "dup_vs_heldout": 20,
+  "dup_vs_dev": 2,
+  "dup_vs_ext_llmzszl_matura": 38,
+  "dup_vs_blocklist": 40,
+  "intra_dup": 4,
+  "kept": 2513
+ },
+ "kept_per_subject": {
+  "biologia": 343,
+  "chemia": 264,
+  "fizyka": 318,
+  "geografia": 289,
+  "historia": 366,
+  "jezyk_polski": 343,
+  "matematyka": 276,
+  "wos": 314
+ },
+ "kept_per_type": {
+  "match": 100,
+  "mc": 1146,
+  "multi": 87,
+  "numeric": 312,
+  "short": 343,
+  "tf": 525
+ },
+ "kept_per_subject_type": {
+  "biologia": {
+   "mc": 160,
+   "multi": 47,
+   "short": 56,
+   "tf": 80
+  },
+  "chemia": {
+   "mc": 132,
+   "numeric": 52,
+   "short": 22,
+   "tf": 58
+  },
+  "fizyka": {
+   "mc": 134,
+   "numeric": 96,
+   "short": 37,
+   "tf": 51
+  },
+  "geografia": {
+   "mc": 141,
+   "numeric": 34,
+   "short": 48,
+   "tf": 66
+  },
+  "historia": {
+   "match": 54,
+   "mc": 167,
+   "short": 47,
+   "tf": 98
+  },
+  "jezyk_polski": {
+   "match": 46,
+   "mc": 161,
+   "short": 82,
+   "tf": 54
+  },
+  "matematyka": {
+   "mc": 103,
+   "numeric": 130,
+   "tf": 43
+  },
+  "wos": {
+   "mc": 148,
+   "multi": 40,
+   "short": 51,
+   "tf": 75
+  }
+ },
+ "mc_answer_letters": {
+  "A": 288,
+  "B": 273,
+  "C": 285,
+  "D": 300
+ },
+ "inputs": {
+  "raw_dir": "data/synthetic/raw",
+  "verify_dir": "data/synthetic/verify",
+  "raw_files": {
+   "biologia-01.jsonl": {
+    "raw": 37
+   },
+   "biologia-02.jsonl": {
+    "raw": 38
+   },
+   "biologia-03.jsonl": {
+    "raw": 36
+   },
+   "biologia-04.jsonl": {
+    "raw": 37
+   },
+   "biologia-05.jsonl": {
+    "raw": 40
+   },
+   "biologia-06.jsonl": {
+    "raw": 35
+   },
+   "biologia-07.jsonl": {
+    "raw": 38
+   },
+   "biologia-08.jsonl": {
+    "raw": 36
+   },
+   "biologia-09.jsonl": {
+    "raw": 35
+   },
+   "biologia-10.jsonl": {
+    "raw": 26
+   },
+   "chemia-01.jsonl": {
+    "raw": 26
+   },
+   "chemia-02.jsonl": {
+    "raw": 29
+   },
+   "chemia-03.jsonl": {
+    "raw": 26
+   },
+   "chemia-04.jsonl": {
+    "raw": 36
+   },
+   "chemia-05.jsonl": {
+    "raw": 28
+   },
+   "chemia-06.jsonl": {
+    "raw": 29
+   },
+   "chemia-07.jsonl": {
+    "raw": 35
+   },
+   "chemia-08.jsonl": {
+    "raw": 28
+   },
+   "chemia-09.jsonl": {
+    "raw": 35
+   },
+   "chemia-10.jsonl": {
+    "raw": 4
+   },
+   "fizyka-01.jsonl": {
+    "raw": 33
+   },
+   "fizyka-02.jsonl": {
+    "raw": 40
+   },
+   "fizyka-03.jsonl": {
+    "raw": 38
+   },
+   "fizyka-04.jsonl": {
+    "raw": 39
+   },
+   "fizyka-05.jsonl": {
+    "raw": 41
+   },
+   "fizyka-06.jsonl": {
+    "raw": 38
+   },
+   "fizyka-07.jsonl": {
+    "raw": 39
+   },
+   "fizyka-08.jsonl": {
+    "raw": 35
+   },
+   "fizyka-09.jsonl": {
+    "raw": 35
+   },
+   "fizyka-10.jsonl": {
+    "raw": 8
+   },
+   "geografia-01.jsonl": {
+    "raw": 33
+   },
+   "geografia-02.jsonl": {
+    "raw": 39
+   },
+   "geografia-03.jsonl": {
+    "raw": 34
+   },
+   "geografia-04.jsonl": {
+    "raw": 32
+   },
+   "geografia-05.jsonl": {
+    "raw": 35
+   },
+   "geografia-06.jsonl": {
+    "raw": 33
+   },
+   "geografia-07.jsonl": {
+    "raw": 34
+   },
+   "geografia-08.jsonl": {
+    "raw": 31
+   },
+   "geografia-09.jsonl": {
+    "raw": 36
+   },
+   "historia-01.jsonl": {
+    "raw": 39
+   },
+   "historia-02.jsonl": {
+    "raw": 41
+   },
+   "historia-03.jsonl": {
+    "raw": 41
+   },
+   "historia-04.jsonl": {
+    "raw": 41
+   },
+   "historia-05.jsonl": {
+    "raw": 42
+   },
+   "historia-06.jsonl": {
+    "raw": 41
+   },
+   "historia-07.jsonl": {
+    "raw": 41
+   },
+   "historia-08.jsonl": {
+    "raw": 41
+   },
+   "historia-09.jsonl": {
+    "raw": 40
+   },
+   "historia-10.jsonl": {
+    "raw": 23
+   },
+   "jezyk_polski-01.jsonl": {
+    "raw": 36
+   },
+   "jezyk_polski-02.jsonl": {
+    "raw": 38
+   },
+   "jezyk_polski-03.jsonl": {
+    "raw": 37
+   },
+   "jezyk_polski-04.jsonl": {
+    "raw": 38
+   },
+   "jezyk_polski-05.jsonl": {
+    "raw": 39
+   },
+   "jezyk_polski-06.jsonl": {
+    "raw": 37
+   },
+   "jezyk_polski-07.jsonl": {
+    "raw": 39
+   },
+   "jezyk_polski-08.jsonl": {
+    "raw": 34
+   },
+   "jezyk_polski-09.jsonl": {
+    "raw": 40
+   },
+   "jezyk_polski-10.jsonl": {
+    "raw": 25
+   },
+   "matematyka-01.jsonl": {
+    "raw": 41
+   },
+   "matematyka-02.jsonl": {
+    "raw": 37
+   },
+   "matematyka-03.jsonl": {
+    "raw": 40
+   },
+   "matematyka-04.jsonl": {
+    "raw": 38
+   },
+   "matematyka-05.jsonl": {
+    "raw": 39
+   },
+   "matematyka-06.jsonl": {
+    "raw": 37
+   },
+   "matematyka-07.jsonl": {
+    "raw": 40
+   },
+   "matematyka-08.jsonl": {
+    "raw": 41
+   },
+   "matematyka-09.jsonl": {
+    "raw": 39
+   },
+   "matematyka-10.jsonl": {
+    "raw": 21
+   },
+   "wos-01.jsonl": {
+    "raw": 38
+   },
+   "wos-02.jsonl": {
+    "raw": 33
+   },
+   "wos-03.jsonl": {
+    "raw": 38
+   },
+   "wos-04.jsonl": {
+    "raw": 37
+   },
+   "wos-05.jsonl": {
+    "raw": 34
+   },
+   "wos-06.jsonl": {
+    "raw": 36
+   },
+   "wos-07.jsonl": {
+    "raw": 33
+   },
+   "wos-08.jsonl": {
+    "raw": 32
+   },
+   "wos-09.jsonl": {
+    "raw": 34
+   },
+   "wos-10.jsonl": {
+    "raw": 16
+   }
+  },
+  "verify_skipped_files": [],
+  "verify_coverage": {
+   "biologia-01.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "biologia-02.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "biologia-03.jsonl": {
+    "items": 36,
+    "answered": 36,
+    "coverage": 1.0
+   },
+   "biologia-04.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "biologia-05.jsonl": {
+    "items": 40,
+    "answered": 40,
+    "coverage": 1.0
+   },
+   "biologia-06.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "biologia-07.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "biologia-08.jsonl": {
+    "items": 36,
+    "answered": 36,
+    "coverage": 1.0
+   },
+   "biologia-09.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "biologia-10.jsonl": {
+    "items": 26,
+    "answered": 26,
+    "coverage": 1.0
+   },
+   "chemia-01.jsonl": {
+    "items": 26,
+    "answered": 26,
+    "coverage": 1.0
+   },
+   "chemia-02.jsonl": {
+    "items": 29,
+    "answered": 29,
+    "coverage": 1.0
+   },
+   "chemia-03.jsonl": {
+    "items": 26,
+    "answered": 26,
+    "coverage": 1.0
+   },
+   "chemia-04.jsonl": {
+    "items": 36,
+    "answered": 36,
+    "coverage": 1.0
+   },
+   "chemia-05.jsonl": {
+    "items": 28,
+    "answered": 28,
+    "coverage": 1.0
+   },
+   "chemia-06.jsonl": {
+    "items": 29,
+    "answered": 29,
+    "coverage": 1.0
+   },
+   "chemia-07.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "chemia-08.jsonl": {
+    "items": 28,
+    "answered": 28,
+    "coverage": 1.0
+   },
+   "chemia-09.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "chemia-10.jsonl": {
+    "items": 4,
+    "answered": 4,
+    "coverage": 1.0
+   },
+   "fizyka-01.jsonl": {
+    "items": 33,
+    "answered": 33,
+    "coverage": 1.0
+   },
+   "fizyka-02.jsonl": {
+    "items": 40,
+    "answered": 40,
+    "coverage": 1.0
+   },
+   "fizyka-03.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "fizyka-04.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "fizyka-05.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "fizyka-06.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "fizyka-07.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "fizyka-08.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "fizyka-09.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "fizyka-10.jsonl": {
+    "items": 8,
+    "answered": 8,
+    "coverage": 1.0
+   },
+   "geografia-01.jsonl": {
+    "items": 33,
+    "answered": 33,
+    "coverage": 1.0
+   },
+   "geografia-02.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "geografia-03.jsonl": {
+    "items": 34,
+    "answered": 34,
+    "coverage": 1.0
+   },
+   "geografia-04.jsonl": {
+    "items": 32,
+    "answered": 32,
+    "coverage": 1.0
+   },
+   "geografia-05.jsonl": {
+    "items": 35,
+    "answered": 35,
+    "coverage": 1.0
+   },
+   "geografia-06.jsonl": {
+    "items": 33,
+    "answered": 33,
+    "coverage": 1.0
+   },
+   "geografia-07.jsonl": {
+    "items": 34,
+    "answered": 34,
+    "coverage": 1.0
+   },
+   "geografia-08.jsonl": {
+    "items": 31,
+    "answered": 31,
+    "coverage": 1.0
+   },
+   "geografia-09.jsonl": {
+    "items": 36,
+    "answered": 36,
+    "coverage": 1.0
+   },
+   "historia-01.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "historia-02.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "historia-03.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "historia-04.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "historia-05.jsonl": {
+    "items": 42,
+    "answered": 42,
+    "coverage": 1.0
+   },
+   "historia-06.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "historia-07.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "historia-08.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "historia-09.jsonl": {
+    "items": 40,
+    "answered": 40,
+    "coverage": 1.0
+   },
+   "historia-10.jsonl": {
+    "items": 23,
+    "answered": 23,
+    "coverage": 1.0
+   },
+   "jezyk_polski-01.jsonl": {
+    "items": 36,
+    "answered": 36,
+    "coverage": 1.0
+   },
+   "jezyk_polski-02.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "jezyk_polski-03.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "jezyk_polski-04.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "jezyk_polski-05.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "jezyk_polski-06.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "jezyk_polski-07.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "jezyk_polski-08.jsonl": {
+    "items": 34,
+    "answered": 34,
+    "coverage": 1.0
+   },
+   "jezyk_polski-09.jsonl": {
+    "items": 40,
+    "answered": 40,
+    "coverage": 1.0
+   },
+   "jezyk_polski-10.jsonl": {
+    "items": 25,
+    "answered": 25,
+    "coverage": 1.0
+   },
+   "matematyka-01.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "matematyka-02.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "matematyka-03.jsonl": {
+    "items": 40,
+    "answered": 40,
+    "coverage": 1.0
+   },
+   "matematyka-04.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "matematyka-05.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "matematyka-06.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "matematyka-07.jsonl": {
+    "items": 40,
+    "answered": 40,
+    "coverage": 1.0
+   },
+   "matematyka-08.jsonl": {
+    "items": 41,
+    "answered": 41,
+    "coverage": 1.0
+   },
+   "matematyka-09.jsonl": {
+    "items": 39,
+    "answered": 39,
+    "coverage": 1.0
+   },
+   "matematyka-10.jsonl": {
+    "items": 21,
+    "answered": 21,
+    "coverage": 1.0
+   },
+   "wos-01.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "wos-02.jsonl": {
+    "items": 33,
+    "answered": 33,
+    "coverage": 1.0
+   },
+   "wos-03.jsonl": {
+    "items": 38,
+    "answered": 38,
+    "coverage": 1.0
+   },
+   "wos-04.jsonl": {
+    "items": 37,
+    "answered": 37,
+    "coverage": 1.0
+   },
+   "wos-05.jsonl": {
+    "items": 34,
+    "answered": 34,
+    "coverage": 1.0
+   },
+   "wos-06.jsonl": {
+    "items": 36,
+    "answered": 36,
+    "coverage": 1.0
+   },
+   "wos-07.jsonl": {
+    "items": 33,
+    "answered": 33,
+    "coverage": 1.0
+   },
+   "wos-08.jsonl": {
+    "items": 32,
+    "answered": 32,
+    "coverage": 1.0
+   },
+   "wos-09.jsonl": {
+    "items": 34,
+    "answered": 34,
+    "coverage": 1.0
+   },
+   "wos-10.jsonl": {
+    "items": 16,
+    "answered": 16,
+    "coverage": 1.0
+   }
+  },
+  "protected_sizes": {
+   "heldout": 60,
+   "dev": 20,
+   "ext_llmzszl_matura": 374,
+   "blocklist": 3729
+  },
+  "protected_files": {
+   "data/eval/heldout.jsonl": "a491eb45bfb1bcfd",
+   "data/eval/dev.jsonl": "d8a625059f67e45a",
+   "data/eval/ext_llmzszl_matura.jsonl": "9d978bf48b624990",
+   "data/blocklist/abituria_math.jsonl": "0784b78770b47886",
+   "data/blocklist/dokato_exam_polish_matura.jsonl": "195ee922d0f6181b",
+   "data/blocklist/dokato_multimodal_pl_exams.jsonl": "eda00533edd07b20",
+   "data/blocklist/include_pl.jsonl": "eeab90297e8e3b42",
+   "data/blocklist/llmzszl.jsonl": "3f1ae93a610f5d4c",
+   "data/blocklist/lmamacl_zadania_maturalne.jsonl": "700d495b904c0657",
+   "data/blocklist/pawel04_llmzszl_open_ended.jsonl": "1681a480f15cd751",
+   "data/blocklist/pawel04_otwarte_pytania_matura_cke.jsonl": "021eff170c2986d0"
+  }
+ },
+ "invalid_examples": [],
+ "verify": {
+  "n_in": 2744,
+  "n_kept": 2617,
+  "counts": {
+   "unverified": 0,
+   "solver_disagrees": 2,
+   "low_confidence": 0,
+   "solver_concern": 125
+  },
+  "examples": {
+   "unverified": [],
+   "solver_disagrees": [
+    {
+     "id": "syn-fizyka-02-1-05",
+     "subject": "fizyka",
+     "type": "short",
+     "question": "Podaj nazwę, którą określa się różnicę między częstotliwością fali emitowanej przez źródło a częstotliwością fali rejestrowanej przez obserwatora poruszającego się względem tego źródła.",
+     "solver_payload": "efekt Dopplera",
+     "key": "przesunięcie Dopplera",
+     "solver_points": 0.0,
+     "max_points": 1.0,
+     "concern": "Stem asks for the name of the frequency difference itself, which is strictly the Doppler shift (przesunięcie dopplerowskie / przesunięcie Dopplera); the article defines efekt Dopplera as the phenomenon of that difference arising, so two answers are defensible."
+    },
+    {
+     "id": "syn-matematyka-08-3-02",
+     "subject": "matematyka",
+     "type": "mc",
+     "question": "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.\nKwadrat o boku a + b ułożono z czterech przystających trójkątów prostokątnych o przyprostokątnych a i b oraz z kwadratu zbudowanego na ich przeciwprostokątnej c. Porównując dwa sposoby obliczenia pola dużego kwadratu, otrzymujemy równość",
+     "solver_payload": "A",
+     "key": "C",
+     "solver_points": 0.0,
+     "max_points": 1.0,
+     "concern": ""
+    }
+   ],
+   "low_confidence": [],
+   "solver_concern": [
+    {
+     "id": "syn-biologia-01-4-04",
+     "subject": "biologia",
+     "type": "short",
+     "question": "Błona komórkowa przepuszcza swobodnie niektóre substancje, np. wodę, a inne w ograniczonym stopniu lub wcale. Podaj nazwę tej właściwości błony.",
+     "solver_payload": "półprzepuszczalność",
+     "key": "półprzepuszczalność",
+     "concern": "Several defensible terms: the description (free passage for some substances, limited or none for others) fits 'selektywna/wybiórcza przepuszczalność' at least as well as 'półprzepuszczalność' (the article's word); the key should accept these synonyms."
+    },
+    {
+     "id": "syn-biologia-01-5-04",
+     "subject": "biologia",
+     "type": "tf",
+     "question": "Oceń prawdziwość stwierdzeń dotyczących podróży Karola Darwina na statku HMS Beagle. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "P, F, P",
+     "key": "P, F, P",
+     "concern": "Mostly biographical trivia (the expedition's mapping purpose, how long the voyage lasted); only statement 3 (Galapagos mockingbirds) has real matura relevance."
+    },
+    {
+     "id": "syn-biologia-01-5-05",
+     "subject": "biologia",
+     "type": "tf",
+     "question": "Oceń prawdziwość stwierdzeń dotyczących życia i prac Karola Darwina. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "F, F, P",
+     "key": "F, F, P",
+     "concern": "Biographical trivia (Edinburgh medical studies, the year 1838, the subject of 'The Descent of Man') with low matura relevance."
+    },
+    {
+     "id": "syn-biologia-01-6-03",
+     "subject": "biologia",
+     "type": "mc",
+     "question": "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.\nBiałka chloroplastowe kodowane przez genom jądrowy mogą zostać przeniesione przez otoczkę chloroplastu dzięki",
+     "solver_payload": "C",
+     "key": "C",
+     "concern": "Polish typo in option A: 'difuzji' should be 'dyfuzji'."
+    },
+    {
+     "id": "syn-biologia-02-5-05",
+     "subject": "biologia",
+     "type": "short",
+     "question": "Podaj polski termin (odpowiednik angielskiego „fitness”), którym w biologii ewolucyjnej określa się miarę sukcesu w doborze naturalnym.",
+     "solver_payload": "dostosowanie",
+     "key": "dostosowanie",
+     "concern": "Polish textbooks also render 'fitness' as 'wartość przystosowawcza' or 'dostosowanie ewolucyjne'; the key should accept these synonyms."
+    },
+    {
+     "id": "syn-biologia-03-2-03",
+     "subject": "biologia",
+     "type": "tf",
+     "question": "Oceń prawdziwość stwierdzeń dotyczących ekosystemu. Wpisz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "F, P, P",
+     "key": "F, P, P",
+     "concern": "Statement 2 is trivia (author name, year 1935, etymology from 'ecological system'), weakly matura-relevant; supported by article though."
+    },
+    {
+     "id": "syn-biologia-04-1-01",
+     "subject": "biologia",
+     "type": "mc",
+     "question": "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.\nGrzyby odgrywają kluczową rolę w obiegu materii w ekosystemach lądowych m.in. dlatego, że jako jedyne organizmy są zdolne do rozkładu",
+     "solver_payload": "C",
+     "key": "C",
+     "concern": "Artykuł popiera, ale twierdzenie, że grzyby jako jedyne organizmy rozkładają ligninę, to uproszczenie (niektóre bakterie, np. promieniowce, też częściowo rozkładają ligninę)."
+    },
+    {
+     "id": "syn-biologia-05-2-03",
+     "subject": "biologia",
+     "type": "mc",
+     "question": "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.\nKręgosłup zbudowany z pięciu odcinków: szyjnego, piersiowego, lędźwiowego, krzyżowego i ogonowego, występuje u",
+     "solver_payload": "A",
+     "key": "A",
+     "concern": "Only the source article limits five vertebral regions to mammals; many Polish school textbooks also describe reptile (and bird) vertebral columns as having five regions (szyjny, piersiowy, lędźwiowy, krzyżowy, ogonowy), so B/C could be defended by students using textbook knowledge."
+    },
+    {
+     "id": "syn-biologia-07-5-04",
+     "subject": "biologia",
+     "type": "tf",
+     "question": "Oceń prawdziwość stwierdzeń dotyczących protistów. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "F, P, F",
+     "key": "F, P, F",
+     "concern": "Statement 2 ('Protisty oddychają całą powierzchnią ciała') is a sweeping generalization taken verbatim from the article; true per source but debatable for large/multicellular protists. Statement 3 hinges on the fine glycogen-vs-starch detail."
+    },
+    {
+     "id": "syn-biologia-08-1-04",
+     "subject": "biologia",
+     "type": "tf",
+     "question": "Oceń prawdziwość stwierdzeń dotyczących reakcji łańcuchowej polimerazy (PCR).",
+     "solver_payload": "F, P, F",
+     "key": "F, P, F",
+     "concern": "Statement 3: 2^10 = 1024, not 20; the source article text renders 2^n as '2n', so check the key did not follow that garbled formula."
+    },
+    {
+     "id": "syn-biologia-09-5-04",
+     "subject": "biologia",
+     "type": "tf",
+     "question": "Oceń, czy poniższe stwierdzenia są prawdziwe. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "P, F, P",
+     "key": "P, F, P",
+     "concern": "Statement 1 ('zawsze tylko jeden akson') matches the article and school-level convention, but is biologically an overgeneralization (anaxonic neurons e.g. amacrine cells exist); absolute 'zawsze' is slightly risky."
+    },
+    {
+     "id": "syn-biologia-09-6-06",
+     "subject": "biologia",
+     "type": "multi",
+     "question": "Wybierz dwie odpowiedzi, które są warunkami koniecznymi do zajścia wymiany gazowej pomiędzy organizmem zwierzęcia a otoczeniem.",
+     "solver_payload": "A, D",
+     "key": "A, D",
+     "concern": "Option C hinges on the article's rather idiosyncratic condition 'odpowiednio wysoka prężność CO2 w płynach ustrojowych'; the 'necessary conditions' list is article-specific rather than standard matura content, though answer A, D is unambiguous."
+    },
+    {
+     "id": "syn-chemia-03-6-06",
+     "subject": "chemia",
+     "type": "numeric",
+     "question": "Próbkę stopu glinu z miedzią o masie 4,00 g roztworzono w nadmiarze wodnego roztworu wodorotlenku sodu. Glin reagował zgodnie z równaniem:\n2Al + 2NaOH + 6H2O → 2Na[Al(OH)4] + 3H2\nMiedź nie reaguje z roztworem NaOH. Otrzymano 4,70 dm³ wodoru (w przeliczeniu na warunki normalne). Przyjmij M(Al) = 27 g/mol oraz objętość molową gazu w warunkach normalnych równą 22,4 dm³/mol. Oblicz zawartość glinu w stopie w procentach masowych. Wynik podaj z dokładnością do jednego miejsca po przecinku.",
+     "solver_payload": "94,4",
+     "key": "94,4",
+     "concern": "Rounding-sensitive: exact calc gives 94.42%, but rounding n(H2) to 0.210 mol midway gives 94.5%; the grader should accept 94.4-94.5."
+    },
+    {
+     "id": "syn-chemia-04-2-03",
+     "subject": "chemia",
+     "type": "mc",
+     "question": "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.\nOrbitale zhybrydyzowane typu sp powstają w wyniku liniowej kombinacji funkcji falowej orbitalu s (l = 0) z",
+     "solver_payload": "D",
+     "key": "D",
+     "concern": "Wording in terms of wave-function linear combinations (l = 0, l = 1) goes beyond the typical matura scope, but the item is unambiguous and matches the article."
+    },
+    {
+     "id": "syn-chemia-04-3-04",
+     "subject": "chemia",
+     "type": "tf",
+     "question": "Oceń prawdziwość poniższych stwierdzeń dotyczących hydrolizy soli. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "F, P, P",
+     "key": "F, P, P",
+     "concern": "Statement 3 (Ostwald's dilution law 'ceases to hold' for a salt of a weak acid and weak base) comes straight from the article, but it is an unusual, loosely worded claim that is not part of the matura curriculum; a well-prepared student could hesitate over it."
+    },
+    {
+     "id": "syn-chemia-04-4-06",
+     "subject": "chemia",
+     "type": "short",
+     "question": "Rozpuszczalność soli, której rozpuszczanie jest procesem egzoenergetycznym, maleje ze wzrostem temperatury, a soli rozpuszczającej się endoenergetycznie – rośnie. Podaj nazwę reguły, która pozwala przewidzieć ten kierunek zmian.",
+     "solver_payload": "reguła przekory Le Chateliera-Brauna",
+     "key": "reguła przekory",
+     "concern": "The short answer can be written in several acceptable forms (reguła przekory, reguła Le Chateliera, zasada przekory Le Chateliera-Brauna); the key should accept all of these variants."
+    },
+    {
+     "id": "syn-chemia-04-6-03",
+     "subject": "chemia",
+     "type": "mc",
+     "question": "Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.\nSubstancja, która przyspiesza reakcję chemiczną, ale w jej wyniku ulega zużyciu, jest nazywana",
+     "solver_payload": "B",
+     "key": "B",
+     "concern": "The article's use of 'inicjator' for any substance that speeds up a reaction and is consumed is non-standard (the usual meaning is a substance that starts a chain reaction). It is not matura-standard terminology, although B is the only answer the article supports."
+    },
+    {
+     "id": "syn-chemia-07-5-04",
+     "subject": "chemia",
+     "type": "tf",
+     "question": "Oceń prawdziwość poniższych stwierdzeń dotyczących skali pH. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.",
+     "solver_payload": "P, F, P",
+     "key": "P, F, P",
+     "concern": "Statement 1 (Sørensen, 1909) is historical trivia with low matura relevance."
+    },
+    {
+     "id": "syn-chemia-09-1-03",
+     "subject": "chemia",
+     "type": "tf",
+     "question": "Oceń prawdziwość poniższych stwierdzeń dotyczących szybkości reakcji chemicznej.",
+     "solver_payload": "P, F, P",
+     "key": "P, F, P",
+     "concern": "Statement 1 is copied from the article, but it is imprecise: the rate formula also divides by V, m or S, so a careful student could mark it F."
+    },
+    {
+     "id": "syn-chemia-09-4-06",
+     "subject": "chemia",
+     "type": "short",
+     "question": "Odkryte pod koniec XIX wieku pierwiastki, takie jak neon, krypton i ksenon, nie miały miejsca w układzie okresowym Mendelejewa. William Ramsay dodał dla nich grupę „0”, która we współczesnym układzie okresowym jest grupą 18. Podaj nazwę tej grupy pierwiastków.",
+     "solver_payload": "gazy szlachetne",
+     "key": "gazy szlachetne",
+     "concern": "The synonym 'helowce' should also be accepted."
+    }
+   ]
+  },
+  "dropped_ids": {
+   "unverified": [],
+   "solver_disagrees": [
+    "syn-fizyka-02-1-05",
+    "syn-matematyka-08-3-02"
+   ],
+   "low_confidence": [],
+   "solver_concern": [
+    "syn-biologia-01-4-04",
+    "syn-biologia-01-5-04",
+    "syn-biologia-01-5-05",
+    "syn-biologia-01-6-03",
+    "syn-biologia-02-5-05",
+    "syn-biologia-03-2-03",
+    "syn-biologia-04-1-01",
+    "syn-biologia-05-2-03",
+    "syn-biologia-07-5-04",
+    "syn-biologia-08-1-04",
+    "syn-biologia-09-5-04",
+    "syn-biologia-09-6-06",
+    "syn-chemia-03-6-06",
+    "syn-chemia-04-2-03",
+    "syn-chemia-04-3-04",
+    "syn-chemia-04-4-06",
+    "syn-chemia-04-6-03",
+    "syn-chemia-07-5-04",
+    "syn-chemia-09-1-03",
+    "syn-chemia-09-4-06",
+    "syn-chemia-09-5-05",
+    "syn-chemia-09-6-06",
+    "syn-fizyka-01-3-03",
+    "syn-fizyka-03-1-04",
+    "syn-fizyka-03-3-05",
+    "syn-fizyka-03-5-05",
+    "syn-fizyka-04-3-03",
+    "syn-fizyka-04-3-04",
+    "syn-fizyka-04-5-03",
+    "syn-fizyka-04-6-06",
+    "syn-fizyka-05-1-04",
+    "syn-fizyka-05-4-05",
+    "syn-fizyka-06-1-05",
+    "syn-fizyka-06-4-04",
+    "syn-fizyka-06-6-04",
+    "syn-fizyka-08-5-03",
+    "syn-fizyka-09-2-02",
+    "syn-fizyka-09-6-02",
+    "syn-fizyka-09-6-04",
+    "syn-geografia-01-1-06",
+    "syn-geografia-01-3-07",
+    "syn-geografia-01-4-06",
+    "syn-geografia-01-6-06",
+    "syn-geografia-02-2-01",
+    "syn-geografia-02-4-01",
+    "syn-geografia-02-5-04",
+    "syn-geografia-05-1-04",
+    "syn-geografia-05-1-05",
+    "syn-geografia-05-3-01",
+    "syn-geografia-05-5-05",
+    "syn-geografia-05-6-04",
+    "syn-geografia-06-1-04",
+    "syn-geografia-07-3-03",
+    "syn-geografia-07-4-05",
+    "syn-geografia-07-6-06",
+    "syn-geografia-08-3-05",
+    "syn-geografia-09-5-02",
+    "syn-historia-01-2-06",
+    "syn-historia-02-1-04",
+    "syn-historia-02-1-06",
+    "syn-historia-02-2-05",
+    "syn-historia-02-4-06",
+    "syn-historia-03-5-01",
+    "syn-historia-03-5-06",
+    "syn-historia-04-2-02",
+    "syn-historia-04-4-05",
+    "syn-historia-04-5-04",
+    "syn-historia-05-5-06",
+    "syn-historia-06-1-06",
+    "syn-historia-06-1-07",
+    "syn-historia-06-5-06",
+    "syn-historia-06-6-05",
+    "syn-historia-07-4-05",
+    "syn-historia-07-4-06",
+    "syn-historia-08-3-05",
+    "syn-historia-09-4-02",
+    "syn-historia-09-6-05",
+    "syn-historia-10-1-01",
+    "syn-historia-10-3-04",
+    "syn-historia-10-4-05",
+    "syn-jezyk_polski-01-4-04",
+    "syn-jezyk_polski-02-2-03",
+    "syn-jezyk_polski-02-6-04",
+    "syn-jezyk_polski-03-2-05",
+    "syn-jezyk_polski-03-6-02",
+    "syn-jezyk_polski-03-6-04",
+    "syn-jezyk_polski-04-2-04",
+    "syn-jezyk_polski-05-1-06",
+    "syn-jezyk_polski-06-4-06",
+    "syn-jezyk_polski-06-6-04",
+    "syn-jezyk_polski-07-3-04",
+    "syn-jezyk_polski-07-5-07",
+    "syn-jezyk_polski-08-1-05",
+    "syn-jezyk_polski-08-1-06",
+    "syn-jezyk_polski-08-5-04",
+    "syn-jezyk_polski-08-6-06",
+    "syn-jezyk_polski-08-6-07",
+    "syn-jezyk_polski-09-1-03",
+    "syn-jezyk_polski-10-4-05",
+    "syn-matematyka-02-4-04",
+    "syn-matematyka-03-1-04",
+    "syn-matematyka-03-3-06",
+    "syn-matematyka-03-5-04",
+    "syn-matematyka-03-6-02",
+    "syn-matematyka-03-6-03",
+    "syn-matematyka-04-2-02",
+    "syn-matematyka-04-2-06",
+    "syn-matematyka-05-6-04",
+    "syn-matematyka-06-3-02",
+    "syn-matematyka-06-3-03",
+    "syn-matematyka-06-6-03",
+    "syn-matematyka-06-6-04",
+    "syn-matematyka-09-1-03",
+    "syn-wos-01-4-04",
+    "syn-wos-01-4-05",
+    "syn-wos-01-6-01",
+    "syn-wos-01-6-04",
+    "syn-wos-02-4-02",
+    "syn-wos-04-1-06",
+    "syn-wos-07-5-06",
+    "syn-wos-08-1-04",
+    "syn-wos-08-5-05",
+    "syn-wos-08-6-04",
+    "syn-wos-10-1-05",
+    "syn-wos-10-3-04"
+   ]
+  }
+ },
+ "dedup": {
+  "model": "BAAI/bge-m3",
+  "thresholds": {
+   "thr_qa": 0.8,
+   "thr_q": 0.9,
+   "thr_fuzzy": 92,
+   "thr_intra_qa": 0.95,
+   "min_fuzzy_words": 6,
+   "fuzzy_min_len_ratio": 0.5
+  },
+  "n_candidates": 2617,
+  "n_kept": 2513,
+  "protected_sizes": {
+   "heldout": 60,
+   "dev": 20,
+   "ext_llmzszl_matura": 374,
+   "blocklist": 3729
+  },
+  "counts": {
+   "dup_vs_heldout": 20,
+   "dup_vs_dev": 2,
+   "dup_vs_ext_llmzszl_matura": 38,
+   "dup_vs_blocklist": 40,
+   "intra_dup": 4
+  },
+  "methods": {
+   "dup_vs_heldout": {
+    "qa": 20,
+    "q": 2,
+    "fuzzy": 1
+   },
+   "dup_vs_dev": {
+    "qa": 2,
+    "q": 0,
+    "fuzzy": 0
+   },
+   "dup_vs_ext_llmzszl_matura": {
+    "qa": 35,
+    "q": 0,
+    "fuzzy": 9
+   },
+   "dup_vs_blocklist": {
+    "qa": 37,
+    "q": 1,
+    "fuzzy": 4
+   }
+  },
+  "examples": {
+   "dup_vs_heldout": [
+    {
+     "id": "syn-biologia-06-3-02",
+     "stem": "W kanaliku krętym I rzędu (kanaliku bliższym) nefronu zachodzi",
+     "answer": "resorpcja obligatoryjna, w wyniku której do krwi wraca całość glukozy i aminokwasów z moczu pierwotnego.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8131,
+      "q": 0.5188,
+      "fuzzy": 0.0
+     },
+     "matched_id": "bio-03",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-biologia-08-6-07",
+     "stem": ", w których podano przykłady sukcesji pierwotnej.",
+     "answer": "zasiedlanie przez organizmy świeżo zastygłej lawy wulkanicznej; kolonizacja nagich skał odsłoniętych przez wycofujący się lodowiec",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8657,
+      "q": 0.8621,
+      "fuzzy": 0.0
+     },
+     "matched_id": "bio-04",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-chemia-08-4-04",
+     "stem": "Oblicz masę bezwodnego siarczanu(VI) miedzi(II) CuSO₄, którą należy rozpuścić w wodzie, aby otrzymać 200 cm³ roztworu o stężeniu 0,35 mol/dm³. Przyjmij, że masa molowa CuSO₄ wynosi 159,6 g/mol. Wynik podaj w gramach z dokładnością do dwóch miejsc po przecinku.",
+     "answer": "11,17",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8116,
+      "q": 0.8168,
+      "fuzzy": 0.0
+     },
+     "matched_id": "che-07",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-fizyka-02-2-04",
+     "stem": "Podaj nazwę wielkości charakteryzującej daną substancję, równej minimalnej energii, jaką należy dostarczyć elektronowi, aby usunąć go z powierzchni metalu.",
+     "answer": "praca wyjścia",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8892,
+      "q": 0.8543,
+      "fuzzy": 0.0
+     },
+     "matched_id": "fiz-09",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-historia-01-5-01",
+     "stem": "Podczas zjazdu gnieźnieńskiego w 1000 roku utworzono",
+     "answer": "arcybiskupstwo w Gnieźnie oraz biskupstwa w Krakowie, Wrocławiu i Kołobrzegu.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.9349,
+      "q": 0.8278,
+      "fuzzy": 0.0
+     },
+     "matched_id": "his-02",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-jezyk_polski-09-4-06",
+     "stem": "Przyporządkuj osobom dramatu z Wesela (1–3) postaci realne, którym się one ukazują (A–D). Jedna postać została podana dodatkowo i nie pasuje do żadnej osoby dramatu. Hetman Rycerz Czarny Upiór",
+     "answer": "Hetman -> Pan Młody; Rycerz Czarny -> Poeta; Upiór -> Dziad",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8203,
+      "q": 0.7996,
+      "fuzzy": 0.0
+     },
+     "matched_id": "pol-06",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-01-3-07",
+     "stem": "Ciąg geometryczny (aₙ) o wyrazach dodatnich jest rosnący. Suma trzech początkowych wyrazów tego ciągu jest równa 26, a ich iloczyn jest równy 216. Oblicz piąty wyraz tego ciągu.",
+     "answer": "162",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.803,
+      "q": 0.7826,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-06",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-01-5-04",
+     "stem": "Dana jest funkcja kwadratowa f(x) = ax² + bx + c, gdzie a ≠ 0, oraz jej wyróżnik Δ = b² − 4ac. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe. Jeżeli Δ < 0, to funkcja f nie ma miejsc zerowych w zbiorze liczb rzeczywistych. Pierwsza współrzędna wierzchołka paraboli będącej wykresem funkcji f jest równa −b/(2a). Druga współrzędna wierzchołka paraboli będącej wykresem funkcji f jest równa Δ/(4a).",
+     "answer": "Jeżeli Δ < 0, to funkcja f nie ma miejsc zerowych w zbiorze liczb rzeczywistych. (P); Pierwsza współrzędna wierzchołka paraboli będącej wykresem funkcji f jest równa −b/(2a). (P); Druga współrzędna wierzchołka paraboli będącej wykresem funkcji f jest równa Δ/(4a). (F)",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8385,
+      "q": 0.8488,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-04",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-01-6-01",
+     "stem": "Funkcja liniowa f jest określona wzorem f(x) = (2m − 6)x + 1. Funkcja f jest malejąca wtedy i tylko wtedy, gdy",
+     "answer": "m < 3",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.815,
+      "q": 0.7733,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-02",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-01-6-02",
+     "stem": "Wykres funkcji liniowej f przechodzi przez punkty A = (−1, 5) i B = (3, −3). Funkcja f jest określona wzorem",
+     "answer": "f(x) = −2x + 3",
+     "methods": [
+      "qa",
+      "q",
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.9472,
+      "q": 0.9224,
+      "fuzzy": 94.186
+     },
+     "matched_id": "mat-02",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-02-4-02",
+     "stem": "Kąt α jest ostry i sin α = 3/5. Wtedy ctg α jest równy",
+     "answer": "4/3",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8857,
+      "q": 0.8929,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-05",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-02-4-06",
+     "stem": "Kąt α jest ostry i tg α = 2. Oblicz wartość wyrażenia (sin α + cos α)/(sin α - cos α).",
+     "answer": "3",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.859,
+      "q": 0.8475,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-05",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-03-2-06",
+     "stem": "W urnie jest 10 kul: 4 białe i 6 czarnych. Losujemy jednocześnie 3 kule. Oblicz prawdopodobieństwo wylosowania dokładnie dwóch kul białych. Wynik podaj w postaci ułamka dziesiętnego.",
+     "answer": "0,3",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8785,
+      "q": 0.8796,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-08",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-04-1-01",
+     "stem": "Liczba log₂ 48 − log₂ 3 jest równa",
+     "answer": "4",
+     "methods": [
+      "qa",
+      "q"
+     ],
+     "scores": {
+      "qa": 1.0,
+      "q": 1.0,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-01",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-05-6-05",
+     "stem": "W urnie jest 5 kul białych i 3 kule czarne. Losujemy jednocześnie dwie kule. Oblicz prawdopodobieństwo, że obie wylosowane kule będą białe. Wynik podaj w postaci ułamka dziesiętnego z dokładnością do 0,01.",
+     "answer": "0,36",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8776,
+      "q": 0.8677,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-08",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-matematyka-07-6-06",
+     "stem": "Kąt α jest ostry i tg α = 2. Oblicz wartość wyrażenia (sin α + cos α)/(sin α − cos α).",
+     "answer": "3",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8588,
+      "q": 0.8501,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-05",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-wos-06-5-01",
+     "stem": "Wniosek o wyrażenie Radzie Ministrów konstruktywnego wotum nieufności, wskazujący imiennie kandydata na Prezesa Rady Ministrów, musi zostać zgłoszony przez co najmniej",
+     "answer": "46 posłów.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.829,
+      "q": 0.7883,
+      "fuzzy": 0.0
+     },
+     "matched_id": "wos-07",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-wos-09-6-03",
+     "stem": "Jeżeli Senat w ciągu 30 dni od dnia przekazania mu ustawy nie podejmie w jej sprawie uchwały, to ustawa",
+     "answer": "zostaje uznana za uchwaloną w brzmieniu przyjętym przez Sejm.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8512,
+      "q": 0.7235,
+      "fuzzy": 0.0
+     },
+     "matched_id": "wos-02",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-wos-10-2-01",
+     "stem": "Wniosek o wyrażenie wotum nieufności Radzie Ministrów może złożyć grupa licząca co najmniej",
+     "answer": "46 posłów.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8032,
+      "q": 0.7646,
+      "fuzzy": 0.0
+     },
+     "matched_id": "wos-07",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-wos-10-2-03",
+     "stem": "Wniosek o wyrażenie wotum nieufności wobec ministra przed głosowaniem podlega zaopiniowaniu przez właściwą komisję sejmową. Po uchwaleniu wotum nieufności wobec Rady Ministrów Prezes Rady Ministrów składa dymisję rządu na ręce Marszałka Sejmu. Wniosek o wyrażenie wotum nieufności może zostać złożony przed upływem 3 miesięcy od złożenia poprzedniego wniosku, jeżeli poprze go co najmniej 115 posłów.",
+     "answer": "Wniosek o wyrażenie wotum nieufności wobec ministra przed głosowaniem podlega zaopiniowaniu przez właściwą komisję sejmową. (P); Po uchwaleniu wotum nieufności wobec Rady Ministrów Prezes Rady Ministrów składa dymisję rządu na ręce Marszałka Sejmu. (F); Wniosek o wyrażenie wotum nieufności może zostać złożony przed upływem 3 miesięcy od złożenia poprzedniego wniosku, jeżeli poprze go co najmniej 115 posłów. (P)",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8734,
+      "q": 0.8913,
+      "fuzzy": 0.0
+     },
+     "matched_id": "wos-07",
+     "matched_source": "authored"
+    }
+   ],
+   "dup_vs_dev": [
+    {
+     "id": "syn-matematyka-05-4-07",
+     "stem": "Funkcja f jest określona wzorem f(x) = x³ − 3x² − 9x + 5 dla x ∈ ⟨−2, 4⟩. Oblicz różnicę między największą a najmniejszą wartością tej funkcji w przedziale ⟨−2, 4⟩.",
+     "answer": "32",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.844,
+      "q": 0.8807,
+      "fuzzy": 0.0
+     },
+     "matched_id": "mat-10",
+     "matched_source": "authored"
+    },
+    {
+     "id": "syn-wos-06-6-03",
+     "stem": "Funkcje prawodawcze i budżetowe w Unii Europejskiej Rada Unii Europejskiej wykonuje wspólnie – jako równorzędny prawodawca – z",
+     "answer": "Parlamentem Europejskim.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8095,
+      "q": 0.6573,
+      "fuzzy": 0.0
+     },
+     "matched_id": "wos-04",
+     "matched_source": "authored"
+    }
+   ],
+   "dup_vs_ext_llmzszl_matura": [
+    {
+     "id": "syn-fizyka-01-4-06",
+     "stem": "Czas połowicznego rozpadu pewnego izotopu promieniotwórczego wynosi 8 dni. Oblicz, jaki procent początkowej liczby jąder tego izotopu pozostanie nierozpadnięty po 20 dniach. Wynik podaj w procentach z dokładnością do 0,1%.",
+     "answer": "17,7",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8406,
+      "q": 0.8456,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18426",
+     "matched_source": "llmzszl:2007"
+    },
+    {
+     "id": "syn-fizyka-01-4-07",
+     "stem": "Izotop promieniotwórczy podany pacjentowi ma fizyczny czas połowicznego rozpadu równy 6 h, a jego biologiczny okres półtrwania (związany wyłącznie z wydalaniem z organizmu) wynosi 24 h. Przyjmij, że rozpad i wydalanie zachodzą niezależnie i oba procesy przebiegają wykładniczo. Oblicz efektywny czas połowicznego zaniku aktywności tego izotopu w organizmie. Wynik podaj w godzinach z dokładnością do 0,1 h.",
+     "answer": "4,8",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8423,
+      "q": 0.8139,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18426",
+     "matched_source": "llmzszl:2007"
+    },
+    {
+     "id": "syn-fizyka-01-5-03",
+     "stem": "W każdym nieodwracalnym procesie zachodzącym w układzie odosobnionym entropia układu",
+     "answer": "rośnie.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8912,
+      "q": 0.8219,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18499",
+     "matched_source": "llmzszl:2009"
+    },
+    {
+     "id": "syn-fizyka-01-5-06",
+     "stem": "Silnik cieplny w jednym cyklu pobiera z grzejnicy 2,5 kJ ciepła i oddaje do chłodnicy 1,6 kJ ciepła. Oblicz sprawność tego silnika. Wynik podaj w procentach z dokładnością do 1%.",
+     "answer": "36",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8583,
+      "q": 0.8611,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18425",
+     "matched_source": "llmzszl:2007"
+    },
+    {
+     "id": "syn-fizyka-07-3-03",
+     "stem": "W chwili, gdy ciało wykonujące drgania harmoniczne proste (bez tłumienia) przechodzi przez położenie równowagi,",
+     "answer": "jego energia kinetyczna jest największa, a energia potencjalna sprężystości jest równa zeru.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8031,
+      "q": 0.7442,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18493",
+     "matched_source": "llmzszl:2011"
+    },
+    {
+     "id": "syn-fizyka-09-2-01",
+     "stem": "Jeżeli długość nici wahadła matematycznego wykonującego drgania o małej amplitudzie zwiększymy czterokrotnie, to okres jego drgań",
+     "answer": "wzrośnie dwukrotnie.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8058,
+      "q": 0.7874,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18515",
+     "matched_source": "llmzszl:2016"
+    },
+    {
+     "id": "syn-matematyka-01-2-03",
+     "stem": "Ciąg (aₙ) jest określony wzorem aₙ = −4n + 9 dla n ≥ 1. Ciąg (aₙ) jest",
+     "answer": "arytmetyczny i malejący, o różnicy −4",
+     "methods": [
+      "qa",
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.8555,
+      "q": 0.8977,
+      "fuzzy": 93.6709
+     },
+     "matched_id": "llmzszl-18634",
+     "matched_source": "llmzszl:2023"
+    },
+    {
+     "id": "syn-matematyka-01-2-05",
+     "stem": "W ciągu arytmetycznym (aₙ) pierwszy wyraz jest równy −7, a różnica jest równa 3. Oblicz sumę dwudziestu początkowych wyrazów tego ciągu.",
+     "answer": "430",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8092,
+      "q": 0.7836,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18690",
+     "matched_source": "llmzszl:2019"
+    },
+    {
+     "id": "syn-matematyka-01-5-01",
+     "stem": "Dana jest funkcja kwadratowa f(x) = 2(x + 3)² − 5. Wierzchołek paraboli będącej wykresem funkcji f ma współrzędne",
+     "answer": "(−3, −5)",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8174,
+      "q": 0.8225,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18671",
+     "matched_source": "llmzszl:2018"
+    },
+    {
+     "id": "syn-matematyka-01-6-03",
+     "stem": "Dana jest funkcja liniowa f(x) = −(1/2)x + 4. Miejscem zerowym funkcji f jest liczba",
+     "answer": "8",
+     "methods": [
+      "qa",
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.8823,
+      "q": 0.8712,
+      "fuzzy": 95.3125
+     },
+     "matched_id": "llmzszl-18593",
+     "matched_source": "llmzszl:2016"
+    },
+    {
+     "id": "syn-matematyka-02-5-03",
+     "stem": "Krawędź podstawy graniastosłupa prawidłowego trójkątnego ma długość 6 cm, a wysokość tego graniastosłupa jest równa 10 cm. Oblicz objętość graniastosłupa. Wynik podaj w centymetrach sześciennych z dokładnością do 0,01 cm³.",
+     "answer": "155,88",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8139,
+      "q": 0.8166,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18714",
+     "matched_source": "llmzszl:2017"
+    },
+    {
+     "id": "syn-matematyka-02-5-04",
+     "stem": "Krawędź podstawy graniastosłupa prawidłowego czworokątnego ma długość 4 cm, a przekątna tego graniastosłupa ma długość 9 cm. Oblicz pole powierzchni całkowitej tego graniastosłupa. Wynik podaj w centymetrach kwadratowych.",
+     "answer": "144",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.871,
+      "q": 0.8834,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18714",
+     "matched_source": "llmzszl:2017"
+    },
+    {
+     "id": "syn-matematyka-04-3-01",
+     "stem": "Mediana zestawu danych: 7, 2, 9, 4, 4, 11, 6 jest równa",
+     "answer": "6",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8015,
+      "q": 0.7892,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18661",
+     "matched_source": "llmzszl:2015"
+    },
+    {
+     "id": "syn-matematyka-04-3-03",
+     "stem": "Średnia arytmetyczna liczb 3, 8, 5, x, 10, 6 jest równa 6. Oblicz medianę tego zestawu liczb. Wynik podaj w postaci dziesiętnej.",
+     "answer": "5,5",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8217,
+      "q": 0.8237,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18626",
+     "matched_source": "llmzszl:2022"
+    },
+    {
+     "id": "syn-matematyka-04-4-01",
+     "stem": "Zbiorem wszystkich rozwiązań nierówności 3 − 2x > 11 jest przedział",
+     "answer": "(−∞, −4)",
+     "methods": [
+      "qa",
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.913,
+      "q": 0.8736,
+      "fuzzy": 97.6378
+     },
+     "matched_id": "llmzszl-18534",
+     "matched_source": "llmzszl:2023"
+    },
+    {
+     "id": "syn-matematyka-04-5-03",
+     "stem": "Odchylenie standardowe zestawu liczb x₁, x₂, …, xₙ jest równe 2. Każdą z tych liczb pomnożono przez 3, a następnie do każdego wyniku dodano 1. Odchylenie standardowe otrzymanego zestawu liczb jest równe",
+     "answer": "6",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8092,
+      "q": 0.7594,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18680",
+     "matched_source": "llmzszl:2018"
+    },
+    {
+     "id": "syn-matematyka-05-3-02",
+     "stem": "Liczba ∜8 · √2 jest równa",
+     "answer": "2^(5/4)",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.843,
+      "q": 0.8723,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18604",
+     "matched_source": "llmzszl:2022"
+    },
+    {
+     "id": "syn-matematyka-05-3-03",
+     "stem": "Dla każdej liczby rzeczywistej x wyrażenie √(x²) jest równe",
+     "answer": "|x|",
+     "methods": [
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.7679,
+      "q": 0.7622,
+      "fuzzy": 95.3271
+     },
+     "matched_id": "llmzszl-18533",
+     "matched_source": "llmzszl:2023"
+    },
+    {
+     "id": "syn-matematyka-05-4-02",
+     "stem": "Funkcja f jest określona wzorem f(x) = (2x + 1)/(x − 3) dla x ≠ 3. Pochodna tej funkcji jest określona wzorem",
+     "answer": "f′(x) = −7/(x − 3)²",
+     "methods": [
+      "qa",
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.8371,
+      "q": 0.8477,
+      "fuzzy": 96.0
+     },
+     "matched_id": "llmzszl-18764",
+     "matched_source": "llmzszl:2022"
+    },
+    {
+     "id": "syn-matematyka-05-4-03",
+     "stem": "Funkcja f jest określona wzorem f(x) = x³ − 2x. Styczna do wykresu funkcji f w punkcie o pierwszej współrzędnej 1 ma równanie",
+     "answer": "y = x − 2",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.807,
+      "q": 0.8534,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18574",
+     "matched_source": "llmzszl:2021"
+    }
+   ],
+   "dup_vs_blocklist": [
+    {
+     "id": "syn-biologia-03-5-03",
+     "stem": "U roślin C4 dwutlenek węgla jest wstępnie wiązany w komórkach mezofilu, a cykl Calvina–Bensona zachodzi w komórkach pochew okołowiązkowych. Dzięki temu",
+     "answer": "stężenie CO₂ w miejscu działania RuBisCO jest wysokie, a fotooddychanie praktycznie nie zachodzi.",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8108,
+      "q": 0.6419,
+      "fuzzy": 0.0
+     },
+     "matched_id": "dokato-mm-13",
+     "matched_source": "dokato/multimodal-PL-exams:EBIP-R0-100-2305.pdf"
+    },
+    {
+     "id": "syn-fizyka-04-1-06",
+     "stem": "Energia elektronu w atomie wodoru w stanie podstawowym (n = 1) wynosi E₁ = −13,6 eV. Oblicz, zgodnie z modelem Bohra, minimalną energię, jaką należy dostarczyć elektronowi znajdującemu się na trzeciej orbicie (n = 3), aby zjonizować atom wodoru. Wynik podaj w elektronowoltach z dokładnością do dwóch miejsc po przecinku.",
+     "answer": "1,51",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8385,
+      "q": 0.8524,
+      "fuzzy": 0.0
+     },
+     "matched_id": "pawel-llmzszl-open-92",
+     "matched_source": "pawel04/llmzszl-open-ended:Egzaminy Maturalne"
+    },
+    {
+     "id": "syn-matematyka-01-2-06",
+     "stem": "Suma n początkowych wyrazów ciągu arytmetycznego (aₙ) jest określona wzorem Sₙ = 2n² + 3n dla n ≥ 1. Oblicz dziesiąty wyraz tego ciągu.",
+     "answer": "41",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8232,
+      "q": 0.8337,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm16-p0p-z11",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2016-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-01-5-06",
+     "stem": "Wierzchołkiem paraboli będącej wykresem funkcji kwadratowej f jest punkt W = (2, −8), a do wykresu tej funkcji należy punkt A = (0, 4). Oblicz f(5).",
+     "answer": "19",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8541,
+      "q": 0.8802,
+      "fuzzy": 0.0
+     },
+     "matched_id": "dokato-mm-96",
+     "matched_source": "dokato/multimodal-PL-exams:MMA-P1_1P-202.pdf"
+    },
+    {
+     "id": "syn-matematyka-02-2-02",
+     "stem": "Prosta o równaniu y = 0 jest dla wykresu funkcji f(x) = (1/2)^x",
+     "answer": "asymptotą poziomą prawostronną.",
+     "methods": [
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.7286,
+      "q": 0.7165,
+      "fuzzy": 92.0
+     },
+     "matched_id": "abituria-em25-p0p-z12",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2025-podstawowa-f2015"
+    },
+    {
+     "id": "syn-matematyka-02-3-04",
+     "stem": "Rozwiąż równanie (3x + 2)/(x - 1) = 4.",
+     "answer": "6",
+     "methods": [
+      "qa",
+      "q"
+     ],
+     "scores": {
+      "qa": 0.8171,
+      "q": 0.9414,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm18-p0p-z07",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2018-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-02-4-05",
+     "stem": "Przeciwprostokątna trójkąta prostokątnego ma długość 26 cm, a jeden z jego kątów ostrych α spełnia warunek tg α = 5/12. Oblicz obwód tego trójkąta. Wynik podaj w centymetrach.",
+     "answer": "60",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8754,
+      "q": 0.8579,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm17-p0-z30",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2017-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-02-5-01",
+     "stem": "Graniastosłup ma 24 krawędzie. Liczba ścian tego graniastosłupa jest równa",
+     "answer": "10",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8657,
+      "q": 0.8491,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm17-p0p-z19",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2017-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-02-6-01",
+     "stem": "Granica ciągu określonego wzorem a_n = (3n^2 - 2n)/(1 - 2n^2) dla n ≥ 1 jest równa",
+     "answer": "-3/2",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8102,
+      "q": 0.7543,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm20-r0-z02",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2020-rozszerzona"
+    },
+    {
+     "id": "syn-matematyka-03-1-07",
+     "stem": "Oblicz granicę lim_{x→1} (√(x + 3) − 2)/(x² − 1). Wynik podaj w postaci ułamka dziesiętnego.",
+     "answer": "0,125",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.847,
+      "q": 0.83,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-em21-r0-z05",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2021-rozszerzona"
+    },
+    {
+     "id": "syn-matematyka-03-4-01",
+     "stem": "Kąt środkowy oparty na łuku AB pewnego okręgu ma miarę 130°. Kąt wpisany w ten okrąg, oparty na tym samym łuku AB, ma miarę",
+     "answer": "65°",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8559,
+      "q": 0.8306,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm17-p0-z15",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2017-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-03-4-02",
+     "stem": "Trójkąt ABC jest wpisany w okrąg, a bok AB jest średnicą tego okręgu. Kąt BAC ma miarę 35°. Kąt ABC ma miarę",
+     "answer": "55°",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8244,
+      "q": 0.8381,
+      "fuzzy": 0.0
+     },
+     "matched_id": "llmzszl-18806",
+     "matched_source": "llmzszl:Egzaminy Ósmoklasisty:2022"
+    },
+    {
+     "id": "syn-matematyka-03-4-05",
+     "stem": "Cięciwy AC i BD okręgu przecinają się w punkcie S leżącym wewnątrz tego okręgu. Kąt środkowy oparty na łuku AB niezawierającym punktów C i D ma miarę 110°, a kąt środkowy oparty na łuku CD niezawierającym punktów A i B ma miarę 50°. Oblicz miarę kąta ASB. Wynik podaj w stopniach.",
+     "answer": "80",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8404,
+      "q": 0.8339,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm16-p0p-z19",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2016-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-03-6-05",
+     "stem": "Oblicz, ile liczb całkowitych spełnia nierówność |x − 2| ≤ 5.",
+     "answer": "11",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8118,
+      "q": 0.7813,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm24-p0p-z01",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2024-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-04-1-03",
+     "stem": "Liczba log₂ 5 · log₅ 32 jest równa",
+     "answer": "5",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8058,
+      "q": 0.8094,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm20-p0p-z03",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2020-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-04-4-02",
+     "stem": "Zbiorem wszystkich rozwiązań nierówności x² − 6x + 9 > 0 jest",
+     "answer": "ℝ \\ {3}",
+     "methods": [
+      "fuzzy"
+     ],
+     "scores": {
+      "qa": 0.7438,
+      "q": 0.794,
+      "fuzzy": 93.2039
+     },
+     "matched_id": "abituria-mp21-z6",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2021"
+    },
+    {
+     "id": "syn-matematyka-05-1-02",
+     "stem": "Ostrosłup ma 16 krawędzi. Liczba wszystkich ścian tego ostrosłupa jest równa",
+     "answer": "9",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8237,
+      "q": 0.844,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm24-p0p-z24",
+     "matched_source": "github:haribo841/Abituria:matura-poprawkowa-2024-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-05-1-03",
+     "stem": "W ostrosłupie prawidłowym czworokątnym krawędź podstawy ma długość 6 cm, a wysokość ostrosłupa jest równa 4 cm. Oblicz pole powierzchni całkowitej tego ostrosłupa. Wynik podaj w cm².",
+     "answer": "96",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8487,
+      "q": 0.8857,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm26-p0-z27",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2026-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-05-1-04",
+     "stem": "W ostrosłupie prawidłowym trójkątnym krawędź podstawy ma długość 6 cm, a każda krawędź boczna tworzy z płaszczyzną podstawy kąt o mierze 60°. Oblicz objętość tego ostrosłupa. Wynik podaj w cm³ z dokładnością do 0,01.",
+     "answer": "31,18",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8926,
+      "q": 0.8955,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm26-p0-z27",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2026-podstawowa"
+    },
+    {
+     "id": "syn-matematyka-05-5-01",
+     "stem": "Liczba 2⁻³ · 4² jest równa",
+     "answer": "2",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.8199,
+      "q": 0.8059,
+      "fuzzy": 0.0
+     },
+     "matched_id": "abituria-mm17-r0-z01",
+     "matched_source": "github:haribo841/Abituria:matura-maj-2017-rozszerzona"
+    }
+   ],
+   "intra_dup": [
+    {
+     "id": "syn-chemia-03-1-02",
+     "stem": "W postaci pary enancjomerów może występować związek o wzorze",
+     "answer": "CH3–CH(OH)–CH2–CH3",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.9573
+     },
+     "matched_id": "syn-chemia-02-4-02",
+     "matched_source": "wikipedia:Chiralność cząsteczek"
+    },
+    {
+     "id": "syn-fizyka-09-3-07",
+     "stem": "Wiek Wszechświata można w przybliżeniu oszacować jako odwrotność stałej Hubble'a: t ≈ 1/H₀. Przyjmij H₀ = 70 km/(s·Mpc), 1 Mpc = 3,086·10¹⁹ km oraz 1 rok = 3,156·10⁷ s. Oszacuj w ten sposób wiek Wszechświata. Wynik podaj w miliardach lat, z dokładnością do 0,1 mld lat.",
+     "answer": "14",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.9802
+     },
+     "matched_id": "syn-fizyka-05-6-07",
+     "matched_source": "wikipedia:Prawo Hubble’a-Lemaître’a"
+    },
+    {
+     "id": "syn-fizyka-09-6-07",
+     "stem": "Piłka o masie 0,45 kg uderza prostopadle w ścianę z prędkością o wartości 12 m/s i odbija się od niej prostopadle z prędkością o wartości 10 m/s. Zderzenie piłki ze ścianą trwa 0,030 s. Oblicz wartość średniej siły, z jaką ściana działała na piłkę podczas zderzenia. Wynik podaj w niutonach, zaokrąglony do liczby całkowitej.",
+     "answer": "330",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.9791
+     },
+     "matched_id": "syn-fizyka-08-1-05",
+     "matched_source": "wikipedia:Siła"
+    },
+    {
+     "id": "syn-matematyka-06-3-04",
+     "stem": "Kwotę 5000 zł wpłacono na lokatę oprocentowaną 4% w skali roku z roczną kapitalizacją odsetek. Oblicz kapitał zgromadzony na lokacie po 3 latach (pomijamy podatki). Wynik podaj w złotych z dokładnością do 0,01 zł.",
+     "answer": "5624,32",
+     "methods": [
+      "qa"
+     ],
+     "scores": {
+      "qa": 0.9641
+     },
+     "matched_id": "syn-matematyka-02-2-05",
+     "matched_source": "wikipedia:Funkcja wykładnicza"
+    }
+   ]
+  },
+  "dropped_ids": {
+   "dup_vs_heldout": [
+    "syn-biologia-06-3-02",
+    "syn-biologia-08-6-07",
+    "syn-chemia-08-4-04",
+    "syn-fizyka-02-2-04",
+    "syn-historia-01-5-01",
+    "syn-jezyk_polski-09-4-06",
+    "syn-matematyka-01-3-07",
+    "syn-matematyka-01-5-04",
+    "syn-matematyka-01-6-01",
+    "syn-matematyka-01-6-02",
+    "syn-matematyka-02-4-02",
+    "syn-matematyka-02-4-06",
+    "syn-matematyka-03-2-06",
+    "syn-matematyka-04-1-01",
+    "syn-matematyka-05-6-05",
+    "syn-matematyka-07-6-06",
+    "syn-wos-06-5-01",
+    "syn-wos-09-6-03",
+    "syn-wos-10-2-01",
+    "syn-wos-10-2-03"
+   ],
+   "dup_vs_dev": [
+    "syn-matematyka-05-4-07",
+    "syn-wos-06-6-03"
+   ],
+   "dup_vs_ext_llmzszl_matura": [
+    "syn-fizyka-01-4-06",
+    "syn-fizyka-01-4-07",
+    "syn-fizyka-01-5-03",
+    "syn-fizyka-01-5-06",
+    "syn-fizyka-07-3-03",
+    "syn-fizyka-09-2-01",
+    "syn-matematyka-01-2-03",
+    "syn-matematyka-01-2-05",
+    "syn-matematyka-01-5-01",
+    "syn-matematyka-01-6-03",
+    "syn-matematyka-02-5-03",
+    "syn-matematyka-02-5-04",
+    "syn-matematyka-04-3-01",
+    "syn-matematyka-04-3-03",
+    "syn-matematyka-04-4-01",
+    "syn-matematyka-04-5-03",
+    "syn-matematyka-05-3-02",
+    "syn-matematyka-05-3-03",
+    "syn-matematyka-05-4-02",
+    "syn-matematyka-05-4-03",
+    "syn-matematyka-05-4-06",
+    "syn-matematyka-05-6-03",
+    "syn-matematyka-06-1-01",
+    "syn-matematyka-06-5-03",
+    "syn-matematyka-06-6-02",
+    "syn-matematyka-06-6-05",
+    "syn-matematyka-07-1-02",
+    "syn-matematyka-07-6-02",
+    "syn-matematyka-08-2-03",
+    "syn-matematyka-08-2-04",
+    "syn-matematyka-08-2-05",
+    "syn-matematyka-09-1-02",
+    "syn-matematyka-09-3-01",
+    "syn-matematyka-09-3-02",
+    "syn-matematyka-10-1-02",
+    "syn-matematyka-10-2-01",
+    "syn-matematyka-10-2-03",
+    "syn-matematyka-10-3-01"
+   ],
+   "dup_vs_blocklist": [
+    "syn-biologia-03-5-03",
+    "syn-fizyka-04-1-06",
+    "syn-matematyka-01-2-06",
+    "syn-matematyka-01-5-06",
+    "syn-matematyka-02-2-02",
+    "syn-matematyka-02-3-04",
+    "syn-matematyka-02-4-05",
+    "syn-matematyka-02-5-01",
+    "syn-matematyka-02-6-01",
+    "syn-matematyka-03-1-07",
+    "syn-matematyka-03-4-01",
+    "syn-matematyka-03-4-02",
+    "syn-matematyka-03-4-05",
+    "syn-matematyka-03-6-05",
+    "syn-matematyka-04-1-03",
+    "syn-matematyka-04-4-02",
+    "syn-matematyka-05-1-02",
+    "syn-matematyka-05-1-03",
+    "syn-matematyka-05-1-04",
+    "syn-matematyka-05-5-01",
+    "syn-matematyka-05-6-01",
+    "syn-matematyka-05-6-06",
+    "syn-matematyka-05-6-07",
+    "syn-matematyka-06-1-05",
+    "syn-matematyka-06-1-06",
+    "syn-matematyka-06-3-05",
+    "syn-matematyka-07-6-05",
+    "syn-matematyka-07-6-07",
+    "syn-matematyka-08-2-01",
+    "syn-matematyka-08-3-01",
+    "syn-matematyka-08-3-03",
+    "syn-matematyka-08-4-05",
+    "syn-matematyka-08-6-02",
+    "syn-matematyka-08-6-03",
+    "syn-matematyka-09-2-02",
+    "syn-matematyka-09-2-04",
+    "syn-matematyka-09-2-05",
+    "syn-matematyka-09-2-06",
+    "syn-matematyka-10-1-03",
+    "syn-matematyka-10-2-02"
+   ],
+   "intra_dup": [
+    "syn-chemia-03-1-02",
+    "syn-fizyka-09-3-07",
+    "syn-fizyka-09-6-07",
+    "syn-matematyka-06-3-04"
+   ]
+  }
+ }
+}

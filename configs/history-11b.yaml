@@ -1,0 +1,27 @@
+# history-v0 recipe on Bielik-11B-v3.0 (same rows, same prompts), for the "best matura score" track: the served model is
+# bartowski's Q4_K_S GGUF (6.37 GB on disk, under the 8 GB cap) with this adapter applied at runtime by llama.cpp.
+#
+#   python scripts/train_history.py --config configs/history-11b.yaml --dev data/processed/history/dev_rag.jsonl \
+#       --protect-exam exams/mock/exam.json
+#
+# QLoRA (4-bit NF4 base, bf16 compute) on purpose: it leaves ~25 GB of the L40S free for a llama-server exam run
+# alongside training, and a Q4_K_S deployment is closer to a 4-bit training base than to bf16. Batch 1 x 16 keeps the
+# 6144-token essay rows inside memory; 2 epochs (190 steps) instead of 3: the larger model picks up the answer style
+# sooner, and the Sunday freeze leaves no time for a 3-epoch rerun. Export: scripts/export_lora_gguf.sh with the 11B
+# HF directory as the base config.
+inherit: history.yaml
+run_name: history-11b-v0
+tags: [history-11b-v0]
+notes: >-
+  history-v0 rows on Bielik-11B-v3.0-Instruct, QLoRA r=16/alpha=32, lr 1e-4, 2 epochs, effective batch 16 (1 x 16),
+  max_length 6144; served as Q4_K_S GGUF + GGUF LoRA.
+
+model:
+  base: speakleash/Bielik-11B-v3.0-Instruct   # gated; HF login done on the box
+  quantization: 4bit
+
+train:
+  epochs: 2
+  per_device_batch_size: 1
+  grad_accum: 16
+  save_strategy: epoch      # epoch-1 and epoch-2 adapters both get judged (history-v0 on 4.5B: dev loss best at epoch 2 of 3)

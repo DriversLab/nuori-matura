@@ -1,0 +1,41 @@
+{"id": "syn-historia-04-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-1-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-1-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-1-06", "payload": "Święte Przymierze", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-1-07", "payload": "1-A, 2-C, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-2-02", "payload": "A", "confidence": "high", "concern": "Szczegółowy fakt (powód przyspieszenia obrad o dwa dni); artykuł podaje też obawę przed użyciem siły przez stronnictwo moskiewskie, ale pozostałe opcje są jednoznacznie błędne."}
+{"id": "syn-historia-04-2-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-2-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-2-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-2-06", "payload": "Sejm grodzieński", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-2-07", "payload": "1-D, 2-B, 3-C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-3-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-3-05", "payload": "katarzy", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-3-06", "payload": "1-B, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-4-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-4-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-4-05", "payload": "P, F, P", "confidence": "high", "concern": "Stwierdzenie 3 (Franciszek Bobadilla) i szczegół o założycielu Santo Domingo to wiedza drobiazgowa, wykraczająca poza typowy zakres matury."}
+{"id": "syn-historia-04-4-06", "payload": "Izabela", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-4-07", "payload": "1-C, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-5-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-5-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-5-04", "payload": "P, P, F", "confidence": "high", "concern": "Stwierdzenie 3 opiera się na tezie artykułu sformułowanej 'wbrew powszechnej opinii' (podział na departamenty usankcjonował podział pruski); podręcznikowo często mówi się o wzorze francuskim, więc uczeń może zasadnie odpowiedzieć P."}
+{"id": "syn-historia-04-5-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-5-06", "payload": "Fryderyk August I", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-5-07", "payload": "1-A, 2-B, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-05", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-06", "payload": "Wittenberga", "confidence": "high", "concern": ""}
+{"id": "syn-historia-04-6-07", "payload": "1-D, 2-C, 3-A", "confidence": "high", "concern": ""}

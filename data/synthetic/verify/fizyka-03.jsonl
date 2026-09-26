@@ -1,0 +1,38 @@
+{"id": "syn-fizyka-03-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-1-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-1-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-1-04", "payload": "Compton", "confidence": "high", "concern": "Leans on historical recall (Nobel year) rather than physics, though the Compton effect itself is in the curriculum."}
+{"id": "syn-fizyka-03-1-05", "payload": "600", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-1-06", "payload": "2,67", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-2-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-2-04", "payload": "stała Boltzmanna", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-2-05", "payload": "99,7", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-2-06", "payload": "1994", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-3-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-3-05", "payload": "aerostatyka", "confidence": "high", "concern": "Terminology trivia (name of a sub-discipline) with little matura relevance."}
+{"id": "syn-fizyka-03-3-06", "payload": "247", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-3-07", "payload": "25", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-4-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-4-03", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-4-04", "payload": "interferometr", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-4-05", "payload": "40", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-4-06", "payload": "283", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-5-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-5-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-5-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-5-05", "payload": "butelki lejdejskie", "confidence": "high", "concern": "Historical trivia (name of the first capacitors), not matura-relevant physics."}
+{"id": "syn-fizyka-03-5-06", "payload": "33,8", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-5-07", "payload": "141,6", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-6-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-6-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-6-03", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-6-04", "payload": "napięcie elektryczne", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-6-05", "payload": "30", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-03-6-06", "payload": "3,27", "confidence": "high", "concern": ""}

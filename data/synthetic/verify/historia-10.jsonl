@@ -1,0 +1,23 @@
+{"id": "syn-historia-10-1-01", "payload": "C", "confidence": "high", "concern": "Option C quotes the archaic phrase 'tron elekcyjny przez familie' without quotation marks; to a modern reader 'elekcyjny' suggests an elective throne, although it means hereditary succession. This may mislead students."}
+{"id": "syn-historia-10-1-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-1-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-1-05", "payload": "interrex", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-1-06", "payload": "1-B, 2-D, 3-C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-06", "payload": "Eichmann", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-2-07", "payload": "1-D, 2-C, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-3-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-3-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-3-04", "payload": "Radzim Gaudenty", "confidence": "medium", "concern": "The question asks for one 'imię', but the article gives 'Radzim Gaudenty' (Gaudenty is his monastic name). 'Radzim', 'Gaudenty' and 'Radzim Gaudenty' should all be accepted."}
+{"id": "syn-historia-10-4-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-4-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-4-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-4-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-10-4-05", "payload": "irredenta", "confidence": "medium", "concern": "The article says 'irredenta', but 'irredentyzm' is the equally standard term for the movement. Both should be accepted."}
+{"id": "syn-historia-10-4-06", "payload": "1-A, 2-D, 3-B", "confidence": "high", "concern": ""}

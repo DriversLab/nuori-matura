@@ -1,0 +1,37 @@
+{"id": "syn-matematyka-06-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-1-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-1-03", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-1-04", "payload": "0,36", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-1-05", "payload": "0,375", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-1-06", "payload": "0,05", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-2-03", "payload": "200", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-2-04", "payload": "15", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-3-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-3-02", "payload": "A", "confidence": "high", "concern": "Continuous compounding (V0·e^(rn)) is outside the Polish matura curriculum; mathematically correct and supported by the article."}
+{"id": "syn-matematyka-06-3-03", "payload": "P, P, F", "confidence": "high", "concern": "Statement 2 (real rate (r−i)/(1+i)) is financial-math detail beyond matura scope; supported by article."}
+{"id": "syn-matematyka-06-3-04", "payload": "5624,32", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-3-05", "payload": "11264,93", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-3-06", "payload": "12", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-05", "payload": "2", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-06", "payload": "2", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-4-07", "payload": "12,25", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-05", "payload": "7", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-06", "payload": "14", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-5-07", "payload": "3,5", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-6-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-6-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-6-03", "payload": "D", "confidence": "high", "concern": "Sum of independent binomial variables is beyond matura curriculum; correct per article."}
+{"id": "syn-matematyka-06-6-04", "payload": "F, P, P", "confidence": "high", "concern": "Statement 3 (normal approximation conditions np>5, n(1−p)>5) is beyond matura curriculum and the threshold is convention-dependent (article-specific)."}
+{"id": "syn-matematyka-06-6-05", "payload": "0,346", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-6-06", "payload": "7,5", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-06-6-07", "payload": "7", "confidence": "high", "concern": ""}

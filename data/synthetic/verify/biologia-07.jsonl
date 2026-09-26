@@ -1,0 +1,38 @@
+{"id": "syn-biologia-07-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-1-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-1-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-1-06", "payload": "fosforylacja substratowa", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-1-07", "payload": "C, E", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-06", "payload": "ksenotransplantacja", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-2-07", "payload": "B, E", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-3-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-3-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-3-05", "payload": "dryf genetyczny", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-3-06", "payload": "B, D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-4-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-4-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-4-04", "payload": "szachownica Punnetta", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-5-04", "payload": "F, P, F", "confidence": "medium", "concern": "Statement 2 ('Protisty oddychają całą powierzchnią ciała') is a sweeping generalization taken verbatim from the article; true per source but debatable for large/multicellular protists. Statement 3 hinges on the fine glycogen-vs-starch detail."}
+{"id": "syn-biologia-07-5-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-5-06", "payload": "miksotrofizm", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-5-07", "payload": "A, D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-06", "payload": "paratop", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-07-6-07", "payload": "A, C", "confidence": "high", "concern": ""}

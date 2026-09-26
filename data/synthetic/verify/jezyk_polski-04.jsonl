@@ -1,0 +1,38 @@
+{"id": "syn-jezyk_polski-04-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-1-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-1-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-1-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-1-05", "payload": "bajka", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-1-06", "payload": "Ignacy Krasicki", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-1-07", "payload": "1-B, 2-C, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-2-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-2-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-2-04", "payload": "F, F, P", "confidence": "medium", "concern": "Statement 2 hinges on a subtle reversal: the article describes 'Do króla' as 'pochwała w formie nagany', the statement says 'nagana w formie pochwały' (so F); defensible but a fine-grained trap that students may misread."}
+{"id": "syn-jezyk_polski-04-2-05", "payload": "autoironia", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-2-06", "payload": "1-D, 2-A, 3-C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-05", "payload": "Urszula", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-06", "payload": "Czarnolas", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-3-07", "payload": "1-D, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-05", "payload": "filozofia genezyjska", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-06", "payload": "Andrzej Towiański", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-4-07", "payload": "1-C, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-05", "payload": "pozytywizm", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-06", "payload": "Geist", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-5-07", "payload": "1-C, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-6-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-6-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-6-03", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-04-6-04", "payload": "epika", "confidence": "high", "concern": ""}

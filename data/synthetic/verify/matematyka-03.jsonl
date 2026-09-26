@@ -1,0 +1,40 @@
+{"id": "syn-matematyka-03-1-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-1-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-1-04", "payload": "F, P, F", "confidence": "high", "concern": "Statements 1-2 are history-of-mathematics trivia (who defined the limit, when 'limes' appeared), not matura-relevant; statement 2 is supported by the article but historically loose."}
+{"id": "syn-matematyka-03-1-05", "payload": "6", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-1-06", "payload": "2", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-1-07", "payload": "0,125", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-05", "payload": "2300", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-06", "payload": "0,3", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-2-07", "payload": "826", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-3-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-3-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-3-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-3-05", "payload": "113,04", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-3-06", "payload": "1018", "confidence": "medium", "concern": "Exact value is 324π cm²; the instruction to round to an integer implies 1018 (without a given π approximation), but a key of 324 (coefficient of π) would also be defensible to a student; wording should state explicitly whether π should be substituted."}
+{"id": "syn-matematyka-03-3-07", "payload": "144", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-4-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-4-04", "payload": "56", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-4-05", "payload": "80", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-4-06", "payload": "105", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-5-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-5-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-5-04", "payload": "P, F, F", "confidence": "high", "concern": "Statements 1-2 test memorized names/dates of irrationality proofs (Lambert 1767, Euler 1737) - trivia, not matura-relevant."}
+{"id": "syn-matematyka-03-5-05", "payload": "3", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-5-06", "payload": "15", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-5-07", "payload": "55", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-6-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-6-02", "payload": "C", "confidence": "medium", "concern": "Pure history trivia, not matura-relevant; also contestable (article itself credits Eudoksos with the first successful construction, and Cantor/Weierstrass/Meray gave near-simultaneous formal definitions), so 'Eudoksos' is a tempting distractor."}
+{"id": "syn-matematyka-03-6-03", "payload": "F, F, P", "confidence": "high", "concern": "Statement 1 is history trivia (Teajtet vs Eudoksos classification of irrationals), not matura-relevant."}
+{"id": "syn-matematyka-03-6-04", "payload": "1", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-6-05", "payload": "11", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-03-6-06", "payload": "6", "confidence": "high", "concern": ""}

@@ -1,0 +1,41 @@
+{"id": "syn-historia-03-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-1-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-1-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-1-06", "payload": "Norymberga", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-1-07", "payload": "1-C, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-06", "payload": "Bartosz Głowacki", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-2-07", "payload": "1-D, 2-B, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-05", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-06", "payload": "Grunwald", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-3-07", "payload": "1-C, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-06", "payload": "Robotnik", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-4-07", "payload": "1-D, 2-C, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-5-01", "payload": "B", "confidence": "medium", "concern": "Option B states the payment as 200 000 kop groszy praskich. That figure comes from the article's lead, but the body of the same article (Wyszehrad 1335) says 20 tysięcy kop groszy praskich (1 200 000 groszy), which is the historically accepted amount. The option presented as correct contains a factual error (off by a factor of 10); it should say 20 000 kop."}
+{"id": "syn-historia-03-5-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-5-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-5-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-5-06", "payload": "Akademia Krakowska", "confidence": "medium", "concern": "The university has several correct names (Akademia Krakowska / Uniwersytet Krakowski / Studium Generale / today Uniwersytet Jagielloński). The answer key should accept these variants."}
+{"id": "syn-historia-03-5-07", "payload": "1-B, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-6-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-6-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-6-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-6-05", "payload": "pismo klinowe", "confidence": "high", "concern": ""}
+{"id": "syn-historia-03-6-06", "payload": "1-B, 2-C, 3-A", "confidence": "high", "concern": ""}

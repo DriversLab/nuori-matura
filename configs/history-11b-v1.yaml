@@ -1,0 +1,14 @@
+# history-11b-v0 recipe with EXPLAINED targets: the 698 open CKE-derived rows get full answers (labels, explicit source
+# references, the key's facts) written at build time by Claude agents and checked against the official key, instead of
+# the terse answer-key text. Reason: on the mock the v0 adapter (terse targets) scored 39 vs 44 for the same harness
+# without an adapter; the judge rewards explained answers. Closed items, essays and replay rows are unchanged.
+#
+#   python scripts/train_history.py --config configs/history-11b-v1.yaml \
+#       --train data/processed/history-v1/train.jsonl --dev data/processed/history/dev_rag.jsonl \
+#       --protect-exam exams/mock/exam.json
+inherit: history-11b.yaml
+run_name: history-11b-v1
+tags: [history-11b-v1]
+notes: >-
+  history-11b-v0 with explained targets for open items (data/processed/history-v1/train.jsonl), QLoRA r=16/alpha=32,
+  lr 1e-4, 2 epochs with an adapter saved per epoch, effective batch 16 (1 x 16).

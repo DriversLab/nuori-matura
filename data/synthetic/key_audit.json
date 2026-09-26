@@ -1,0 +1,476 @@
+{
+ "what": "Independent blind audit of answer keys in data/synthetic/clean.jsonl: a solver answered a seeded random sample without keys (web-verified facts, Python for numerics), then compared with the project grader and adjudicated mismatches.",
+ "date": "2026-09-16",
+ "sample_seed": 2026,
+ "clean_items_total": 2513,
+ "n_sampled": 64,
+ "counts": {
+  "key_correct": 62,
+  "trivia": 2
+ },
+ "key_wrong_rate": 0.0,
+ "key_wrong_rate_wilson95_upper": 0.0566,
+ "per_type": {
+  "short": 10,
+  "multi": 2,
+  "mc": 23,
+  "tf": 14,
+  "match": 4,
+  "numeric": 11
+ },
+ "notes": [
+  "syn-geografia-09-3-06 accepts the loose alias 'Agenda' for 'Agenda 2000'",
+  "syn-fizyka-08-3-07 asks for a rounded integer but has tolerance 1 (grading only; the trained target is exact)",
+  "syn-jezyk_polski-06-4-04 rationale overstates 'okres rzymski' (key correct; rationale used only in reason_then_answer renders)"
+ ],
+ "items": [
+  {
+   "id": "syn-jezyk_polski-04-5-05",
+   "type": "short",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "pozytywizm"
+  },
+  {
+   "id": "syn-biologia-10-3-07",
+   "type": "multi",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "B, E"
+  },
+  {
+   "id": "syn-fizyka-09-2-03",
+   "type": "mc",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "D"
+  },
+  {
+   "id": "syn-historia-05-3-05",
+   "type": "tf",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "P, F, F"
+  },
+  {
+   "id": "syn-jezyk_polski-09-5-05",
+   "type": "short",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "limeryk"
+  },
+  {
+   "id": "syn-historia-10-2-03",
+   "type": "mc",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-jezyk_polski-01-5-06",
+   "type": "match",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "1-C, 2-A, 3-B"
+  },
+  {
+   "id": "syn-jezyk_polski-06-4-04",
+   "type": "tf",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "F, P, P"
+  },
+  {
+   "id": "syn-wos-03-3-03",
+   "type": "mc",
+   "subject": "wos",
+   "class": "key_correct",
+   "solver_payload": "B"
+  },
+  {
+   "id": "syn-wos-07-3-06",
+   "type": "multi",
+   "subject": "wos",
+   "class": "key_correct",
+   "solver_payload": "B, E"
+  },
+  {
+   "id": "syn-matematyka-02-1-01",
+   "type": "mc",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "B"
+  },
+  {
+   "id": "syn-matematyka-06-2-04",
+   "type": "numeric",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "15"
+  },
+  {
+   "id": "syn-jezyk_polski-08-6-03",
+   "type": "tf",
+   "subject": "jezyk_polski",
+   "class": "trivia",
+   "solver_payload": "F, F, P"
+  },
+  {
+   "id": "syn-biologia-05-5-03",
+   "type": "mc",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-wos-03-2-02",
+   "type": "mc",
+   "subject": "wos",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-fizyka-05-4-04",
+   "type": "tf",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "F, P, P"
+  },
+  {
+   "id": "syn-matematyka-10-2-05",
+   "type": "numeric",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "12000"
+  },
+  {
+   "id": "syn-biologia-02-1-03",
+   "type": "mc",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-biologia-09-1-05",
+   "type": "short",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "splicing"
+  },
+  {
+   "id": "syn-jezyk_polski-07-6-05",
+   "type": "short",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "Ignacy Krasicki"
+  },
+  {
+   "id": "syn-biologia-10-1-02",
+   "type": "mc",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-jezyk_polski-09-4-03",
+   "type": "mc",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-jezyk_polski-01-1-04",
+   "type": "tf",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "P, F, P"
+  },
+  {
+   "id": "syn-biologia-09-2-03",
+   "type": "mc",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "B"
+  },
+  {
+   "id": "syn-fizyka-03-2-04",
+   "type": "short",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "stała Boltzmanna"
+  },
+  {
+   "id": "syn-chemia-02-5-04",
+   "type": "numeric",
+   "subject": "chemia",
+   "class": "key_correct",
+   "solver_payload": "4,29"
+  },
+  {
+   "id": "syn-historia-01-5-04",
+   "type": "tf",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "P, F, F"
+  },
+  {
+   "id": "syn-biologia-10-3-05",
+   "type": "tf",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "F, P, P"
+  },
+  {
+   "id": "syn-fizyka-08-3-07",
+   "type": "numeric",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "36"
+  },
+  {
+   "id": "syn-historia-04-4-03",
+   "type": "mc",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "D"
+  },
+  {
+   "id": "syn-wos-01-5-06",
+   "type": "short",
+   "subject": "wos",
+   "class": "key_correct",
+   "solver_payload": "glokalizacja"
+  },
+  {
+   "id": "syn-chemia-04-2-01",
+   "type": "mc",
+   "subject": "chemia",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-matematyka-02-3-02",
+   "type": "mc",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-historia-09-1-04",
+   "type": "tf",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "P, P, F"
+  },
+  {
+   "id": "syn-matematyka-10-1-07",
+   "type": "numeric",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "2,65"
+  },
+  {
+   "id": "syn-historia-03-6-06",
+   "type": "match",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "1-B, 2-C, 3-A"
+  },
+  {
+   "id": "syn-historia-05-3-06",
+   "type": "short",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "Bydgoszcz"
+  },
+  {
+   "id": "syn-geografia-04-3-03",
+   "type": "tf",
+   "subject": "geografia",
+   "class": "key_correct",
+   "solver_payload": "F, P, F"
+  },
+  {
+   "id": "syn-geografia-09-3-06",
+   "type": "short",
+   "subject": "geografia",
+   "class": "trivia",
+   "solver_payload": "Agenda 2000"
+  },
+  {
+   "id": "syn-fizyka-07-5-06",
+   "type": "numeric",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "570"
+  },
+  {
+   "id": "syn-matematyka-04-2-04",
+   "type": "tf",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "P, F, P"
+  },
+  {
+   "id": "syn-matematyka-03-4-03",
+   "type": "tf",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "F, P, P"
+  },
+  {
+   "id": "syn-matematyka-03-3-03",
+   "type": "mc",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-matematyka-04-5-05",
+   "type": "numeric",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "2,83"
+  },
+  {
+   "id": "syn-historia-09-3-03",
+   "type": "mc",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-historia-06-6-02",
+   "type": "mc",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-fizyka-01-5-02",
+   "type": "mc",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "B"
+  },
+  {
+   "id": "syn-geografia-07-5-04",
+   "type": "tf",
+   "subject": "geografia",
+   "class": "key_correct",
+   "solver_payload": "F, P, P"
+  },
+  {
+   "id": "syn-historia-06-5-05",
+   "type": "tf",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "F, F, P"
+  },
+  {
+   "id": "syn-historia-06-2-02",
+   "type": "mc",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-matematyka-05-2-07",
+   "type": "numeric",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "144"
+  },
+  {
+   "id": "syn-matematyka-05-4-01",
+   "type": "mc",
+   "subject": "matematyka",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-historia-05-3-07",
+   "type": "match",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "1-C, 2-A, 3-D"
+  },
+  {
+   "id": "syn-geografia-05-5-06",
+   "type": "numeric",
+   "subject": "geografia",
+   "class": "key_correct",
+   "solver_payload": "1,84"
+  },
+  {
+   "id": "syn-chemia-07-4-04",
+   "type": "tf",
+   "subject": "chemia",
+   "class": "key_correct",
+   "solver_payload": "P, F, F"
+  },
+  {
+   "id": "syn-wos-01-5-02",
+   "type": "mc",
+   "subject": "wos",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-chemia-07-6-04",
+   "type": "numeric",
+   "subject": "chemia",
+   "class": "key_correct",
+   "solver_payload": "12,4"
+  },
+  {
+   "id": "syn-fizyka-03-6-06",
+   "type": "numeric",
+   "subject": "fizyka",
+   "class": "key_correct",
+   "solver_payload": "3,27"
+  },
+  {
+   "id": "syn-biologia-03-6-06",
+   "type": "short",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "aldehyd octowy"
+  },
+  {
+   "id": "syn-jezyk_polski-01-6-02",
+   "type": "short",
+   "subject": "jezyk_polski",
+   "class": "key_correct",
+   "solver_payload": "Lalka"
+  },
+  {
+   "id": "syn-historia-09-3-01",
+   "type": "mc",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "C"
+  },
+  {
+   "id": "syn-biologia-01-1-03",
+   "type": "mc",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "D"
+  },
+  {
+   "id": "syn-biologia-09-2-02",
+   "type": "mc",
+   "subject": "biologia",
+   "class": "key_correct",
+   "solver_payload": "A"
+  },
+  {
+   "id": "syn-historia-05-6-07",
+   "type": "match",
+   "subject": "historia",
+   "class": "key_correct",
+   "solver_payload": "1-B, 2-A, 3-C"
+  }
+ ]
+}

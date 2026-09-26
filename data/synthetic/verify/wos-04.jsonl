@@ -1,0 +1,37 @@
+{"id": "syn-wos-04-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-1-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-1-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-1-06", "payload": "metoda d'Hondta", "confidence": "high", "concern": "Article only says Sejm lists use 'd'Hondt or Sainte-Laguë' without saying which one Poland uses; d'Hondt is correct from general knowledge (it has been used since 2005; 2001 used modified Sainte-Laguë), but the source doesn't explicitly back it."}
+{"id": "syn-wos-04-1-07", "payload": "B, E", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-2-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-2-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-2-05", "payload": "prawo Duvergera", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-2-06", "payload": "A, D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-3-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-3-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-3-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-3-05", "payload": "Karta Atlantycka", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-3-06", "payload": "B, D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-06", "payload": "Komisja Europejska", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-4-07", "payload": "C, E", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-06", "payload": "Trybunał Konstytucyjny", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-5-07", "payload": "A, C", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-6-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-6-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-6-03", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-wos-04-6-04", "payload": "O duchu praw", "confidence": "high", "concern": ""}

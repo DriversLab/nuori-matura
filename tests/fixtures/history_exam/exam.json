@@ -1,0 +1,77 @@
+{
+  "exam_id": "test-history-fixture-v1",
+  "title": "Syntetyczny egzamin testowy (nie CKE)",
+  "source_exam_id": "none",
+  "source_url": "",
+  "input_format": "separate-text-and-images-v1",
+  "language": "pl",
+  "max_points": 22,
+  "instructions": "Syntetyczny pakiet do testów harnessu. Treść napisana przez zespół, nie pochodzi z CKE.",
+  "items": [
+    {
+      "id": "1",
+      "group": 1,
+      "max_points": 1,
+      "question": "Rozstrzygnij, czy osada przedstawiona na rysunku powstała w epoce kamienia czy w epoce żelaza.\nOdpowiedź uzasadnij, odwołując się do rysunku.\nRozstrzygnięcie:\nUzasadnienie:",
+      "source_text": "Źródło 1. Rysunek poglądowy osady (opracowanie testowe)\n[Obraz: images/Z01.png]\n\nŹródło 2. Zdjęcie przedmiotu znalezionego w osadzie (bez znacznika w tekście).\nOpracowanie własne zespołu testowego.",
+      "images": [
+        {
+          "path": "images/Z01.png",
+          "source_page": 1,
+          "sha256": "31f674a72184b8b5085c8a630e204ef3aace61308c104efa4cf454abc2ce2cd3"
+        },
+        {
+          "path": "images/Z02.png",
+          "source_page": 1,
+          "sha256": "2887d2740687974d27b3d4ec46b28cefffdb85bdea7295ab738e55514ce1de90"
+        }
+      ],
+      "answer_format": "Tekst po polsku. Podaj wszystkie wymagane elementy odpowiedzi."
+    },
+    {
+      "id": "2.1",
+      "group": 2,
+      "max_points": 2,
+      "question": "Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest\nprawdziwe, albo F – jeśli jest fałszywe.\n1. Autor tekstu testowego opisuje miasto portowe.\n2. W tekście testowym wymieniono\ndwóch władców.\n3. Tekst testowy powstał w XX wieku.\n4. W tekście testowym nie podano żadnej daty.",
+      "source_text": "Tekst testowy\nFragment 1.: Miasto nad morzem słynęło z portu i spichlerzy.\nFragment 2.: Rada miejska zbierała się raz w tygodniu.\nFragment 3.: Najubożsi mieszkańcy nie mieli prawa głosu.",
+      "images": [],
+      "answer_format": "1: P\n2: F\n3: P"
+    },
+    {
+      "id": "2.2",
+      "group": 2,
+      "max_points": 1,
+      "question": "Na podstawie tekstu testowego uzupełnij tabelę – obok opisu wpisz numer fragmentu.\nA. Zgromadzenie decydujące o sprawach miasta.\nB. Grupa mieszkańców pozbawiona praw politycznych.\nC. Miejsce przechowywania zboża w porcie.",
+      "source_text": "Tekst testowy\nFragment 1.: Miasto nad morzem słynęło z portu i spichlerzy.\nFragment 2.: Rada miejska zbierała się raz w tygodniu.\nFragment 3.: Najubożsi mieszkańcy nie mieli prawa głosu.",
+      "images": [],
+      "answer_format": "A: 1\nB: 1"
+    },
+    {
+      "id": "3",
+      "group": 3,
+      "max_points": 1,
+      "question": "Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.\nOpisany w tekście testowym ustrój to\nA. monarchia absolutna.\nB. republika miejska.\nC. teokracja.\nD. dyktatura wojskowa.",
+      "source_text": "Fragment tekstu testowego\nMiastem rządzili wybierani co roku rajcy.",
+      "images": [],
+      "answer_format": "A"
+    },
+    {
+      "id": "4",
+      "group": 4,
+      "max_points": 2,
+      "question": "Dokończ zdania 1. i 2. Zaznacz właściwą odpowiedź spośród podanych.\n1. Dokument testowy wystawił\nA. burmistrz.\nB. biskup.\nC. król.\nD. wójt.\n2. Dokument testowy dotyczył\nA. podatków.\nB. ceł.\nC. sądów.\nD. wojska.",
+      "source_text": "Fragment dokumentu testowego\nMy, król, nadajemy miastu prawo do pobierania ceł.",
+      "images": [],
+      "answer_format": "1: A\n2: A"
+    },
+    {
+      "id": "5",
+      "group": 5,
+      "max_points": 15,
+      "question": "Zadanie zawiera trzy tematy. Wybierz jeden z nich do opracowania. Twoja wypowiedź\npowinna liczyć minimum 300 wyrazów.\n1. Rozwój miast portowych nad Bałtykiem w średniowieczu przyniósł korzyści całemu państwu. Zajmij stanowisko wobec powyższej tezy.\n2. Reformy oświatowe w XVIII wieku zmieniły kulturę szlachecką. Zajmij stanowisko wobec powyższej tezy.\n3. Kolej żelazna przyspieszyła industrializację ziem polskich w XIX wieku. Zajmij stanowisko wobec powyższej tezy.",
+      "source_text": "",
+      "images": [],
+      "answer_format": "Jeden tekst: numer wybranego tematu i całe wypracowanie. Minimum 300 wyrazów zgodnie z poleceniem."
+    }
+  ]
+}

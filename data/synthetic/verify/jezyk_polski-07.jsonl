@@ -1,0 +1,39 @@
+{"id": "syn-jezyk_polski-07-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-1-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-1-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-1-05", "payload": "Dekameron", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-1-06", "payload": "1-C, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-05", "payload": "Księgi Jakubowe", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-06", "payload": "Prawiek i inne czasy", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-2-07", "payload": "1-C, 2-B, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-3-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-3-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-3-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-3-04", "payload": "P, P, F", "confidence": "medium", "concern": "Stmt 1 (powstanie 1833–1834) matches the article's lead, but the same article says Mickiewicz began intensive work in December 1832 (and a fragment in 1831), and many textbooks give 1832–1834, so a well-informed student could defensibly mark F."}
+{"id": "syn-jezyk_polski-07-3-05", "payload": "Gerwazy", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-3-06", "payload": "Rzewuski", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-3-07", "payload": "1-D, 2-B, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-4-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-4-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-4-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-4-05", "payload": "uosobienie", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-4-06", "payload": "1-C, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-05", "payload": "Jerzy Andrzejewski", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-06", "payload": "Kultura", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-5-07", "payload": "1-A, 2-C, 3-B", "confidence": "high", "concern": "Minor factual imprecision: 'Dolina Issy' was published in 1955 (emigration), so labelling it as representing the 'nurt kresowy lat 70.' follows the article but is chronologically loose; the match itself is unambiguous."}
+{"id": "syn-jezyk_polski-07-6-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-6-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-6-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-6-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-6-05", "payload": "Ignacy Krasicki", "confidence": "high", "concern": ""}
+{"id": "syn-jezyk_polski-07-6-06", "payload": "1-C, 2-A, 3-D", "confidence": "high", "concern": ""}

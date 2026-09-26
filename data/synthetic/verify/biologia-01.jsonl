@@ -1,0 +1,37 @@
+{"id": "syn-biologia-01-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-1-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-1-05", "payload": "syntaza ATP", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-1-06", "payload": "A, D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-06", "payload": "plazmidy", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-2-07", "payload": "B, D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-06", "payload": "mocznik", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-3-07", "payload": "A, D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-4-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-4-03", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-4-04", "payload": "półprzepuszczalność", "confidence": "medium", "concern": "Several defensible terms: the description (free passage for some substances, limited or none for others) fits 'selektywna/wybiórcza przepuszczalność' at least as well as 'półprzepuszczalność' (the article's word); the key should accept these synonyms."}
+{"id": "syn-biologia-01-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-5-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-5-04", "payload": "P, F, P", "confidence": "high", "concern": "Mostly biographical trivia (the expedition's mapping purpose, how long the voyage lasted); only statement 3 (Galapagos mockingbirds) has real matura relevance."}
+{"id": "syn-biologia-01-5-05", "payload": "F, F, P", "confidence": "high", "concern": "Biographical trivia (Edinburgh medical studies, the year 1838, the subject of 'The Descent of Man') with low matura relevance."}
+{"id": "syn-biologia-01-5-06", "payload": "Wallace", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-5-07", "payload": "B, E", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-6-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-6-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-6-03", "payload": "C", "confidence": "high", "concern": "Polish typo in option A: 'difuzji' should be 'dyfuzji'."}
+{"id": "syn-biologia-01-6-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-6-05", "payload": "stroma", "confidence": "high", "concern": ""}
+{"id": "syn-biologia-01-6-06", "payload": "C, E", "confidence": "high", "concern": ""}

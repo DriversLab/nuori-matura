@@ -1,0 +1,35 @@
+{"id": "syn-geografia-05-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-1-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-1-04", "payload": "P, F, P", "confidence": "high", "concern": "Stmt 1 paraphrases Castles' 'most migrants will be women' as 'rising share of women'; defensible but slightly loose."}
+{"id": "syn-geografia-05-1-05", "payload": "F, P, P", "confidence": "medium", "concern": "Stmt 3: classing commuting (wahadłowe) as temporary migration follows the article, but some textbooks treat daily commuting as not migration at all."}
+{"id": "syn-geografia-05-1-06", "payload": "czynniki wypychające", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-1-07", "payload": "-8,0", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-2-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-2-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-2-03", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-2-04", "payload": "bryza", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-3-01", "payload": "D", "confidence": "medium", "concern": "Keyed cause (low temperatures / weak evaporation) is from the article, but the main real cause is the freshwater surplus (river inflow) plus limited exchange through the shallow straits. D is still the only correct option offered."}
+{"id": "syn-geografia-05-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-3-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-3-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-3-06", "payload": "haloklina", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-3-07", "payload": "292,5", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-06", "payload": "prosument", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-4-07", "payload": "48,3", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-5-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-5-05", "payload": "wiernopowierzchniowe", "confidence": "high", "concern": "Synonyms (równopolowe, równopowierzchniowe) should also be accepted."}
+{"id": "syn-geografia-05-5-06", "payload": "1,84", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-6-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-6-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-6-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-geografia-05-6-04", "payload": "ubytek naturalny", "confidence": "high", "concern": "'Ujemny przyrost naturalny' should also be accepted."}

@@ -1,0 +1,38 @@
+# Local plumbing check with a tiny ungated model: build data -> 6 LoRA steps -> merge -> eval vs base -> compare -> gate.
+# Scores are meaningless. Everything is written under .smoke/ so real results/ and checkpoints/ are never touched.
+#   python scripts/train.py --config configs/smoke.yaml
+run_name: smoke
+tags: [smoke]
+notes: "tiny-model plumbing check, not a real run"
+
+model:
+  base: HuggingFaceTB/SmolLM2-135M-Instruct
+  quantization: none
+  dtype: auto
+  max_length: 512
+
+data:
+  synthetic: tests/fixtures/synthetic_sample.jsonl
+  general_pool: tests/fixtures/general_sample.jsonl
+  general_heldout: data/eval/general_heldout.jsonl
+  general_heldout_n: 20
+  general_val_n: 5
+
+train:
+  max_steps: 6
+  per_device_batch_size: 2
+  grad_accum: 1
+  logging_steps: 1
+
+eval:
+  limit: 6
+  general_loss_max_items: 20
+  batch_size: 8
+
+gate:
+  min_delta_points: -1000   # smoke only exercises the plumbing; a 135M model after 6 steps is not expected to beat base
+
+paths:
+  results_root: .smoke/results
+  checkpoints_root: .smoke/checkpoints
+  processed_root: .smoke/processed

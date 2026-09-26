@@ -1,0 +1,41 @@
+{"id": "syn-fizyka-05-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-1-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-1-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-1-04", "payload": "pierwsza", "confidence": "medium", "concern": "Pyta o 'numer' zasady – akceptowalne formy odpowiedzi to 1 / I / pierwsza; klucz powinien akceptować wszystkie warianty."}
+{"id": "syn-fizyka-05-1-05", "payload": "1559", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-1-06", "payload": "869", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-05", "payload": "mimośród", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-06", "payload": "1,87", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-2-07", "payload": "5,2", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-05", "payload": "oczko", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-06", "payload": "1,33", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-3-07", "payload": "1,5", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-4-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-4-05", "payload": "areometr", "confidence": "high", "concern": "Równoważne nazwy przyrządu (densymetr, hydrometr) też są poprawne; klucz powinien je akceptować."}
+{"id": "syn-fizyka-05-4-06", "payload": "37", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-4-07", "payload": "16000", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-05", "payload": "zasada superpozycji", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-06", "payload": "6,0", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-5-07", "payload": "11,6", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-05", "payload": "cefeidy", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-06", "payload": "90", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-05-6-07", "payload": "14,0", "confidence": "high", "concern": ""}

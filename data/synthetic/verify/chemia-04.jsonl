@@ -1,0 +1,36 @@
+{"id": "syn-chemia-04-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-1-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-1-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-1-04", "payload": "3,6", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-2-03", "payload": "D", "confidence": "high", "concern": "Wording in terms of wave-function linear combinations (l = 0, l = 1) goes beyond the typical matura scope, but the item is unambiguous and matches the article."}
+{"id": "syn-chemia-04-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-2-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-2-06", "payload": "sp", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-2-07", "payload": "4", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-3-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-3-04", "payload": "F, P, P", "confidence": "medium", "concern": "Statement 3 (Ostwald's dilution law 'ceases to hold' for a salt of a weak acid and weak base) comes straight from the article, but it is an unusual, loosely worded claim that is not part of the matura curriculum; a well-prepared student could hesitate over it."}
+{"id": "syn-chemia-04-3-05", "payload": "iloczyn jonowy wody", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-3-06", "payload": "4,98", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-4-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-4-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-4-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-4-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-4-06", "payload": "reguła przekory Le Chateliera-Brauna", "confidence": "high", "concern": "The short answer can be written in several acceptable forms (reguła przekory, reguła Le Chateliera, zasada przekory Le Chateliera-Brauna); the key should accept all of these variants."}
+{"id": "syn-chemia-04-4-07", "payload": "15,6", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-5-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-5-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-5-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-5-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-5-05", "payload": "Z", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-5-06", "payload": "3", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-6-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-6-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-6-03", "payload": "B", "confidence": "medium", "concern": "The article's use of 'inicjator' for any substance that speeds up a reaction and is consumed is non-standard (the usual meaning is a substance that starts a chain reaction). It is not matura-standard terminology, although B is the only answer the article supports."}
+{"id": "syn-chemia-04-6-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-6-05", "payload": "promotory", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-04-6-06", "payload": "180", "confidence": "high", "concern": ""}

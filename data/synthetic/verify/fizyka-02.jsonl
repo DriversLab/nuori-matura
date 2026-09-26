@@ -1,0 +1,40 @@
+{"id": "syn-fizyka-02-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-1-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-1-05", "payload": "efekt Dopplera", "confidence": "medium", "concern": "Stem asks for the name of the frequency difference itself, which is strictly the Doppler shift (przesunięcie dopplerowskie / przesunięcie Dopplera); the article defines efekt Dopplera as the phenomenon of that difference arising, so two answers are defensible."}
+{"id": "syn-fizyka-02-1-06", "payload": "510", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-1-07", "payload": "22,7", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-2-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-2-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-2-04", "payload": "praca wyjścia", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-2-05", "payload": "622", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-2-06", "payload": "2,97", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-05", "payload": "energia mechaniczna", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-06", "payload": "375", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-3-07", "payload": "1,39", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-05", "payload": "energia potencjalna sprężystości", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-06", "payload": "7,85", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-4-07", "payload": "31,3", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-05", "payload": "diagram Hertzsprunga-Russella", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-06", "payload": "26,7", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-5-07", "payload": "0,59", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-6-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-6-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-6-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-6-04", "payload": "temperatura Curie", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-6-05", "payload": "0,50", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-02-6-06", "payload": "14,4", "confidence": "high", "concern": ""}

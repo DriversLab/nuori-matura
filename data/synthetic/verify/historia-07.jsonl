@@ -1,0 +1,41 @@
+{"id": "syn-historia-07-1-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-1-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-1-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-1-06", "payload": "Piotr Wysocki", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-1-07", "payload": "1-C, 2-A, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-06", "payload": "Aleksander Wielopolski", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-2-07", "payload": "1-D, 2-A, 3-C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-06", "payload": "konferencja teherańska", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-3-07", "payload": "1-C, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-4-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-4-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-4-05", "payload": "praca u podstaw", "confidence": "high", "concern": "Minor: article mentions 'praca u podstaw' together with 'praca organiczna' and never defines it separately (the focus on peasants is not in the article); the answer is still standard textbook knowledge."}
+{"id": "syn-historia-07-4-06", "payload": "1-B, 2-A, 3-C", "confidence": "high", "concern": "Minor: the article lists these authors but none of their works, so the matching rests on outside general knowledge (standard for matura, and unambiguous)."}
+{"id": "syn-historia-07-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-5-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-5-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-5-06", "payload": "cuius regio, eius religio", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-5-07", "payload": "1-D, 2-A, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-06", "payload": "Filippo Brunelleschi", "confidence": "high", "concern": ""}
+{"id": "syn-historia-07-6-07", "payload": "1-D, 2-B, 3-A", "confidence": "high", "concern": ""}

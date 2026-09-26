@@ -1,0 +1,2463 @@
+# Polish Wikipedia articles for the history RAG knowledge base (harness/rag.py), grouped by epoch.
+# Deduplicated across epochs (first listing wins). Fetch + index: python scripts/build_rag.py
+# Articles and the index live in data/rag/ (gitignored); only this list is committed.
+starozytnosc:
+- Starożytność
+- Źródła historyczne
+- Rewolucja neolityczna
+- Epoka brązu
+- Pismo
+- Pismo klinowe
+- Kalendarz juliański
+- Ab urbe condita
+- Siedem cudów świata
+- Żyzny Półksiężyc
+- Mezopotamia
+- Sumer
+- Epos o Gilgameszu
+- Ziggurat
+- Imperium akadyjskie
+- Babilonia
+- Kodeks Hammurabiego
+- Asyria
+- Niewola babilońska
+- Wiszące ogrody Semiramidy
+- Hetyci
+- Bitwa pod Kadesz
+- Fenicja
+- Alfabet fenicki
+- Achemenidzi
+- Cyrus II Wielki
+- Dariusz I Wielki
+- Zaratusztrianizm
+- Królestwo Judy
+- Świątynia Jerozolimska
+- Mojżesz
+- Dekalog
+- Judaizm
+- Tora
+- Biblia
+- Stary Testament
+- Monoteizm
+- Politeizm
+- Teokracja
+- Miasto-państwo
+- Cywilizacja doliny Indusu
+- Hinduizm
+- Warna (hinduizm)
+- Buddyzm
+- Konfucjanizm
+- Wielki Mur Chiński
+- Jedwabny Szlak
+- Starożytny Egipt
+- Nil
+- Faraon
+- Stare Państwo
+- Średnie Państwo
+- Piramidy w Gizie
+- Piramida Cheopsa
+- Echnaton
+- Tutanchamon
+- Ramzes II
+- Hatszepsut
+- Kamień z Rosetty
+- Papirus
+- Mumifikacja
+- Religia starożytnego Egiptu
+- Faras
+- Kazimierz Michałowski
+- Aleksandria
+- Latarnia morska na Faros
+- Biblioteka Aleksandryjska
+- Kleopatra
+- Starożytna Grecja
+- Kultura minojska
+- Kultura mykeńska
+- Pismo linearne B
+- Wojna trojańska
+- Homer
+- Iliada
+- Odyseja
+- Polis
+- Sparta
+- Ateny
+- Demokracja ateńska
+- Drakon
+- Solon
+- Pizystrat
+- Tyran
+- Klejstenes
+- Ostracyzm
+- Eklezja
+- Heliaja
+- Archont
+- Metojkowie
+- Perykles
+- Wojny perskie
+- Bitwa pod Maratonem
+- Bitwa pod Termopilami
+- Temistokles
+- Bitwa pod Salaminą
+- Bitwa pod Platejami
+- Ateński Związek Morski
+- Związek Peloponeski
+- Tukidydes
+- Herodot
+- Starożytna Macedonia
+- Filip II Macedoński
+- Demostenes
+- Związek Koryncki
+- Aleksander Macedoński
+- Bitwa pod Issos
+- Bitwa pod Gaugamelą
+- Olimpia
+- Delfy
+- Akropol ateński
+- Partenon
+- Fidiasz
+- Porządek dorycki
+- Porządek joński
+- Porządek koryncki
+- Mitologia grecka
+- Bogowie olimpijscy
+- Teatr grecki
+- Tragedia starogrecka
+- Ajschylos
+- Sofokles
+- Eurypides
+- Arystofanes
+- Filozofia starożytna
+- Filozofia przedsokratejska
+- Tales z Miletu
+- Pitagoras
+- Sofiści
+- Sokrates
+- Platon
+- Państwo (dialog)
+- Akademia (starożytność)
+- Arystoteles
+- Stoicyzm
+- Epikureizm
+- Archimedes
+- Hipokrates
+- Falanga
+- Alfabet grecki
+- Paideia
+- Kalokagatia
+- Mauzoleum w Halikarnasie
+- Kolos Rodyjski
+- Świątynia Artemidy w Efezie
+- Posąg Zeusa w Olimpii
+- Etruskowie
+- Starożytny Rzym
+- Romulus i Remus
+- Rzym królewski
+- Republika rzymska
+- Senat rzymski
+- Pretor
+- Cenzor (starożytny Rzym)
+- Trybun ludowy
+- Dyktator (starożytny Rzym)
+- Cursus honorum
+- Patrycjusze
+- Plebejusze
+- Lex duodecim tabularum
+- Ekwici
+- Gajusz Mariusz
+- Wojny punickie
+- I wojna punicka
+- II wojna punicka
+- III wojna punicka
+- Hannibal
+- Bitwa pod Kannami
+- Bitwa pod Zamą
+- Scypion Afrykański Starszy
+- Prowincje rzymskie
+- Tyberiusz Grakchus
+- Reformy Grakchów
+- Sulla
+- Powstanie Spartakusa
+- Gajusz Juliusz Cezar
+- Bitwa pod Alezją
+- II triumwirat
+- Marek Antoniusz
+- Bitwa pod Akcjum
+- Oktawian August
+- Pax Romana
+- Cesarstwo Rzymskie
+- Tyberiusz
+- Neron
+- Koloseum
+- Trajan
+- Dacja
+- Hadrian
+- Wał Hadriana
+- Limes
+- Marek Aureliusz
+- Wojny markomańskie
+- Bitwa w Lesie Teutoburskim
+- Edykt Karakalli
+- Kryzys wieku III
+- Dominat
+- Dioklecjan
+- Tetrarchia
+- Konstantyn I Wielki
+- Konstantynopol
+- Julian Apostata
+- Teodozjusz I Wielki
+- Cesarstwo zachodniorzymskie
+- Cesarstwo Bizantyńskie
+- Germanie
+- Hunowie
+- Attyla
+- Aecjusz Flawiusz
+- Goci
+- Wizygoci
+- Ostrogoci
+- Wandalowie
+- Frankowie
+- Alaryk
+- Odoaker
+- Romulus Augustulus
+- Teodoryk Wielki
+- Chlodwig I
+- Justynian I Wielki
+- Kodeks Justyniana
+- Kolonat
+- Latyfundium
+- Prawo rzymskie
+- Obywatele rzymscy
+- Gladiator
+- Forum Romanum
+- Panteon w Rzymie
+- Akwedukt
+- Drogi rzymskie
+- Łacina
+- Wergiliusz
+- Eneida
+- Owidiusz
+- Cyceron
+- Tytus Liwiusz
+- Germania (Tacyt)
+- Seneka Młodszy
+- Polibiusz
+- Plutarch
+- Mitologia rzymska
+- Mitraizm
+- Chrześcijaństwo
+- Jezus Chrystus
+- Nowy Testament
+- Ewangelia
+- Piotr Apostoł
+- Paweł z Tarsu
+- Dzieje Apostolskie
+- Poncjusz Piłat
+- Herod Wielki
+- Rękopisy z Qumran
+- Oblężenie Jerozolimy (70)
+- Józef Flawiusz
+- Katakumby
+- Edykt mediolański
+- Edykt tesaloński
+- Sobór nicejski I
+- Arianizm
+- Nicejsko-konstantynopolitańskie wyznanie wiary
+- Sobór konstantynopolitański I
+- Sobór efeski
+- Sobór chalcedoński
+- Ojcowie Kościoła
+- Augustyn z Hippony
+- Państwo Boże
+- Hieronim ze Strydonu
+- Wulgata
+- Ambroży z Mediolanu
+- Papież
+- Prymat Świętego Piotra
+- Benedykt z Nursji
+- Herezja
+- Monofizytyzm
+- Pentarchia
+- Biskupin
+- Kultura łużycka
+- Krzemionki
+- Szlak bursztynowy
+- Kultura przeworska
+- Kultura wielbarska
+- Kultura oksywska
+- Kultura pomorska
+- Celtowie
+- Klaudiusz Ptolemeusz
+- Lugiowie
+- Wenedowie
+- Słowianie
+- Era kalendarzowa
+- Chronologia
+- Państwo nowobabilońskie
+- Imperium kartagińskie
+- Lidia (kraina)
+- Zjednoczone królestwo Izraela
+- Starożytny Izrael
+- Królestwo Izraela (państwo północne)
+- Dawid (król Izraela)
+- Salomon (król Izraela)
+- Wyjście Izraelitów z Egiptu
+- Królestwo Partów
+- Bitwa pod Carrhae
+- Nowe Państwo (Egipt)
+- Gospodarka starożytnego Egiptu
+- Piramida Dżesera
+- Pismo hieroglificzne
+- Księga umarłych
+- Świątynia Hatszepsut
+- Centrum Archeologii Śródziemnomorskiej Uniwersytetu Warszawskiego
+- Ptolemeusze
+- Wieki ciemne (starożytność)
+- Okres archaiczny (starożytna Grecja)
+- Okres klasyczny (starożytna Grecja)
+- Wielka kolonizacja
+- Ustrój polityczny Sparty
+- Spartańskie wychowanie
+- Wychowanie w starożytnej Grecji
+- Heloci
+- Strateg (Grecja)
+- Wojna peloponeska (431–404 p.n.e.)
+- Teby (Grecja)
+- Bitwa pod Cheroneą (338 p.n.e.)
+- Epoka hellenistyczna
+- Seleucydzi
+- Starożytne igrzyska olimpijskie
+- Historia niewolnictwa
+- Konsul rzymski
+- Komicja centurialne
+- Secessio plebis
+- Legion
+- Armia rzymska
+- Wojna Rzymu z Tarentem i Pyrrusem
+- Wojna Rzymu ze sprzymierzeńcami
+- Pompejusz
+- Wojna domowa Cezara z Pompejuszem
+- Pryncypat (Rzym)
+- Pompeje (stanowisko archeologiczne)
+- Bitwa przy moście Mulwijskim
+- Bitwa na Polach Katalaunijskich (451)
+- Bitwa pod Adrianopolem
+- Zdobycie Rzymu przez Wizygotów
+- Zmierzch Cesarstwa Rzymskiego
+- Romanizacja (starożytność)
+- Triumf
+- Chleba i igrzysk
+- Horacy (poeta)
+- Publiusz Korneliusz Tacyt
+- Religia starożytnego Rzymu
+- Wojna żydowska (66–73)
+- Powstanie Bar-Kochby
+- Diaspora (naród)
+- Prześladowania chrześcijan
+- Prześladowanie chrześcijan za panowania Decjusza
+- Prehistoria ziem polskich
+- Scytowie
+- Architektura starożytnego Rzymu
+- Architektura i rzeźba starożytnego Egiptu
+- Pretorianie
+- Gajusz (jurysta rzymski)
+- Triumwirat
+- Gajusz Cilniusz Mecenas
+- Honoriusz (cesarz)
+- Arkadiusz (cesarz bizantyński)
+- Oligarchia
+- Arystokracja
+- Demokracja
+- Monarchia
+- Republika
+- Sobór jerozolimski
+- Sobór powszechny
+- Wojny diadochów
+- Galia
+- Cesarze rzymscy
+- Wielka wędrówka ludów
+- Septuaginta
+- Rzym
+- Sztuka starożytnej Grecji
+sredniowiecze:
+- Średniowiecze
+- Wczesne średniowiecze
+- Wędrówki ludów
+- Corpus Iuris Civilis
+- Hagia Sophia
+- Ikonoklazm
+- Cezaropapizm
+- Wielka schizma wschodnia
+- Bitwa pod Manzikertem
+- Upadek Konstantynopola
+- Sztuka bizantyńska
+- Cyryl i Metody
+- Ruś Kijowska
+- Chrzest Rusi
+- Islam
+- Mahomet
+- Koran
+- Al-Kaba
+- Pięć filarów islamu
+- Kalifat
+- Sunnizm
+- Szyizm
+- Szariat
+- Podboje arabskie
+- Umajjadzi
+- Abbasydzi
+- Kalifat Kordoby
+- Alhambra
+- Seldżukidzi
+- Sztuka islamu
+- Awicenna
+- Awerroes
+- Cyfry arabskie
+- Bitwa pod Poitiers (732)
+- Rekonkwista
+- Imperium Osmańskie
+- Mehmed II Zdobywca
+- Merowingowie
+- Karolingowie
+- Karol Młot
+- Pepin Krótki
+- Donacja Pepina
+- Państwo Kościelne
+- Karol Wielki
+- Państwo frankijskie
+- Renesans karoliński
+- Katedra w Akwizgranie
+- Missus dominicus
+- Traktat w Verdun
+- Wikingowie
+- Normanowie
+- Wilhelm Zdobywca
+- Otton I Wielki
+- Bitwa nad rzeką Lech (955)
+- Otton III (cesarz rzymski)
+- Henryk II Święty
+- Święte Cesarstwo Rzymskie
+- Kapetyngowie
+- Feudalizm
+- Lenno
+- Senior (feudalizm)
+- Drabina feudalna
+- Inwestytura
+- Immunitet
+- Rycerstwo
+- Pasowanie na rycerza
+- Etos rycerski
+- Stan (zbiorowość społeczna)
+- Monarchia stanowa
+- Monarchia patrymonialna
+- Pańszczyzna
+- Trójpolówka
+- Cech
+- Hanza
+- Patrycjat (średniowiecze i nowożytność)
+- Mieszczaństwo
+- Magna Charta Libertatum
+- Historia Królestwa Anglii
+- Stany Generalne (Francja)
+- Wojna stuletnia
+- Joanna d’Arc
+- Czarna śmierć
+- Żakeria
+- Filip IV Piękny
+- Reforma kluniacka
+- Opactwo św. Piotra i Pawła w Cluny
+- Spór o inwestyturę
+- Grzegorz VII (papież)
+- Dictatus Papae
+- Henryk IV Salicki
+- Kanossa
+- Konkordat wormacki
+- Innocenty III
+- Bonifacy VIII
+- Unam Sanctam
+- Niewola awiniońska
+- Wielka schizma zachodnia
+- Sobór w Konstancji
+- Sobór bazylejsko-ferrarsko-florencki
+- Koncyliaryzm
+- Fryderyk I Barbarossa
+- Fryderyk II Hohenstauf
+- Karol IV Luksemburski
+- Złota Bulla Karola IV
+- Elektorzy Rzeszy
+- Zygmunt Luksemburski
+- Symonia
+- Dziesięcina
+- Świętopietrze
+- Pokój i rozejm Boży
+- Inkwizycja
+- Katarzy
+- Wojny albigeńskie
+- John Wycliffe
+- Jan Hus
+- Husytyzm
+- Wojny husyckie
+- Reguła św. Benedykta
+- Benedyktyni
+- Cystersi
+- Bernard z Clairvaux
+- Zakon żebraczy
+- Zakon Braci Mniejszych
+- Franciszek z Asyżu
+- Dominikanie
+- Krucjata
+- Urban II
+- I wyprawa ludowa
+- I wyprawa krzyżowa
+- Zdobycie Jerozolimy (1099)
+- Królestwo Jerozolimskie
+- II wyprawa krzyżowa
+- III wyprawa krzyżowa
+- IV wyprawa krzyżowa
+- Krucjata dziecięca
+- Saladyn
+- Ryszard I Lwie Serce
+- Bitwa pod Hittin
+- Ludwik IX Święty
+- Zdobycie Akki przez mameluków
+- Zakon rycerski
+- Templariusze
+- Zakon Maltański
+- Zakon krzyżacki
+- Kawalerowie Mieczowi
+- Bracia dobrzyńscy
+- Krucjaty północne
+- Imperium mongolskie
+- Czyngis-chan
+- Złota Orda
+- Chanat Krymski
+- Plemiona polskie
+- Polanie
+- Wiślanie
+- Państwo wielkomorawskie
+- Geograf Bawarski
+- Ibrahim ibn Jakub
+- Thietmar z Merseburga
+- Polska wczesnopiastowska
+- Piastowie
+- Piast
+- Mieszko I
+- Dobrawa Przemyślidka
+- Chrzest Polski
+- Bitwa pod Cedynią
+- Dagome iudex
+- Gród
+- Drużyna (wojsko)
+- Prawo książęce
+- Bolesław I Chrobry
+- Wojciech Sławnikowic
+- Zjazd gnieźnieński
+- Włócznia Świętego Maurycego
+- Archidiecezja gnieźnieńska
+- Wojna polsko-niemiecka (1002–1005)
+- Pokój w Budziszynie
+- Wyprawa Bolesława Chrobrego na Ruś (1018)
+- Grody Czerwieńskie
+- Koronacja na króla Polski
+- Mieszko II Lambert
+- Wojna polsko-niemiecka (1028–1031)
+- Bezprym
+- Reakcja pogańska w Polsce
+- Najazd Brzetysława I na Polskę
+- Miecław
+- Kazimierz I Odnowiciel
+- Bolesław II Szczodry
+- Stanisław ze Szczepanowa
+- Władysław I Herman
+- Sieciech (palatyn)
+- Zbigniew (książę)
+- Bolesław III Krzywousty
+- Wojna polsko-niemiecka (1109)
+- Gall Anonim
+- Kronika Galla Anonima
+- Drzwi Gnieźnieńskie
+- Ustawa sukcesyjna Bolesława Krzywoustego
+- Polska w okresie rozbicia dzielnicowego
+- Seniorat
+- Dzielnica senioralna
+- Władysław II Wygnaniec
+- Bolesław IV Kędzierzawy
+- Mieszko III Stary
+- Kazimierz II Sprawiedliwy
+- Zjazd w Łęczycy
+- Wincenty Kadłubek
+- Kronika Wincentego Kadłubka
+- Leszek Biały
+- Zbrodnia gąsawska
+- Konrad I mazowiecki
+- Prusowie
+- Złota bulla z Rimini
+- Państwo zakonu krzyżackiego
+- Ziemia chełmińska
+- Henryk I Brodaty
+- Henryk II Pobożny
+- Bitwa pod Legnicą
+- I najazd mongolski na Polskę
+- Bolesław Pobożny
+- Statut kaliski
+- Historia Żydów w Polsce
+- Henryk IV Prawy
+- Przemysł II
+- Pomorze Gdańskie
+- Księstwo halicko-wołyńskie
+- Wacław II
+- Wacław III
+- Jakub Świnka
+- Kolonizacja na prawie niemieckim
+- Prawo magdeburskie
+- Prawo chełmińskie
+- Lokacja (historia)
+- Wójt
+- Sołtys
+- Lokacja Krakowa
+- Władcy Polski
+- Władysław I Łokietek
+- Bunt wójta Alberta
+- Rzeź gdańska
+- Korona Królestwa Polskiego
+- Proces warszawski 1339
+- Wojny polsko-krzyżackie
+- Wojna polsko-krzyżacka (1327–1332)
+- Bitwa pod Płowcami
+- Jan Luksemburski
+- Kazimierz III Wielki
+- Zjazdy w Wyszehradzie
+- Układ w Trenczynie
+- Pokój kaliski
+- Statuty Kazimierza Wielkiego
+- Uniwersytet Jagielloński
+- Uczta u Wierzynka
+- Ruś Czerwona
+- Starosta
+- Wojewoda
+- Kasztelania
+- Urzędy ziemskie
+- Janko z Czarnkowa
+- Przywilej budziński
+- Andegawenowie
+- Ludwik Węgierski
+- Przywilej koszycki
+- Jadwiga Andegaweńska
+- Szlachta
+- Możnowładztwo
+- Herb szlachecki
+- Unia personalna
+- Unia realna
+- Unia w Krewie
+- Unia polsko-litewska
+- Wielkie Księstwo Litewskie
+- Mendog
+- Giedymin
+- Olgierd Giedyminowicz
+- Kiejstut Giedyminowicz
+- Chrzest Litwy
+- Żmudź
+- Jagiellonowie
+- Władysław II Jagiełło
+- Witold Kiejstutowicz
+- Unia wileńsko-radomska
+- Pokój w Raciążku
+- Wielka wojna z zakonem krzyżackim
+- Bitwa pod Grunwaldem
+- Bitwa pod Koronowem
+- Pokój toruński (1411)
+- Unia horodelska
+- Paweł Włodkowic
+- Stanisław ze Skarbimierza
+- Pokój mełneński
+- Przywilej czerwiński
+- Przywilej jedlneńsko-krakowski
+- Świdrygiełło
+- Wojna polsko-krzyżacka (1431–1435)
+- Pokój w Brześciu Kujawskim
+- Władysław III Warneńczyk
+- Bitwa pod Warną
+- Zbigniew Oleśnicki (kardynał)
+- Kazimierz IV Jagiellończyk
+- Związek Pruski
+- Wojna trzynastoletnia
+- Bitwa pod Chojnicami
+- Przywilej cerekwicki
+- Statuty nieszawskie
+- Drugi pokój toruński
+- Prusy Królewskie
+- Wojna popia
+- Sejm walny I Rzeczypospolitej
+- Sejmiki ziemskie
+- Rada królewska
+- Demokracja szlachecka
+- Władysław II Jagiellończyk
+- Wielkie Księstwo Moskiewskie
+- Jan Długosz
+- Roczniki czyli kroniki sławnego Królestwa Polskiego
+- Filip Kallimach
+- Jan Ostroróg (1436–1501)
+- Memoriał o urządzeniu Rzeczypospolitej
+- Wit Stwosz
+- Ołtarz Wita Stwosza w Krakowie
+- Kościół archiprezbiterialny Wniebowzięcia Najświętszej Marii Panny w Krakowie
+- Bazylika Archikatedralna św. Stanisława i św. Wacława w Krakowie
+- Zamek Królewski na Wawelu
+- Zamek w Malborku
+- Bazylika Prymasowska Wniebowzięcia Najświętszej Maryi Panny w Gnieźnie
+- Archikolegiata w Tumie
+- Polskie insygnia koronacyjne
+- Sztuka romańska
+- Architektura romańska w Polsce
+- Gotyk
+- Architektura gotycka w Polsce
+- Gotyk ceglany
+- Katedra Notre-Dame w Paryżu
+- Bazylika w Saint-Denis
+- Katedra w Chartres
+- Iluminacja książki
+- Chorał gregoriański
+- Filozofia średniowieczna
+- Scholastyka (filozofia)
+- Spór o uniwersalia
+- Tomasz z Akwinu
+- Summa theologiae
+- Uniwersytet
+- Uniwersytet Boloński
+- Uniwersytet Paryski
+- Uniwersytet Karola
+- Sztuki wyzwolone
+- Teocentryzm
+- Ascetyzm
+- Hagiografia
+- Złota legenda
+- Literatura średniowiecza
+- Literatura polska – średniowiecze
+- Pieśń o Rolandzie
+- Boska komedia
+- Taniec śmierci
+- Ars moriendi
+- Pielgrzymka
+- Droga św. Jakuba
+- Ordalia
+- Bogurodzica (pieśń)
+- Gaude Mater Polonia
+- Kazania świętokrzyskie
+- Psałterz floriański
+- Lament świętokrzyski
+- Rozmowa Mistrza Polikarpa ze Śmiercią
+- Johannes Gutenberg
+nowozytnosc:
+- Wielkie odkrycia geograficzne
+- Krzysztof Kolumb
+- Vasco da Gama
+- Ferdynand Magellan
+- Hernán Cortés
+- Francisco Pizarro
+- Traktat z Tordesillas
+- Imperium hiszpańskie
+- Rewolucja cen
+- Transatlantycki handel niewolnikami
+- Merkantylizm
+- Manufaktura
+- Folwark
+- Handel wiślany
+- Historia Gdańska
+- Renesans
+- Humanizm renesansowy
+- Erazm z Rotterdamu
+- Niccolò Machiavelli
+- Książę (utwór)
+- Mikołaj Kopernik
+- De revolutionibus orbium coelestium
+- Rewolucja naukowa
+- Andrzej Frycz Modrzewski
+- Mikołaj Rej
+- Jan Kochanowski
+- Architektura renesansu w Polsce
+- Kaplica Zygmuntowska na Wawelu
+- Akademia Zamojska
+- Jan Zamoyski
+- Reformacja
+- Marcin Luter
+- 95 tez
+- Jan Kalwin
+- Kalwinizm
+- Luteranizm
+- Anglikanizm
+- Henryk VIII Tudor
+- Wojna chłopska w Niemczech
+- Pokój augsburski
+- Kontrreformacja
+- Sobór trydencki
+- Jezuici
+- Ignacy Loyola
+- Indeks ksiąg zakazanych
+- Hugenoci
+- Noc św. Bartłomieja
+- Edykt nantejski
+- Henryk IV Wielki
+- Reformacja w Polsce
+- Bracia polscy
+- Konfederacja warszawska (1573)
+- Zgoda sandomierska
+- Unia brzeska
+- Piotr Skarga
+- Akademia Rakowska
+- Barok
+- Architektura barokowa w Polsce
+- Sarmatyzm
+- Ruch egzekucyjny
+- Elżbieta I Tudor
+- Wielka Armada
+- Filip II Habsburg
+- Karol V Habsburg
+- Wojna osiemdziesięcioletnia
+- Republika Zjednoczonych Prowincji
+- Habsburgowie
+- Wazowie
+- Wettynowie
+- Historia Polski (1492–1572)
+- Historia Polski (1572–1697)
+- Historia Polski (1697–1763)
+- Historia Polski (1764–1795)
+- Rzeczpospolita Obojga Narodów
+- Unia lubelska
+- Zygmunt I Stary
+- Zygmunt II August
+- Bona Sforza
+- Anna Jagiellonka
+- Hołd pruski 1525
+- Traktat krakowski
+- Prusy Książęce
+- Albrecht Hohenzollern (1490–1568)
+- Wojna polsko-krzyżacka (1519–1521)
+- Wojna kokosza
+- Zjazd wiedeński
+- Wojna litewsko-moskiewska (1558–1570)
+- Wojna polsko-rosyjska (1577–1582)
+- Rozejm w Jamie Zapolskim
+- Stefan Batory
+- Henryk III Walezy
+- Artykuły henrykowskie
+- Pacta conventa
+- Wolna elekcja
+- Elekcja 1573
+- Bezkrólewie
+- Interrex (Polska)
+- Senat (I Rzeczpospolita)
+- Izba Poselska (I Rzeczpospolita)
+- Liberum veto
+- Konfederacja (historia Polski)
+- Rokosz Zebrzydowskiego
+- Rokosz Lubomirskiego
+- Magnat
+- Oligarchia magnacka
+- Nihil novi
+- Przywileje szlacheckie (Polska)
+- Trybunał Główny Koronny
+- Statuty litewskie
+- Hetman
+- Prymas Polski
+- Królewszczyzna
+- Wojsko I Rzeczypospolitej
+- Wojsko kwarciane
+- Husaria
+- Pospolite ruszenie
+- Kozacy zaporoscy
+- Sicz Zaporoska
+- Rejestr kozacki
+- Księstwo Kurlandii i Semigalii
+- Sejm Czterech Ziem
+- Zygmunt III Waza
+- Władysław IV Waza
+- Jan II Kazimierz Waza
+- Ludwika Maria Gonzaga
+- Michał Korybut Wiśniowiecki
+- Jan III Sobieski
+- August II Mocny
+- August III Sas
+- Stanisław Leszczyński
+- Stanisław August Poniatowski
+- Stanisław Żółkiewski
+- Jan Karol Chodkiewicz
+- Jeremi Wiśniowiecki
+- Janusz Radziwiłł
+- Stefan Czarniecki
+- Czartoryscy herbu własnego
+- Familia (stronnictwo)
+- Stosunki polsko-tureckie
+- Dymitriady
+- Wielka smuta
+- Wojna polsko-rosyjska (1609–1618)
+- Bitwa pod Kłuszynem
+- Rozejm w Dywilinie
+- Wojna polsko-rosyjska (1632–1634)
+- Pokój w Polanowie
+- Wojna polsko-szwedzka (1600–1611)
+- Bitwa pod Kircholmem
+- Wojna o ujście Wisły
+- Rozejm w Altmarku
+- Rozejm w Sztumskiej Wsi
+- Wojna polsko-turecka (1620–1621)
+- Bitwa pod Cecorą (1620)
+- Bitwa pod Chocimiem (1621)
+- Powstanie Chmielnickiego
+- Bohdan Chmielnicki
+- Ugoda zborowska
+- Bitwa pod Beresteczkiem
+- Ugoda perejasławska
+- Unia hadziacka
+- Potop szwedzki
+- Karol X Gustaw
+- Oblężenie Jasnej Góry
+- Śluby lwowskie
+- Traktaty welawsko-bydgoskie
+- Pokój oliwski
+- Wojna polsko-rosyjska (1654–1667)
+- Rozejm andruszowski
+- Traktat Grzymułtowskiego
+- Wojna polsko-turecka (1672–1676)
+- Pokój w Buczaczu
+- Bitwa pod Chocimiem (1673)
+- Bitwa pod Wiedniem
+- Wojna polsko-turecka (1683–1699)
+- Traktat w Karłowicach
+- Wojna trzydziestoletnia
+- Defenestracja praska
+- Pokój westfalski
+- Gustaw II Adolf
+- Armand Jean Richelieu
+- Carstwo Rosyjskie
+- Iwan IV Groźny
+- Piotr I Wielki
+- III wojna północna
+- Karol XII
+- Bitwa pod Połtawą
+- Imperium Rosyjskie
+- Samodzierżawie
+- Konfederacja tarnogrodzka
+- Sejm niemy
+- Wojna o sukcesję polską
+- Angielska wojna domowa
+- Karol I Stuart
+- Oliver Cromwell
+- Chwalebna rewolucja
+- Deklaracja praw
+- Habeas Corpus Act
+- Monarchia parlamentarna
+- Monarchia absolutna
+- Absolutyzm oświecony
+- Ludwik XIV
+- Pałac wersalski
+- Jean-Baptiste Colbert
+- Brandenburgia-Prusy
+- Fryderyk Wilhelm I (Wielki Elektor)
+- Królestwo Prus
+- Fryderyk II Wielki
+- Monarchia Habsburgów
+- Maria Teresa Habsburg
+- Józef II Habsburg
+- Józefinizm
+- Katarzyna II Wielka
+- Wojna o sukcesję hiszpańską
+- Wojna o sukcesję austriacką
+- Wojny śląskie
+- Wojna siedmioletnia
+- Thomas Hobbes
+- Jean Bodin
+- Oświecenie (epoka)
+- Voltaire
+- Monteskiusz
+- O duchu praw
+- Podział władz
+- Jean-Jacques Rousseau
+- Umowa społeczna
+- John Locke
+- Wielka encyklopedia francuska
+- Adam Smith
+- Fizjokratyzm
+- Deizm
+- Prawo natury
+- Rewolucja przemysłowa
+- James Watt
+- Oświecenie w Polsce
+- Stanisław Konarski
+- Collegium Nobilium pijarów w Warszawie
+- Szkoła Rycerska
+- Komisja Edukacji Narodowej
+- Towarzystwo do Ksiąg Elementarnych
+- Hugo Kołłątaj
+- Kuźnica Kołłątajowska
+- Stanisław Staszic
+- Przestrogi dla Polski
+- Uwagi nad życiem Jana Zamoyskiego
+- Monitor (czasopismo)
+- Obiady czwartkowe
+- Teatr Narodowy (Warszawa)
+- Ignacy Krasicki
+- Adam Naruszewicz
+- Julian Ursyn Niemcewicz
+- Powrót posła
+- Klasycyzm
+- Łazienki Królewskie w Warszawie
+- Biblioteka Załuskich
+- Antoni Tyzenhauz
+- Trzynaście kolonii
+- Wojna o panowanie w Ameryce Północnej
+- Ustawa stemplowa
+- Herbatka bostońska
+- Wojna o niepodległość Stanów Zjednoczonych
+- Kongres Kontynentalny
+- Deklaracja niepodległości Stanów Zjednoczonych
+- Konstytucja Stanów Zjednoczonych
+- Karta praw Stanów Zjednoczonych
+- Ojcowie założyciele Stanów Zjednoczonych
+- George Washington
+- Thomas Jefferson
+- Benjamin Franklin
+- Pokój wersalski
+- Kazimierz Pułaski
+- Ancien régime
+- Emmanuel-Joseph Sieyès
+- Rewolucja francuska
+- Przysięga w sali do gry w piłkę
+- Bastylia
+- Deklaracja praw człowieka i obywatela
+- Konstytucja cywilna kleru
+- Konstytucja 1791 roku
+- Ludwik XVI
+- I Republika Francuska
+- Żyrondyści
+- Jakobini
+- Maximilien de Robespierre
+- Georges Danton
+- Rządy terroru
+- Komitet Ocalenia Publicznego
+- Wojny wandejskie
+- Przewrót 9 thermidora
+- Dyrektoriat
+- Napoleon Bonaparte
+- Deklaracja praw kobiety i obywatelki
+- Wojna rosyjsko-turecka (1768–1774)
+- Sejm konwokacyjny 1764
+- Adam Kazimierz Czartoryski
+- Komisje dobrego porządku
+- Konfederacja radomska
+- Sejm repninowski
+- Prawa kardynalne
+- Konfederacja barska
+- Koliszczyzna
+- I rozbiór Polski
+- Sejm Rozbiorowy (1773–1775)
+- Tadeusz Reytan
+- Rejtan (obraz Jana Matejki)
+- Rada Nieustająca
+- Andrzej Hieronim Zamoyski
+- Zbiór praw sądowych
+- Sejm Czteroletni
+- Stronnictwo Patriotyczne
+- Ignacy Potocki
+- Stanisław Małachowski
+- Czarna procesja
+- Prawo o miastach
+- Konstytucja 3 maja
+- Konstytucja 3 Maja 1791 roku
+- Zaręczenie Wzajemne Obojga Narodów
+- Straż Praw
+- Przymierze polsko-pruskie
+- Ofiara dziesiątego grosza
+- Konfederacja targowicka
+- Stanisław Szczęsny Potocki
+- Franciszek Ksawery Branicki
+- Wojna polsko-rosyjska (1792)
+- Bitwa pod Zieleńcami
+- Bitwa pod Dubienką (1792)
+- Order Virtuti Militari
+- Józef Poniatowski
+- Sejm grodzieński (1793)
+- II rozbiór Polski
+- Insurekcja kościuszkowska
+- Tadeusz Kościuszko
+- Bitwa pod Racławicami
+- Panorama Racławicka
+- Kosynierzy
+- Wojciech Bartos Głowacki
+- Uniwersał połaniecki
+- Insurekcja warszawska
+- Jan Kiliński
+- Insurekcja wileńska
+- Jakub Jasiński (generał)
+- Rada Najwyższa Narodowa
+- Jakobini polscy
+- Pierwsze oblężenie Warszawy (1794)
+- Bitwa pod Maciejowicami
+- Obrona Pragi
+- Aleksandr Suworow
+- III rozbiór Polski
+- Rozbiory Polski
+- Zabór pruski
+- Zabór rosyjski
+- Zabór austriacki
+- Królestwo Galicji i Lodomerii
+- Prusy Południowe
+- Legiony Polskie we Włoszech
+- Jan Henryk Dąbrowski
+- Józef Wybicki
+- Hymn Polski
+- Hołd pruski (obraz Jana Matejki)
+- Unia lubelska (obraz Jana Matejki)
+- Kazanie Skargi
+xix:
+- Wojny napoleońskie
+- Kodeks Napoleona
+- Bitwa pod Austerlitz
+- Związek Reński
+- Blokada kontynentalna
+- Pokój w Tylży
+- Bitwa pod Somosierrą
+- Wojna polsko-austriacka
+- Bitwa pod Lipskiem
+- Bitwa pod Waterloo
+- Aleksander I Romanow
+- Wolne Miasto Gdańsk (1807–1814)
+- Księstwo Warszawskie
+- Konstytucja Księstwa Warszawskiego
+- Fryderyk August I
+- Dekret grudniowy
+- Sumy bajońskie
+- Armia Księstwa Warszawskiego
+- Kongres wiedeński
+- Święte Przymierze
+- Klemens von Metternich
+- Koncert mocarstw
+- Restauracja Burbonów
+- Monarchia lipcowa
+- Wojna o niepodległość Grecji
+- Dekabryści
+- Wolne Miasto Kraków
+- Wielkie Księstwo Poznańskie
+- Rewolucja lutowa (1848)
+- Wiosna Ludów
+- Napoleon III Bonaparte
+- II Cesarstwo Francuskie
+- Wojna krymska
+- Traktat paryski (1856)
+- Komuna Paryska
+- III Republika Francuska
+- Sprawa Dreyfusa
+- Królestwo Polskie (kongresowe)
+- Konstytucja Królestwa Polskiego
+- Józef Zajączek
+- Konstanty Pawłowicz
+- Nikołaj Nowosilcow
+- Franciszek Ksawery Drucki-Lubecki
+- Staropolski Okręg Przemysłowy
+- Towarzystwo Warszawskie Przyjaciół Nauk
+- Kaliszanie
+- Walerian Łukasiński
+- Towarzystwo Filomatyczne
+- Adam Jerzy Czartoryski
+- Powstanie listopadowe
+- Józef Chłopicki
+- Bitwa pod Stoczkiem
+- Bitwa pod Ostrołęką (1831)
+- Jan Zygmunt Skrzynecki
+- Józef Bem
+- Joachim Lelewel
+- Iwan Paskiewicz
+- Mikołaj I Romanow
+- Cytadela Warszawska
+- Wielka Emigracja
+- Towarzystwo Demokratyczne Polskie
+- Gromady Ludu Polskiego
+- Stowarzyszenie Ludu Polskiego
+- Partyzantka Zaliwskiego
+- Księgi narodu polskiego i pielgrzymstwa polskiego
+- Legion Mickiewicza
+- Mesjanizm polski
+- Romantyzm
+- Adam Mickiewicz
+- Ludwik Mierosławski
+- Edward Dembowski
+- Piotr Ściegienny
+- Powstanie krakowskie
+- Rabacja galicyjska
+- Powstanie wielkopolskie (1848)
+- Legiony Polskie na Węgrzech
+- Praca organiczna
+- Praca u podstaw
+- Pozytywizm warszawski
+- Pozytywizm
+- Hipolit Cegielski
+- Karol Marcinkowski
+- Piotr Wawrzyniak
+- Związek Spółek Zarobkowych i Gospodarczych
+- Towarzystwo Czytelni Ludowych
+- Aleksander Świętochowski
+- Józef Ignacy Kraszewski
+- Jan Matejko
+- Artur Grottger
+- Pomnik Grunwaldzki w Krakowie
+- Szkoła Główna Warszawska
+- Zakład Narodowy im. Ossolińskich
+- Polska Macierz Szkolna
+- Franciszek Stefczyk
+- Krakowska szkoła historyczna
+- Stańczycy
+- Michał Bobrzyński
+- Powstanie styczniowe
+- Odwilż posewastopolska
+- Aleksander Wielopolski
+- Stronnictwo czerwonych
+- Branka
+- Komitet Centralny Narodowy
+- Manifest 22 stycznia
+- Romuald Traugutt
+- Marian Langiewicz
+- Stefan Bobrowski
+- Jarosław Dąbrowski
+- Konstanty Kalinowski
+- Konwencja Alvenslebena
+- Rusyfikacja
+- Kraj Nadwiślański
+- Iosif Hurko
+- Aleksander II Romanow
+- Aleksander III Romanow
+- Mikołaj II Romanow
+- Narodnicy
+- Strefa osiedlenia
+- Ziemie zabrane
+- Germanizacja
+- Kulturkampf
+- Otto von Bismarck
+- Komisja Kolonizacyjna
+- Hakata
+- Rugi pruskie
+- Strajk szkolny (1905)
+- Michał Drzymała
+- Autonomia galicyjska
+- Sejm Krajowy (Galicja)
+- Rada Szkolna Krajowa
+- Agenor Romuald Gołuchowski
+- Konstytucja grudniowa
+- Wojciech Korfanty
+- Likwidacja unickiej diecezji chełmskiej
+- Litewskie odrodzenie narodowe
+- Ukaz emski
+- Haskala
+- I Proletariat
+- Ludwik Waryński
+- Polska Partia Socjalistyczna
+- Józef Piłsudski
+- Socjaldemokracja Królestwa Polskiego i Litwy
+- Róża Luksemburg
+- Liga Narodowa
+- Narodowa Demokracja
+- Stronnictwo Narodowo-Demokratyczne
+- Roman Dmowski
+- Jan Ludwik Popławski
+- Myśli nowoczesnego Polaka
+- Polskie Stronnictwo Ludowe „Piast” (1913–1931)
+- Bolesław Wysłouch
+- Stanisław Stojałowski
+- Polska Partia Socjalno-Demokratyczna Galicji i Śląska Cieszyńskiego
+- Ignacy Daszyński
+- Manifest październikowy
+- Organizacja Bojowa Polskiej Partii Socjalistycznej
+- Polska Partia Socjalistyczna – Frakcja Rewolucyjna
+- Akcja pod Bezdanami
+- Duma Państwowa (Imperium Rosyjskie)
+- Trójlojalizm
+- Związek Walki Czynnej
+- Związek Strzelecki
+- Syjonizm
+- Druga rewolucja przemysłowa
+- Maszyna parowa
+- Kolej Warszawsko-Wiedeńska
+- Czartyzm
+- Proletariat
+- Burżuazja
+- Urbanizacja
+- Kapitalizm
+- Związek zawodowy
+- Kanał Sueski
+- Łódź
+- Łódzki Okręg Przemysłowy
+- Zagłębie Dąbrowskie
+- Karol Scheibler
+- Rerum novarum
+- Leon XIII
+- Katolicka nauka społeczna
+- Zjednoczenie Włoch
+- Giuseppe Garibaldi
+- Camillo Cavour
+- Giuseppe Mazzini
+- Wiktor Emanuel II
+- Królestwo Sardynii
+- Wyprawa tysiąca
+- Królestwo Włoch (1861–1946)
+- Związek Niemiecki
+- Związek Północnoniemiecki
+- Frankfurckie Zgromadzenie Narodowe
+- Wojna duńska (1864)
+- Wojna prusko-austriacka
+- Wojna francusko-pruska
+- Bitwa pod Sedanem
+- Cesarstwo Niemieckie
+- Wilhelm I Hohenzollern
+- Wilhelm II Hohenzollern
+- Pokój frankfurcki
+- Alzacja-Lotaryngia
+- Cesarstwo Austrii
+- Austro-Węgry
+- Franciszek Józef I
+- Imperializm
+- Kolonializm
+- Konferencja berlińska (1884–1885)
+- Kongres berliński
+- Wojna rosyjsko-turecka (1877–1878)
+- Traktat w San Stefano
+- Imperium brytyjskie
+- Epoka wiktoriańska
+- Wiktoria (królowa Wielkiej Brytanii)
+- Benjamin Disraeli
+- Indie Brytyjskie
+- Powstanie sipajów
+- Powstanie bokserów
+- Restauracja Meiji
+- Wojna chińsko-japońska (1894–1895)
+- Wojna rosyjsko-japońska
+- II wojna burska
+- Wolne Państwo Kongo
+- Kryzys bośniacki
+- I wojna bałkańska
+- Trójprzymierze
+- Traktat reasekuracyjny
+- Sojusz francusko-rosyjski
+- Entente cordiale
+- Ententa
+- Doktryna Monroego
+- Simón Bolívar
+- Wojna amerykańsko-hiszpańska
+- Wojna secesyjna
+- Abraham Lincoln
+- Niewolnictwo w Stanach Zjednoczonych
+- Darwinizm społeczny
+- Konwencje haskie z 1899 i 1907 roku
+- Międzynarodowy Komitet Czerwonego Krzyża
+- Liberalizm
+- Konserwatyzm
+- Socjalizm
+- Socjalizm utopijny
+- Komunizm
+- Marksizm
+- Karl Marx
+- Friedrich Engels
+- Manifest komunistyczny
+- Anarchizm
+- Nacjonalizm
+- Chrześcijańska demokracja
+- Socjaldemokracja
+- Międzynarodowe Stowarzyszenie Robotników
+- Druga Międzynarodówka
+- Rewizjonizm (marksizm)
+- Antysemityzm
+- Panslawizm
+- Pangermanizm
+- John Stuart Mill
+- Sufrażyzm
+- Emancypacja Żydów
+- I Cesarstwo Francuskie
+- Bitwa pod Jeną-Auerstedt
+- Bitwa pod Raszynem (1809)
+- Inwazja na Rosję (1812)
+- 100 dni Napoleona
+- Powstanie wielkopolskie (1806)
+- Rewolucja lipcowa we Francji
+- Wiosna Ludów w Cesarstwie Austriackim
+- Powstanie węgierskie (1848–1849)
+- Sejm (Królestwo Polskie)
+- Namiestnik (Królestwo Polskie)
+- Bank Polski (Królestwo Polskie)
+- Narodowe Towarzystwo Patriotyczne
+- Organizacje niepodległościowe na ziemiach polskich 1815–1830
+- Atak na Belweder
+- Zdobycie Arsenału
+- Piotr Wysocki (wojskowy)
+- Uchwała Sejmu o detronizacji Mikołaja I
+- Rząd Narodowy (powstanie listopadowe)
+- Bitwa o Olszynkę Grochowską
+- Obrona Warszawy (1831)
+- Statut Organiczny dla Królestwa Polskiego
+- Hôtel Lambert (obóz polityczny)
+- Szymon Konarski (powstaniec)
+- Henryk Michał Kamieński
+- Hotel Bazar w Poznaniu
+- Trylogia Sienkiewicza
+- Rota (Maria Konopnicka)
+- Uniwersytet Latający (1882–1905)
+- Polskie Towarzystwo Gimnastyczne „Sokół”
+- Masakry w Warszawie 1861
+- Towarzystwo Rolnicze w Królestwie Polskim
+- Andrzej Artur Zamoyski
+- Stronnictwo białych
+- Rząd Narodowy (powstanie styczniowe)
+- Michaił Murawjow Wileński
+- Uwłaszczenie chłopów na ziemiach polskich
+- Polscy zesłańcy w Imperium Rosyjskim
+- Reforma uwłaszczeniowa Aleksandra II
+- Zamach na Aleksandra II
+- Konstanty Mikołajewicz
+- Mieczysław Ledóchowski
+- Germanizacja Polaków w okresie zaborów
+- Ziemie Rzeczypospolitej pod zaborami
+- Paragraf językowy
+- Strajk dzieci wrzesińskich
+- Strajki szkolne w Prusach Zachodnich (1906–1907)
+- Karol Miarka (starszy)
+- Cyrylizacja języka litewskiego
+- Główna Rada Ruska
+- II Proletariat
+- Związek Zagraniczny Socjalistów Polskich
+- Ruch robotniczy na ziemiach polskich
+- Liga Polska (1887–1893)
+- Związek Młodzieży Polskiej „Zet”
+- Zygmunt Miłkowski (pisarz)
+- Ruch ludowy
+- Polskie Stronnictwo Ludowe (1895–1913)
+- Rewolucja 1905 roku
+- Rewolucja 1905 roku w Królestwie Polskim
+- Krwawa niedziela (Petersburg 1905)
+- Powstanie łódzkie
+- Polska Partia Socjalistyczna-Lewica (1906–1918)
+- Koło Polskie w Dumie
+- Koło Polskie w Radzie Państwa (Austria)
+- Stronnictwo Polityki Realnej (1905–1923)
+- Bund (partia)
+- Klęski głodu w Galicji
+- Stanisław Szczepanowski
+- Polonia w Stanach Zjednoczonych
+- Polacy w Niemczech
+- Historia spółdzielczości na ziemiach polskich
+- Towarzystwo Szkoły Ludowej
+- Entuzjastki
+- Feminizm w Polsce
+- Zjednoczenie Niemiec (1866–1871)
+- Ugoda austriacko-węgierska
+- Wyścig o Afrykę
+- Incydent w Faszodzie
+- Konflikty marokańskie
+- Sojusz Trzech Cesarzy
+- Skonfederowane Stany Ameryki
+- Proklamacja Emancypacji
+- Konwencje genewskie
+- Prawo wyborcze dla kobiet
+- Feminizm pierwszej fali
+- Historia Polski (1795–1831)
+- Historia Polski (1831–1914)
+- Krypta Wieszczów Narodowych na Wawelu
+- Francuskie imperium kolonialne
+- Kolonie niemieckie
+- Obcy imperializm w Chinach
+- I wojna opiumowa
+- Wielkie Księstwo Krakowskie
+- Zygmunt Szczęsny Feliński
+- Jacek Malczewski
+- Polonia – Rok 1863
+- Bitwa pod Grunwaldem (obraz Jana Matejki)
+- Polonia (cykl)
+- Boże, coś Polskę
+1914-1945:
+- I wojna światowa
+- Historia Polski (1914–1918)
+- Zamach w Sarajewie
+- Kryzys lipcowy
+- Państwa centralne
+- Front zachodni (I wojna światowa)
+- Front wschodni (I wojna światowa)
+- Bitwa pod Verdun
+- Bitwa pod Gorlicami
+- Czternaście punktów Wilsona
+- Rozejm w Compiègne (1918)
+- Konferencja pokojowa w Paryżu (1919–1920)
+- Traktat wersalski
+- Traktat w Saint-Germain-en-Laye (1919)
+- Liga Narodów
+- Rewolucja lutowa (1917)
+- Rewolucja październikowa
+- Wojna domowa w Rosji
+- Traktat brzeski
+- Woodrow Wilson
+- Legiony Polskie (1914–1918)
+- I Brygada Legionów Polskich
+- Naczelny Komitet Narodowy
+- Bitwa pod Rarańczą (1918)
+- Kryzys przysięgowy
+- Polska Organizacja Wojskowa
+- Akt 5 listopada
+- Tymczasowa Rada Stanu
+- Rada Regencyjna
+- Królestwo Polskie (1917–1918)
+- Odezwa wielkiego księcia Mikołaja Mikołajewicza do Polaków
+- Komitet Narodowy Polski (1917–1919)
+- Armia Polska we Francji
+- Ignacy Jan Paderewski
+- Józef Haller
+- Wincenty Witos
+- Odzyskanie niepodległości przez Polskę w 1918 roku
+- Polska Komisja Likwidacyjna
+- Rząd Ignacego Daszyńskiego
+- Rada Narodowa Księstwa Cieszyńskiego
+- Naczelna Rada Ludowa
+- Naczelnik Państwa
+- Rząd Jędrzeja Moraczewskiego
+- Sejm Ustawodawczy (1919–1922)
+- Mała Konstytucja z 1919 roku
+- Powstanie wielkopolskie
+- Bitwa o Lwów (1918–1919)
+- Wojna polsko-ukraińska
+- Zachodnioukraińska Republika Ludowa
+- Ukraińska Republika Ludowa
+- Umowa warszawska 1920
+- Wojna polsko-bolszewicka
+- Wyprawa kijowska (1920)
+- Bitwa Warszawska
+- Bitwa nad Niemnem
+- Rada Obrony Państwa
+- Tymczasowy Komitet Rewolucyjny Polski
+- Linia Curzona
+- Konferencja w Spa
+- Traktat ryski (1921)
+- Konflikt polsko-litewski
+- Bunt Żeligowskiego
+- Litwa Środkowa
+- Wybory do Sejmu Litwy Środkowej
+- Czechosłowacko-polski konflikt o Śląsk Cieszyński
+- Zaolzie
+- Plebiscyt na Górnym Śląsku
+- Plebiscyt na Warmii, Mazurach i Powiślu
+- Powstania śląskie
+- III powstanie śląskie
+- Konwencja genewska o Górnym Śląsku
+- Wolne Miasto Gdańsk
+- Zaślubiny Polski z morzem
+- Mały traktat wersalski
+- II Rzeczpospolita
+- Historia Polski (1918–1939)
+- Ludobójstwo Ormian
+- Podział administracyjny II Rzeczypospolitej
+- Kresy Wschodnie
+- Konstytucja marcowa
+- Nowela sierpniowa
+- Konstytucja kwietniowa
+- Wybory parlamentarne w Polsce w 1922 roku
+- Gabriel Narutowicz
+- Zamach na Gabriela Narutowicza
+- Stanisław Wojciechowski
+- Ignacy Mościcki
+- Pakt lanckoroński
+- Przewrót majowy
+- Sanacja
+- Bezpartyjny Blok Współpracy z Rządem
+- Centrolew
+- Wybory parlamentarne w Polsce w 1930 roku
+- Proces brzeski
+- Miejsce Odosobnienia w Berezie Kartuskiej
+- Obóz Zjednoczenia Narodowego
+- Front Morges
+- Strajk chłopski (1937)
+- Stronnictwo Narodowe (1928–1947)
+- Obóz Narodowo-Radykalny
+- Polskie Stronnictwo Ludowe „Wyzwolenie”
+- Stronnictwo Ludowe
+- Komunistyczna Partia Polski
+- Edward Rydz-Śmigły
+- Józef Beck
+- Władysław Grabski
+- Eugeniusz Kwiatkowski
+- Władysław Sikorski
+- Ukraińcy w II Rzeczypospolitej
+- Organizacja Ukraińskich Nacjonalistów
+- Pacyfikacja Małopolski Wschodniej
+- Getto ławkowe
+- Statut Organiczny Województwa Śląskiego
+- Reforma jędrzejewiczowska
+- Polityka gospodarcza II Rzeczypospolitej
+- Marka polska
+- Reforma walutowa Władysława Grabskiego
+- Wojna celna między Polską a Niemcami
+- Gdynia
+- Magistrala węglowa
+- Centralny Okręg Przemysłowy
+- Reformy rolne w Polsce
+- Reforma rolna w Polsce (1925)
+- Polska A i B
+- Wielki kryzys
+- Nowy Ład
+- Franklin Delano Roosevelt
+- Dwudziestolecie międzywojenne (historia powszechna)
+- Polityka zagraniczna II Rzeczypospolitej
+- Sojusz polsko-francuski
+- Sojusz polsko-rumuński
+- Układ w Rapallo
+- Traktaty lokarneńskie
+- Pakt Brianda-Kellogga
+- Pakt o nieagresji między Polską a ZSRR (1932)
+- Deklaracja polsko-niemiecka o niestosowaniu przemocy z 26 stycznia 1934
+- Pakt czterech
+- Międzymorze (polityka)
+- Polskie ultimatum wobec Litwy
+- Układ monachijski
+- Appeasement
+- Anschluss
+- Polsko-brytyjski układ sojuszniczy
+- Pakt Ribbentrop-Mołotow
+- Remilitaryzacja Nadrenii
+- Wojna włosko-abisyńska (1935–1936)
+- Hiszpańska wojna domowa
+- Pakt trzech
+- Totalitaryzm
+- Faszyzm
+- Benito Mussolini
+- Marsz na Rzym
+- Nazizm
+- Republika Weimarska
+- Pucz monachijski
+- Adolf Hitler
+- Mein Kampf
+- Narodowosocjalistyczna Niemiecka Partia Robotników
+- III Rzesza
+- Pożar Reichstagu
+- Ustawa o pełnomocnictwach
+- Noc długich noży
+- Ustawy norymberskie
+- Noc kryształowa
+- Gestapo
+- Schutzstaffel
+- Sturmabteilung
+- Propaganda nazistowska
+- Lebensraum
+- Akcja T4
+- Włodzimierz Lenin
+- Józef Stalin
+- Związek Socjalistycznych Republik Radzieckich
+- Komunizm wojenny
+- Nowa Polityka Ekonomiczna
+- Kolektywizacja w ZSRR
+- Wielki głód na Ukrainie
+- Wielka czystka
+- Operacja polska NKWD (1937–1938)
+- Gułag
+- NKWD
+- Stalinizm
+- Kult jednostki
+- Konstytucja ZSRR z 1936
+- II wojna światowa
+- Historia Polski (1939–1945)
+- Prowokacja gliwicka
+- Kampania wrześniowa
+- Obrona Westerplatte
+- Obrona Poczty Polskiej w Gdańsku
+- Bitwa pod Mokrą
+- Bitwa nad Bzurą
+- Obrona Warszawy (1939)
+- Bitwa pod Kockiem (1939)
+- Zbrodnie niemieckie w kampanii wrześniowej
+- Agresja ZSRR na Polskę
+- Traktat o granicach i przyjaźni III Rzesza – ZSRR (1939)
+- Blitzkrieg
+- Dziwna wojna
+- Wojna zimowa
+- Bitwa o Narwik
+- Kampania francuska 1940
+- Francja Vichy
+- Winston Churchill
+- Bitwa o Anglię
+- Karta Atlantycka
+- Lend-Lease Act
+- Operacja Barbarossa
+- Atak na Pearl Harbor
+- Bitwa pod Midway
+- II wojna światowa w Afryce
+- Bitwa o Tobruk
+- Bitwa stalingradzka
+- Bitwa na łuku kurskim
+- Kampania włoska w czasie II wojny światowej
+- Bitwa o Monte Cassino
+- Operacja Overlord
+- Bitwa pod Falaise
+- Operacja Market Garden
+- Operacja Bagration
+- Operacja wiślańsko-odrzańska
+- Operacja berlińska
+- Kapitulacja III Rzeszy
+- Atak atomowy na Hiroszimę i Nagasaki
+- Harry Truman
+- Alianci (II wojna światowa)
+- Państwa Osi
+- Enigma
+- Marian Rejewski
+- Polskie Siły Zbrojne
+- Wojsko Polskie we Francji (1939–1940)
+- Samodzielna Brygada Strzelców Podhalańskich
+- Samodzielna Brygada Strzelców Karpackich
+- Polskie Siły Zbrojne w ZSRR (1941–1942)
+- Ewakuacja Polaków z ZSRR
+- Władysław Anders
+- 2 Korpus Polski (PSZ)
+- 1 Dywizja Pancerna (PSZ)
+- 1 Samodzielna Brygada Spadochronowa
+- Polskie Siły Powietrzne
+- Dywizjon 303
+- Związek Patriotów Polskich
+- Polskie Siły Zbrojne w ZSRR (1943–1944)
+- Bitwa pod Lenino
+- Zygmunt Berling
+- Ludowe Wojsko Polskie
+- Przełamanie Wału Pomorskiego
+- Polska Partia Robotnicza
+- Armia Ludowa
+- Krajowa Rada Narodowa
+- Polski Komitet Wyzwolenia Narodowego
+- Manifest PKWN
+- Reforma rolna w Polsce (1944)
+- Rząd Tymczasowy Rzeczypospolitej Polskiej
+- Tymczasowy Rząd Jedności Narodowej
+- Bolesław Bierut
+- Władysław Gomułka
+- Rząd Rzeczypospolitej Polskiej na uchodźstwie
+- Uznanie międzynarodowe rządu Rzeczypospolitej Polskiej na uchodźstwie
+- Władysław Raczkiewicz
+- Rada Narodowa Rzeczypospolitej Polskiej
+- Układ Sikorski-Majski
+- Katastrofa lotnicza w Gibraltarze
+- Stanisław Mikołajczyk
+- Kazimierz Sosnkowski
+- Edward Bernard Raczyński
+- Jan Karski
+- Polskie Państwo Podziemne
+- Służba Zwycięstwu Polski
+- Związek Walki Zbrojnej
+- Armia Krajowa
+- Stefan Rowecki
+- Tadeusz Komorowski
+- Delegatura Rządu na Kraj
+- Rada Jedności Narodowej
+- Kierownictwo Walki Cywilnej
+- Kedyw (wojsko)
+- Szare Szeregi
+- Mały sabotaż
+- Akcja pod Arsenałem
+- Kamienie na szaniec (książka Aleksandra Kamińskiego)
+- Akcja „Kutschera”
+- Cichociemni
+- Biuletyn Informacyjny
+- Tajne nauczanie
+- Bataliony Chłopskie
+- Narodowe Siły Zbrojne
+- Akcja „Burza”
+- Operacja „Ostra Brama”
+- Powstanie warszawskie
+- Rzeź Woli
+- Zburzenie Warszawy
+- Proces szesnastu
+- August Emil Fieldorf
+- Witold Pilecki
+- Rada Pomocy Żydom
+- Irena Sendlerowa
+- Rada Główna Opiekuńcza (1940–1945)
+- Obława augustowska
+- Okupacja niemiecka ziem polskich (1939–1945)
+- Okupacja sowiecka ziem polskich (1939–1941)
+- Generalne Gubernatorstwo
+- Hans Frank
+- Terytoria Polski anektowane przez III Rzeszę
+- Kraj Warty
+- Volkslista
+- Generalny Plan Wschodni
+- Intelligenzaktion
+- Zbrodnia w Piaśnicy
+- Sonderaktion Krakau
+- Akcja AB
+- Zbrodnia w Palmirach
+- Zbrodnie niemieckie w Polsce (1939–1945)
+- Łapanka
+- Roboty przymusowe w III Rzeszy
+- Germanizacja w Polsce (1939–1945)
+- Rabunek dzieci przez III Rzeszę
+- Wysiedlenia Polaków podczas II wojny światowej dokonane przez Niemców
+- Aktion Zamość
+- Powstanie zamojskie
+- Auschwitz-Birkenau
+- Maksymilian Maria Kolbe
+- Stutthof (KL)
+- Lublin (KL)
+- Straty osobowe Polski w czasie II wojny światowej
+- Straty materialne Polski w czasie II wojny światowej
+- Zbrodnia katyńska
+- Jeńcy polscy w niewoli radzieckiej (od 1939 roku)
+- Wysiedlenia Polaków podczas II wojny światowej
+- Masakry więzienne NKWD w 1941 roku
+- Ukraińska Powstańcza Armia
+- Rzeź wołyńska
+- Zagłada Żydów
+- Zagłada Żydów na ziemiach polskich podczas okupacji niemieckiej
+- Konferencja w Wannsee
+- Einsatzgruppen
+- Einsatz Reinhardt
+- Getto żydowskie
+- Getto warszawskie
+- Getto łódzkie
+- Wielka akcja deportacyjna w getcie warszawskim
+- Archiwum Ringelbluma
+- Janusz Korczak
+- Powstanie w getcie warszawskim
+- Żydowska Organizacja Bojowa
+- Żydowski Związek Wojskowy
+- Mordechaj Anielewicz
+- Szmul Zygielbojm
+- Obóz zagłady w Treblince
+- Obóz zagłady w Bełżcu
+- Obóz zagłady w Sobiborze
+- Obóz zagłady w Chełmnie nad Nerem
+- Pogrom w Jedwabnem
+- Sprawiedliwy wśród Narodów Świata
+- Rodzina Ulmów
+- Niemieckie represje wobec Polaków pomagających Żydom
+- Polska pomoc Żydom w czasie II wojny światowej
+- Szmalcownik
+- Porajmos
+- Konferencja teherańska
+- Konferencja jałtańska
+- Konferencja poczdamska
+- Organizacja Narodów Zjednoczonych
+- Procesy norymberskie
+- Granica na Odrze i Nysie Łużyckiej
+- Granica polsko-radziecka
+- Ziemie Odzyskane
+- Wysiedlenia Niemców po II wojnie światowej
+1945-1989:
+- 21 postulatów Międzyzakładowego Komitetu Strajkowego
+- Adam Michnik
+- Adam Rapacki (polityk)
+- Akcja „Hiacynt”
+- Akcja „Wisła”
+- Aksamitna rewolucja
+- Akt końcowy Konferencji Bezpieczeństwa i Współpracy w Europie
+- Alcide De Gasperi
+- Aleksandr Sołżenicyn
+- Alexander Dubček
+- Andriej Sacharow
+- Anna Walentynowicz
+- Apartheid
+- Bałtycki łańcuch
+- Berlin Zachodni
+- Bitwa o Dien Bien Phu
+- Bitwa o handel
+- Biuro Odbudowy Stolicy
+- Blok wschodni
+- Blokada Berlina
+- Bolesław Piasecki
+- Bronisław Geremek
+- Broń jądrowa
+- Cenzura w Polskiej Rzeczypospolitej Ludowej
+- Charles de Gaulle
+- Chińska Republika Ludowa
+- Chińska wojna domowa
+- Czarna księga cenzury PRL
+- Czerwiec 1976
+- Czesław Kiszczak
+- Czesław Miłosz
+- Danuta Siedzikówna
+- Debata pomiędzy Alfredem Miodowiczem i Lechem Wałęsą
+- Deklaracja niepodległości Izraela
+- Dekolonizacja
+- Dekret Bieruta
+- Demokracja ludowa
+- Denazyfikacja
+- Destalinizacja
+- Doktryna Breżniewa
+- Doktryna Sinatry
+- Doktryna Trumana
+- Doktryna powstrzymywania
+- Drugi obieg wydawniczy
+- Détente
+- Edward Gierek
+- Edward Ochab
+- Edward Osóbka-Morawski
+- Europejska Wspólnota Energii Atomowej
+- Europejska Wspólnota Obronna
+- Europejska Wspólnota Węgla i Stali
+- Europejska konwencja praw człowieka
+- Europejskie Stowarzyszenie Wolnego Handlu
+- Federacja Młodzieży Walczącej
+- Fidel Castro
+- Front Jedności Narodu
+- Front Wyzwolenia Narodowego
+- Gamal Abdel Naser
+- Gazeta Wyborcza
+- Gospodarka Polski Ludowej
+- Gospodarka planowa
+- Gruba kreska
+- Grudzień 1970
+- Głasnost
+- Główny Urząd Kontroli Prasy, Publikacji i Widowisk
+- Główny Zarząd Informacji
+- Hilary Minc
+- Historia Polski (1945–1989)
+- I wojna izraelsko-arabska
+- III Rzeczpospolita
+- Imre Nagy
+- Indonezyjska Rewolucja Narodowa
+- Intermediate-Range Nuclear Forces Treaty
+- Interwencja Układu Warszawskiego w Czechosłowacji
+- Inwazja w Zatoce Świń
+- Irańska rewolucja islamska
+- Jacek Kuroń
+- Jakub Berman
+- Jan Nowak-Jeziorański
+- Jan Paweł II
+- Jasnogórskie Śluby Narodu Polskiego
+- Jawaharlal Nehru
+- Jean Monnet
+- Jednolity akt europejski
+- Jerzy Giedroyc
+- Jerzy Popiełuszko
+- Jesień Ludów
+- John F. Kennedy
+- Josip Broz Tito
+- Józef Cyrankiewicz
+- Józef Glemp
+- Józef Światło
+- KGB
+- Karol Modzelewski
+- Karta 77
+- Karta Narodów Zjednoczonych
+- Katastrofa w Czarnobylskiej Elektrowni Jądrowej
+- Klub Inteligencji Katolickiej
+- Klub Krzywego Koła
+- Kolektywizacja w Polsce
+- Kominform
+- Komisja Europejska
+- Komisja Wspólna Przedstawicieli Rządu RP i KEP
+- Komitet Obrony Robotników
+- Komitet Obywatelski „Solidarność”
+- Kompromis luksemburski
+- Komunistyczna Partia Związku Radzieckiego
+- Konfederacja Polski Niepodległej
+- Konferencja Bezpieczeństwa i Współpracy w Europie
+- Konferencja dwa plus cztery
+- Konferencja genewska (1954)
+- Konferencja w Bandungu
+- Konflikt izraelsko-palestyński
+- Konrad Adenauer
+- Konstanty Rokossowski
+- Konstytucja Polskiej Rzeczypospolitej Ludowej
+- Korpus Bezpieczeństwa Wewnętrznego
+- Krajowa lista wyborcza (1989)
+- Kryzys kongijski (1960–1965)
+- Kryzys kubański
+- Kryzys naftowy
+- Kryzys sueski
+- Księża patrioci
+- Kultura (miesięcznik)
+- Lech Wałęsa
+- Leonid Breżniew
+- Leszek Balcerowicz
+- List 34
+- List 59
+- Mahatma Gandhi
+- Maj 1968
+- Makkartyzm
+- Mao Zedong
+- Margaret Thatcher
+- Marksizm-leninizm
+- Martin Luther King
+- Marzec 1968
+- Mała Konstytucja z 1947 roku
+- Michaił Gorbaczow
+- Mieczysław Moczar
+- Mieczysław Rakowski
+- Milicja Obywatelska
+- Ministerstwo Bezpieczeństwa Publicznego
+- Międzyzakładowy Komitet Strajkowy
+- Mur Berliński
+- NATO
+- Nacjonalizacja w Polsce
+- Naczelny Sąd Administracyjny
+- Natolińczycy
+- Nelson Mandela
+- Nicolae Ceaușescu
+- Niemiecka Republika Demokratyczna
+- Niezależne Zrzeszenie Studentów
+- Niezależny Samorządny Związek Zawodowy Rolników Indywidualnych „Solidarność”
+- Niezależny Samorządny Związek Zawodowy „Solidarność”
+- Nikita Chruszczow
+- Nomenklatura (polityka)
+- Nowa Huta (Kraków)
+- Nowela grudniowa
+- Nowela kwietniowa
+- O kulcie jednostki i jego następstwach
+- Odchylenie prawicowo-nacjonalistyczne
+- Odwilż (historia)
+- Ofensywa Tết
+- Ogólnopolskie Porozumienie Związków Zawodowych
+- Okrągły Stół (Polska)
+- Okupacja aliancka Niemiec
+- Opozycja polityczna w PRL
+- Organizacja Jedności Afrykańskiej
+- Organy bezpieczeństwa publicznego (1944–1956)
+- Orędzie biskupów polskich do biskupów niemieckich
+- Ostpolitik
+- Pacyfikacja strajku w kopalni „Wujek”
+- Parlament Europejski
+- Partyzanci (frakcja PZPR)
+- Patriotyczny Ruch Odrodzenia Narodowego
+- Pałac Kultury i Nauki
+- Państwo dobrobytu
+- Państwowe gospodarstwo rolne
+- Pieriestrojka
+- Piotr Jaroszewicz
+- Plan Balcerowicza
+- Plan Marshalla
+- Plan Rapackiego
+- Plan Schumana
+- Plan sześcioletni
+- Plan trzyletni
+- Po prostu (czasopismo)
+- Podróż apostolska Jana Pawła II do Polski (1979)
+- Pogrom kielecki
+- Pokój paryski (1973)
+- Polska Rzeczpospolita Ludowa
+- Polska Zjednoczona Partia Robotnicza
+- Polska pomoc dla Węgier w 1956
+- Polski październik 1956
+- Polskie Stronnictwo Ludowe (1945–1949)
+- Polsko-niemiecki traktat graniczny
+- Pomarańczowa Alternatywa
+- Pomnik Poległych Stoczniowców 1970
+- Ponowne zjednoczenie Niemiec
+- Porozumienia sierpniowe
+- Porozumienie Państwo-Kościół 1950
+- Porozumienie białowieskie
+- Porozumienie z Camp David
+- Posłanie do ludzi pracy Europy Wschodniej
+- Powstanie Mau Mau
+- Powstanie czerwcowe
+- Powstanie węgierskie 1956
+- Powszechna deklaracja praw człowieka
+- Poznański Czerwiec
+- Praska Wiosna
+- Praski zamach stanu 1948
+- Proces Tatar-Utnik-Nowicki
+- Proces księży kurii krakowskiej
+- Propaganda sukcesu
+- Protesty na placu Niebiańskiego Spokoju w 1989
+- Prowokacja bydgoska
+- Przodownik pracy
+- Pucz w Chile (1973)
+- Puławianie
+- Rada Bezpieczeństwa Organizacji Narodów Zjednoczonych
+- Rada Europy
+- Rada Państwa (Polska)
+- Rada Wzajemnej Pomocy Gospodarczej
+- Radio Wolna Europa/Radio Swoboda
+- Radziecka interwencja w Afganistanie
+- Realizm socjalistyczny
+- Referendum w Polsce w 1946 roku
+- Referendum w Polsce w 1987 roku
+- Reforma administracyjna w Polsce (1975)
+- Reforma walutowa w Polsce w 1950 roku
+- Reglamentacja towarów w PRL
+- Republika Federalna Niemiec (1949–1990)
+- Rewolucja goździków
+- Rewolucja kubańska
+- Rewolucja kulturalna
+- Rewolucja w Rumunii
+- Rezolucja Zgromadzenia Ogólnego ONZ nr 181
+- Richard Nixon
+- Robert Schuman
+- Rok Afryki
+- Rolnicza spółdzielnia produkcyjna
+- Ronald Reagan
+- Rozmowy w Magdalence
+- Rozpad ZSRR
+- Rozszerzenie Unii Europejskiej
+- Rozłam radziecko-chiński
+- Ruch Młodej Polski
+- Ruch Obrony Praw Człowieka i Obywatela
+- Ruch Państw Niezaangażowanych
+- Ruch Wolność i Pokój
+- Ruch praw obywatelskich
+- Ryszard Kukliński
+- Ryszard Siwiec
+- Rzecznik Praw Obywatelskich
+- Rząd Tadeusza Mazowieckiego
+- Sejm PRL
+- Sejm Polskiej Rzeczypospolitej Ludowej X kadencji
+- Sejm Ustawodawczy (1947–1952)
+- Sierpień 1980
+- Sobór watykański II
+- Socjalizm realny
+- Solidarność Walcząca
+- Stan wojenny w Polsce (1981–1983)
+- Stanisław Kania
+- Stanisław Pyjas
+- Stefan Wyszyński
+- Stocznia Gdańska
+- Stowarzyszenie „Pax”
+- Strajki w Polsce 1988
+- Strategic Arms Limitation Treaty (I)
+- Strategic Defense Initiative
+- Stronnictwo Demokratyczne
+- Studenckie Komitety Solidarności
+- System z Bretton Woods
+- Szkoła tysiąclecia
+- Służba Bezpieczeństwa (PRL)
+- Tadeusz Mazowiecki
+- Towarzystwo Kursów Naukowych (1978–1981)
+- Traktat z Maastricht
+- Traktaty rzymskie
+- Transformacja systemowa w Polsce
+- Trybunał Konstytucyjny (Polska)
+- Trybunał Stanu
+- Trzeci Świat
+- Tygodnik Powszechny
+- Tymczasowa Komisja Koordynacyjna NSZZ „Solidarność”
+- Tysiąclecie Państwa Polskiego
+- Układ PRL-RFN
+- Układ Warszawski
+- Układ o nierozprzestrzenianiu broni jądrowej
+- Układ z Schengen
+- Układ zgorzelecki
+- Unia Europejska
+- Ustawa Wilczka
+- Wasz prezydent, nasz premier
+- Wielki skok naprzód
+- Willy Brandt
+- Wincenty Pstrowski
+- Wirtschaftswunder
+- Wojciech Jaruzelski
+- Wojna Jom Kipur
+- Wojna algierska
+- Wojna domowa w Grecji
+- Wojna koreańska
+- Wojna sześciodniowa
+- Wojna wietnamska
+- Wojskowa Rada Ocalenia Narodowego
+- Wolne Związki Zawodowe Wybrzeża
+- Wspólna polityka rolna
+- Wspólnota Europejska
+- Wspólnota Narodów
+- Wspólnoty europejskie
+- Wybory parlamentarne w Polsce w 1947 roku
+- Wybory parlamentarne w Polsce w 1989 roku
+- Wybory prezydenckie w Polsce w 1990 roku
+- Wydarzenia radomskie
+- Wysiedlenie Polaków z Kresów Wschodnich w latach 1944–1946
+- Wysiedlenie Polaków z Kresów Wschodnich w latach 1955–1959
+- Wysiedlenie Ukraińców z Polski do ZSRR
+- Wyścig kosmiczny
+- Wyścig zbrojeń
+- XX Zjazd KPZR
+- Zadłużenie zagraniczne PRL
+- Zamach na Jana Pawła II (1981)
+- Zbrodnia lubińska
+- Zimna wojna
+- Zjednoczone Stronnictwo Ludowe
+- Zmotoryzowane Odwody Milicji Obywatelskiej
+- Zniewolony umysł
+- Zrzeszenie Wolność i Niezawisłość
+- Związek Młodzieży Polskiej
+- Zygmunt Szendzielarz
+- Łódzkie strajki lutowe 1971 roku
+- Żelazna kurtyna
+- Żołnierze wyklęci
+instytucje-kultura:
+- Adam Stefan Sapieha
+- Akademia Umiejętności
+- Akcja Wyborcza Solidarność
+- Aleksander Jagiellończyk
+- Aleksander Kwaśniewski
+- Andrzej Wajda
+- Architektura baroku
+- Architektura gotycka
+- Architektura renesansu
+- Architektura romańska
+- Armia koronna
+- Bartolommeo Berrecci
+- Bazylika św. Piotra na Watykanie
+- Bernardo Bellotto
+- Bracia czescy
+- Cerkiew prawosławna
+- Chasydyzm
+- Chłopi
+- Denominacja złotego w 1995 roku
+- Dominik Merlini
+- Duchowieństwo
+- Elekcja viritim
+- Fryderyk Chopin
+- Grosz krakowski
+- Grupa Wyszehradzka
+- Górny Śląsk
+- Hanna Suchocka
+- Hetman polny koronny
+- Hetman wielki koronny
+- Historia konstytucji w Polsce
+- Historyzm (architektura)
+- Humanizm
+- Ignacy Łukasiewicz
+- Impresjonizm
+- Instytut Pamięci Narodowej
+- Jan Heweliusz
+- Jan I Olbracht
+- Jan Olszewski
+- Jasna Góra
+- Jerzy Buzek
+- Jerzy Sebastian Lubomirski
+- Józef Chełmoński
+- Kahał
+- Kanclerz wielki koronny
+- Kaplica Sykstyńska
+- Kazania sejmowe
+- Konfederacja tyszowiecka
+- Kongres Liberalno-Demokratyczny
+- Konkordat między Stolicą Apostolską i Rzecząpospolitą Polską (1925)
+- Konkordat między Stolicą Apostolską i Rzecząpospolitą Polską (1993)
+- Kopalnia Soli „Wieliczka”
+- Kozacy
+- Kozacy rejestrowi
+- Kościół Pokoju w Świdnicy
+- Kościół greckokatolicki w Polsce
+- Kościół katolicki w Polsce
+- Kościół Świętych Apostołów Piotra i Pawła w Krakowie
+- Kryteria kopenhaskie
+- Krzysztof Skubiszewski
+- Leonardo da Vinci
+- Leszek Miller
+- Lustracja osób pełniących funkcje publiczne
+- Manieryzm
+- Marcello Bacciarelli
+- Marcin Kromer
+- Maria Skłodowska-Curie
+- Marszałek wielki koronny
+- Mała Konstytucja z 1992
+- Michał Anioł
+- Mniejszości narodowe i etniczne w Polsce
+- Modernizm (sztuka)
+- Młoda Polska
+- Neogotyk
+- Olędrzy
+- Opole (średniowiecze)
+- Ormianie w Polsce
+- Partnerstwo dla Pokoju
+- Pałac w Wilanowie
+- Pańszczyzna w Polsce
+- Periodyzacja historii Polski
+- Pijarzy
+- Poddaństwo
+- Podskarbi wielki koronny
+- Polonia
+- Polska szkoła filmowa
+- Polska w Unii Europejskiej
+- Polskie Stronnictwo Ludowe
+- Porozumienie Centrum
+- Porządek architektoniczny
+- Program Powszechnej Prywatyzacji
+- Program czterech reform
+- Przywilej mielnicki
+- Północna Grupa Wojsk
+- Rafael Santi
+- Ratusz w Poznaniu
+- Referendum w Polsce w 1997 roku
+- Referendum w Polsce w 2003 roku
+- Reforma systemu oświaty z 1999 roku
+- Rokoko
+- Rząd Hanny Suchockiej
+- Rząd Jana Olszewskiego
+- Rząd Jerzego Buzka
+- Secesja (sztuka)
+- Senatorowie rezydenci
+- Sojusz Lewicy Demokratycznej
+- Stanisław Hozjusz
+- Stanisław Moniuszko
+- Stanisław Orzechowski (pisarz)
+- Statut warcki
+- Stosunki Polski ze Stolicą Apostolską
+- Stosunki polsko-niemieckie
+- Styl Stanisława Augusta
+- Styl narodowy
+- Styl zakopiański
+- Sukiennice w Krakowie
+- Szlachta zaściankowa
+- Sztuka barokowa w Polsce
+- Sąd grodzki
+- Sąd ziemski
+- Tatarzy w Polsce
+- Traktat ateński
+- Trybunał Główny Wielkiego Księstwa Litewskiego
+- Trójkąt Weimarski
+- Tylman z Gameren
+- Ukraińcy w Polsce
+- Unia Demokratyczna
+- Unia Wolności
+- Unia mielnicka
+- Uniwersytet Wileński
+- Waldemar Pawlak
+- Wawel
+- Wiec
+- Wojna na górze
+- Wojsko komputowe
+- Wybory parlamentarne w Polsce w 1991 roku
+- Wybory parlamentarne w Polsce w 1993 roku
+- Wybory parlamentarne w Polsce w 1997 roku
+- Wybory parlamentarne w Polsce w 2001 roku
+- Wybory prezydenckie w Polsce w 1995 roku
+- Wybory prezydenckie w Polsce w 2000 roku
+- Wybory samorządowe w Polsce w 1990 roku
+- Zamek Królewski w Warszawie
+- Zamość
+- Ziemiaństwo
+- Złota wolność
+- Łukasz Górnicki
+- Środkowoeuropejskie Porozumienie o Wolnym Handlu
+- Żupy krakowskie
+- Sejm piotrkowski 1562/1563
+- Historia podatków w Polsce
+- Komisje porządkowe cywilno-wojskowe
+- Konstytucja (I Rzeczpospolita)
+- Magnateria w Polsce
+- Ordynacja Zamojska
+- Ordynacja rodowa
+- Autorament
+- Piechota wybraniecka
+- Jan Łaski (prymas)
+- Statut Łaskiego
+- Jan Amor Tarnowski
+- Godło Polski
+- Order Orła Białego
+- Flisactwo
+- Manewr gospodarczy (1976–1980)
+- Historia kobiet w Polsce
+- Mniejszość niemiecka w Polsce
+- Sztuka Polski
+- Periodyzacja sztuki
+- Portret trumienny
+- Kościół św. Andrzeja w Krakowie
+- Rotunda Najświętszej Marii Panny na Wawelu
+- Kościół św. Anny w Krakowie
+- Pałac Krasińskich w Warszawie
+- Zamek w Baranowie Sandomierskim
+- Krzyżtopór
+- Sanktuarium pasyjno-maryjne w Kalwarii Zebrzydowskiej
+- Izabela Czartoryska
+- Muzeum Książąt Czartoryskich w Krakowie
+- Teatr Wielki w Warszawie
+- Kolumna Zygmunta III Wazy
+- Historia druku w Polsce
+- Jan Chryzostom Pasek
+- Wojciech Bogusławski
+- Józef Mehoffer
+- Olga Boznańska
+- Piotr Michałowski
+- Wojciech Kossak
+- Henryk Siemiradzki
+- Aleksander Gierymski
+- Xawery Dunikowski
+- Władysław Strzemiński
+- Polska szkoła plakatu
+- Doktryna Giedroycia
+- Rozgłośnia Polska Radia Wolna Europa
+- Jadwiga Śląska
+- Polski Autokefaliczny Kościół Prawosławny
+- Jan Łaski (1499–1560)
+- Konferencja Episkopatu Polski
+- Konklawe 1978 (Jan Paweł II)
+- Internowanie Stefana Wyszyńskiego
+- Rząd Leszka Millera
+- Jan Krzysztof Bielecki
+- Msza Pojednania
+- Szczyt NATO w Madrycie 1997
+- Traktat nicejski
+- Polski Kontyngent Wojskowy w Iraku
+- Kasa chorych
+- Socjaldemokracja Rzeczypospolitej Polskiej
+- Stolica Polski
+- Podział administracyjny I Rzeczypospolitej
+- Regiony historyczne Polski
+- Heraldyka polska
+- Nobilitacja
+- Indygenat
+- Tytuły szlacheckie
+- Szlachta w Polsce
+- Gołota
+- Karaimi w Polsce
+- Historia kolei na ziemiach polskich
+- Kanał Augustowski
+- Złoty
+- Plany gospodarcze w Polsce
+- Rząd Mieczysława Rakowskiego
+- Podatek od ponadnormatywnych wypłat wynagrodzeń
+- Przekształcenia własnościowe w Polsce po 1989 roku
+- Bezrobocie w Polsce
+- Kinematografia polska
+- Muzyka polska
+- Barbakan w Krakowie
+- Collegium Maius Uniwersytetu Jagiellońskiego
+- Stare Miasto w Warszawie
+- Drewniane kościoły południowej Małopolski
+- Lista światowego dziedzictwa UNESCO w Polsce
+- Hala Stulecia we Wrocławiu
+- Dwór Artusa w Gdańsku
+- Bazylika Konkatedralna Wniebowzięcia Najświętszej Maryi Panny w Gdańsku
+- Dzwon Zygmunt
+- Biblia Jakuba Wujka
+- Jan Piotr Norblin
+- Leon Wyczółkowski
+- Stanisław Ignacy Witkiewicz
+- Jerzy Grotowski
+- Kazimierz Dejmek
+- Historia oświaty w Polsce
+- Akademia Lubrańskiego
+- Gimnazjum Akademickie w Toruniu
+- Liceum Krzemienieckie
+- Uniwersytet Warszawski
+- Katolicki Uniwersytet Lubelski Jana Pawła II
+- Chrystianizacja
+- Katoliccy patroni Polski
+- Obraz Matki Bożej Częstochowskiej
+- Protestantyzm w Polsce
+- Rozdział Kościoła od państwa w Polsce
+- Religia w Polsce
+- August Hlond
+- Traktat amsterdamski
+- Organizacja Bezpieczeństwa i Współpracy w Europie
+- Marian Krzaklewski
+- Ryszard Kaczorowski
+- Noc teczek
+- Premierzy Polski
+- Lista prezydentów Polski
+- Historia Polski
+- Sejm piotrkowski
+- Monarchia elekcyjna
+- Historia Polski (do 1138)
+- Historia Polski (1320–1386)
+- Historia Polski (1386–1492)
+- Formizm
+- Marszałkowska Dzielnica Mieszkaniowa
+- Klub Paryski
+- Białorusini w Polsce
+- Obywatelski Klub Parlamentarny
+- Historia Unii Europejskiej
+- Szczyt NATO w Waszyngtonie 1999
+- Józef Oleksy
+- Włodzimierz Cimoszewicz
+- Polska Akademia Umiejętności
+- Mariawityzm
+- Kościół Ewangelicko-Augsburski w Rzeczypospolitej Polskiej
+- Samorząd gminny
+- Awangarda Krakowska
+- Stosunki polsko-ukraińskie
+- Ekspresjonizm
+- Polska Akademia Nauk
+- Wybory do Parlamentu Europejskiego w Polsce w 2004 roku

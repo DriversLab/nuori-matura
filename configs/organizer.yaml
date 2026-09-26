@@ -1,0 +1,27 @@
+# Letter-first INSURANCE run. Use it only if the official grader turns out to score a constrained letter instead of
+# generated text: the organizers' reference grader (workshop scripts/prawko.py) never reads the response — it applies the
+# chat template, takes the logits at the FIRST answer position, keeps the single-token ids of the letters and takes the
+# argmax. Under that protocol "Odpowiedź: " is dead weight in front of the letter the grader reads, so this mix trains the
+# model to put the bare answer first (organizer_letter / payload_only / bare = 45% of rows) while keeping enough canonical
+# rows that our own strict "Odpowiedź: X" grading does not collapse.
+#   python scripts/train.py --config configs/organizer.yaml
+# Measure first: eval/organizers.py scores any model under their protocol (summary.json sets.<name>.organizer,
+# compare.json sets.<set>.organizer, gate rule 9). Flipping the mix needs a retrain, so do it only once the grading
+# style is known — run1.yaml stays the default.
+inherit: run1.yaml
+
+run_name: organizer-mix
+tags: [organizer-mix]
+notes: >-
+  Insurance variant of run1: same LoRA/LR/epochs, only data.variant_mix changes. 25% organizer_letter rows (the
+  organizers' constrained-letter wording, target = the bare letter) plus 10% payload_only and 10% bare, so the first
+  generated token is the answer under a letter-scoring grader. Train it only if the official grader is confirmed to
+  read letter logits rather than text; compare it to run1 on both the strict points and the organizer accuracy.
+
+data:
+  variant_mix:              # REPLACES base.yaml's table (a variant left out gets weight 0)
+    canonical: 0.50         # keeps the "Odpowiedź: X" format the strict headline metric grades
+    bare: 0.10
+    payload_only: 0.10
+    organizer_letter: 0.25  # organizers' wording, bare-letter target
+    reason_then_answer: 0.05

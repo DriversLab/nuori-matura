@@ -1,0 +1,40 @@
+{"id": "syn-historia-09-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-1-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-1-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-1-05", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-1-06", "payload": "nomy", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-1-07", "payload": "1-B, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-2-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-2-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-2-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-2-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-2-05", "payload": "ruch egzekucyjny", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-2-06", "payload": "1-C, 2-A, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-3-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-3-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-3-05", "payload": "Horodło", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-3-06", "payload": "1-C, 2-A, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-4-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-4-02", "payload": "C", "confidence": "high", "concern": "Nie zgadza się rodzaj gramatyczny: w zdaniu 'pod panowaniem portugalskim znalazła się' nie pasują opcje 'Meksyk.' i 'Peru.' (rodzaj męski/nijaki). To podpowiada gramatycznie, że odpowiedź to Kuba albo Brazylia; lepiej napisać 'znalazło się terytorium dzisiejszej...' albo ujednolicić opcje."}
+{"id": "syn-historia-09-4-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-4-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-4-05", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-4-06", "payload": "Henryk Żeglarz", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-4-07", "payload": "1-C, 2-A, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-05", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-06", "payload": "Komunistyczna Partia Robotnicza Polski", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-5-07", "payload": "1-B, 2-A, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-6-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-6-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-6-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-6-05", "payload": "P, F, P", "confidence": "medium", "concern": "Zdanie 3 ('Na mocy porozumienia kończącego walki...') opiera się na wstępie artykułu, ale dalsza część artykułu podaje, że nie wiadomo, czy formalny układ (pokój Kalliasa) w ogóle zawarto. Sformułowanie 'na mocy porozumienia' podaje sporny fakt jako pewny, więc odpowiedź P da się zakwestionować."}
+{"id": "syn-historia-09-6-06", "payload": "satrapie", "confidence": "high", "concern": ""}
+{"id": "syn-historia-09-6-07", "payload": "1-C, 2-B, 3-D", "confidence": "high", "concern": ""}

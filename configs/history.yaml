@@ -1,0 +1,60 @@
+# History matura SFT for the hackathon final (CKE Polish history, extended level).
+# Trains a LoRA on PREBUILT rows, not on build_processed() output, and skips the old 8-subject eval/gate. The exam
+# harness plus the LLM judge replace that eval (docs/RUNBOOK.md).
+#
+#   python scripts/train_history.py --config configs/history.yaml --dev data/processed/history/dev_rag.jsonl
+#   python scripts/train_history.py --config configs/history.yaml --dev data/processed/history/dev_rag.jsonl --prepare-only   # no model
+#   python scripts/train_history.py --config configs/history.yaml --set run_name=history-v1 --set train.learning_rate=2e-4
+#
+# Data paths are CLI args of train_history.py (so configs/base.yaml, a contract file, needs no new keys):
+#   --train data/processed/history/train.jsonl   rows {"prompt": [...], "completion": [...]} or {"messages": [..., assistant]}
+#   --dev   data/processed/history/dev.jsonl     matura eval split (eval_matura_loss after every epoch); for rows built
+#           with --style rag (the max-score build) pass dev_rag.jsonl: the same dev rows in the rag layout
+# The keys below that train_history.py reads: model.*, lora.*, train.*, seed, data.general_*, paths.*.
+# eval.*, gate.* and pipeline.* are inherited from base.yaml but not used by this run.
+run_name: history-v0
+tags: [history-v0]
+notes: >-
+  First history run: QLoRA r=16/alpha=32 on the L4, lr 1e-4, 3 epochs, effective batch 16 (2 x 8), max_length 6144 so
+  that every essay row fits (rag passages + essay question + a 500-650 word answer: up to ~5.4k tokens). Rows are built
+  with harness.prompts.build_messages in style "rag" (85% of train rows carry 4 retrieved Wikipedia passages), the same
+  function run_exam.py --style rag uses. General Polish replay (EU-Instruct-Synthetic pl, answers <= 500 chars) is
+  10% of rows to limit forgetting.
+
+model:
+  base: speakleash/Bielik-4.5B-v3.0-Instruct   # gated: `hf auth login` + accept the licence on the model page
+  quantization: auto        # auto -> 4bit NF4 QLoRA on CUDA (L4 24 GB), plain LoRA on MPS/CPU
+  dtype: auto               # bf16 on the L4 (compute capability 8.9)
+  max_length: 6144          # rows longer than this are DROPPED by train/sft.py (logged as dropped_too_long_by_kind);
+                            # longest rag row ~5.4k tokens (upper bound, 11B tokenizer), 2 rows > 4096
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: all-linear   # f16 GGUF adapter ~100 MB (49.9M params); llama.cpp applies it at runtime on the Q8_0 base
+
+data:
+  general_pool: data/general/train_pool.jsonl       # replay rows (apache-2.0), committed
+  general_heldout: data/eval/general_heldout.jsonl  # PLLuM-Align forgetting check -> eval_general_heldout_loss
+  general_ratio: 0.1                # fraction of TRAIN ROWS that are general replay (rows, not loss tokens)
+  general_max_completion_chars: 500 # only replay rows with short answers: history answers and essays keep the loss share
+  general_val_n: 100                # replay rows held out for val_general (disjoint from the train replay rows)
+  general_heldout_n: 200            # PLLuM-Align rows evaluated each epoch (fewer than base.yaml's 300: long-context evals are slower)
+
+train:
+  epochs: 3
+  learning_rate: 1.0e-4
+  lr_scheduler: cosine
+  warmup_ratio: 0.03
+  per_device_batch_size: 2
+  grad_accum: 8             # effective batch 16
+  gradient_checkpointing: true
+  eval_steps: null          # evaluate dev + general sets at the end of every epoch
+  logging_steps: 5
+  max_steps: -1
+  packing: false
+
+paths:
+  checkpoints_root: checkpoints     # adapter -> checkpoints/<run_name>/adapter (gitignored)
+  processed_root: data/processed    # mixed rows -> data/processed/<run_name>/ (gitignored)

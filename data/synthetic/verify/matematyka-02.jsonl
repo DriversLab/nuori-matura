@@ -1,0 +1,37 @@
+{"id": "syn-matematyka-02-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-1-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-1-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-1-04", "payload": "2", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-1-05", "payload": "5", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-1-06", "payload": "4", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-05", "payload": "5624,32", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-06", "payload": "5", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-2-07", "payload": "70,71", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-3-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-3-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-3-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-3-04", "payload": "6", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-3-05", "payload": "-2", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-3-06", "payload": "9", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-4-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-4-04", "payload": "P, F, F", "confidence": "high", "concern": "Statement 2 uses cosecans without defining it; cosec is outside the Polish matura curriculum (the article itself notes it has fallen out of use), so a student may be unable to judge it."}
+{"id": "syn-matematyka-02-4-05", "payload": "60", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-4-06", "payload": "3", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-4-07", "payload": "1,24", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-5-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-5-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-5-03", "payload": "155,88", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-5-04", "payload": "144", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-05", "payload": "499", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-06", "payload": "3", "confidence": "high", "concern": ""}
+{"id": "syn-matematyka-02-6-07", "payload": "2,5", "confidence": "high", "concern": ""}

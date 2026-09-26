@@ -1,0 +1,28 @@
+{
+  "requested": 458,
+  "resolved": 458,
+  "missing": [],
+  "stubs": [],
+  "duplicates": [
+    "geografia:Rewolucja przemysłowa->Rewolucja przemysłowa (already in historia)",
+    "geografia:Globalizacja->Globalizacja (already in wos)",
+    "chemia:Białka->Białka (already in biologia)",
+    "chemia:Węglowodany->Węglowodany (already in biologia)",
+    "fizyka:Radioaktywność->Radioaktywność (already in chemia)"
+  ],
+  "subject_changed": [],
+  "pruned": [],
+  "fetched": 453,
+  "cached": 0,
+  "total_articles": 453,
+  "per_subject": {
+    "jezyk_polski": 58,
+    "historia": 58,
+    "wos": 57,
+    "geografia": 54,
+    "biologia": 58,
+    "chemia": 55,
+    "fizyka": 56,
+    "matematyka": 57
+  }
+}

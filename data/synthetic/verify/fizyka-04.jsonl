@@ -1,0 +1,39 @@
+{"id": "syn-fizyka-04-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-1-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-1-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-1-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-1-05", "payload": "promień Bohra", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-1-06", "payload": "1,51", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-1-07", "payload": "30,5", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-05", "payload": "masa", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-06", "payload": "0,068", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-2-07", "payload": "308", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-3-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-3-03", "payload": "B", "confidence": "high", "concern": "Symetria obrotowa przestrzeni / twierdzenie Noether wykracza poza podstawę programową matury z fizyki; fakt jest jednak zgodny z artykułem."}
+{"id": "syn-fizyka-04-3-04", "payload": "F, P, P", "confidence": "medium", "concern": "Stwierdzenie 3 jest nieprecyzyjne fizycznie: siła centralna to siła skierowana wzdłuż prostej do centrum; potencjał U(r) dotyczy tylko konserwatywnych sił centralnych. Klucz P wynika z artykułu."}
+{"id": "syn-fizyka-04-3-05", "payload": "kręt", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-3-06", "payload": "2,40", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-3-07", "payload": "14,4", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-4-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-4-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-4-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-4-04", "payload": "teoria cieplika", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-4-05", "payload": "230", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-4-06", "payload": "241", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-5-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-5-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-5-03", "payload": "P, P, F", "confidence": "high", "concern": "Stwierdzenie 1 (Faraday jako autor koncepcji pola) ma charakter ciekawostki historycznej, a nie wiedzy fizycznej sprawdzanej na maturze."}
+{"id": "syn-fizyka-04-5-04", "payload": "prawo Gaussa", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-5-05", "payload": "900", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-5-06", "payload": "5,53", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-6-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-6-03", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-6-04", "payload": "siła Lorentza", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-6-05", "payload": "2,51", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-04-6-06", "payload": "2,09", "confidence": "medium", "concern": "Dokładny wynik to 2,0875 cm – leży dokładnie na granicy zaokrąglenia do dwóch miejsc (2,09 przy zaokrąglaniu połówek w górę, 2,08 przy zaokrąglaniu bankierskim/float); klucz powinien akceptować tolerancję."}

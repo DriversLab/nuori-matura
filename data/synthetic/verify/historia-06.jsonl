@@ -1,0 +1,41 @@
+{"id": "syn-historia-06-1-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-1-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-1-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-1-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-1-05", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-1-06", "payload": "Sojusz Trzech Cesarzy", "confidence": "high", "concern": "Short answer has several accepted names for the 1873 agreement (Sojusz / Liga / Porozumienie Trzech Cesarzy; textbooks often reserve 'Sojusz' for 1881) - key should accept variants."}
+{"id": "syn-historia-06-1-07", "payload": "1-A, 2-C, 3-D", "confidence": "high", "concern": "Option A phrasing 'król pruski, na którego czele ... proklamowano utworzenie Cesarstwa' is awkward Polish (should be e.g. 'z którym na czele proklamowano...')."}
+{"id": "syn-historia-06-2-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-2-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-2-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-2-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-2-05", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-2-06", "payload": "Polska Partia Robotnicza", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-2-07", "payload": "1-C, 2-D, 3-B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-05", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-06", "payload": "Partnerstwo dla Pokoju", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-3-07", "payload": "1-B, 2-D, 3-A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-4-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-4-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-4-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-4-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-4-05", "payload": "Władysław Łokietek", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-4-06", "payload": "1-B, 2-A, 3-C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-5-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-5-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-5-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-5-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-5-05", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-5-06", "payload": "Hieronim Radziejowski", "confidence": "high", "concern": "Minor: 'były podkanclerzy koronny' is not in the source article (historically correct, Radziejowski was podkanclerzy 1650-1652)."}
+{"id": "syn-historia-06-5-07", "payload": "1-C, 2-A, 3-D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-6-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-6-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-6-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-6-05", "payload": "F, P, F", "confidence": "medium", "concern": "Statement 3: per article Tatars left on 4 June 1648 (so F), but historically Tatar forces rejoined Chmielnicki later in 1648 (Piławce, Lwów), so a well-informed student could hesitate; wording 'pozostali' carries the falsity."}
+{"id": "syn-historia-06-6-06", "payload": "Korsuń", "confidence": "high", "concern": ""}
+{"id": "syn-historia-06-6-07", "payload": "1-B, 2-A, 3-D", "confidence": "high", "concern": ""}

@@ -1,0 +1,56 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+checkpoints/
+wandb/
+.DS_Store
+data/processed/
+*.tmp
+*.log
+.smoke/
+data/synthetic/.emb_cache/
+.registry.lock
+.eval.lock
+# exam packages, run outputs and logs contain copyrighted exam text: never commit
+exams/
+runs/
+# image-description caches (transcribed CKE material, never commit)
+descriptions*.json
+# downloaded exam packs (history-*.zip, possibly unzipped from the repo root), GGUF weights, serve_model.sh state
+*.zip
+# laptop -> box data bundle (docs/RUNBOOK.md 6.1: built rows, RAG index, filled answers)
+*.tgz
+*.gguf
+.serve/
+# teammates' nuori-ai dump (CKE scans and text) if it is ever copied next to the code
+nuori-ai/
+# CKE exam text redistributed by third-party datasets (old 8-subject pipeline); hackathon rule: no CKE content in the
+# repo. Re-create locally with: python scripts/fetch_external.py
+data/blocklist/*.jsonl
+data/eval/ext_llmzszl_matura.jsonl
+# organizers' prawko-v2 driving-licence eval splits (third-party rows, licence not verified): keep them out of the repo,
+# re-create with python scripts/import_prawko.py
+data/eval/ext_prawko_*.jsonl
+# RAG knowledge base (Wikipedia articles, title resolution, BM25 index, build report); only the title list is
+# committed. Rebuild with: python scripts/build_rag.py
+data/rag/*
+!data/rag/titles_history.yaml
+# LLM-filled targets for CKE tasks ({id, answer}; many follow the CKE answer key's model answer): CKE-derived, so they
+# stay local like data/processed/. Copy them to the box together with data/rag/ and data/processed/history/.
+data/history/llm_filled_answers*.jsonl
+data/history/filled_*/
+# an exam pack unzipped in the repo root (the mock zip has no top folder; CKE text and page crops), CKE PDFs,
+# weights and secrets. Anchored, so tests/fixtures/history_exam/ stays committed.
+/exam.json
+/answers-template.json
+/answers*.json
+/images/
+*.pdf
+*.safetensors
+*.bin
+*.pt
+*.pth
+.env
+.playwright-mcp/

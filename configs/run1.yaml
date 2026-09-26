@@ -1,0 +1,20 @@
+# v0-safe: the first real run. Deliberately conservative: its job is to put a model above the untouched base on the
+# board without hurting general Polish ability. Riskier settings are explored by configs/sweep.yaml.
+#   python scripts/train.py --config configs/run1.yaml
+run_name: run1
+tags: [v0-safe]
+notes: >-
+  First safe run: low LR (1e-4), LoRA r=16/alpha=32, 2 epochs and 30% general Polish instruction rows (answers capped at
+  500 chars, so ~20% of the loss tokens stay matura) to limit forgetting. Establishes the delta-over-base baseline
+  that sweep runs must beat.
+
+lora:
+  r: 16
+  alpha: 32
+
+data:
+  general_ratio: 0.3        # 30% of ROWS (not of loss tokens: see base.yaml) vs the 0.25 default: forgetting is the main risk of a first run
+
+train:
+  epochs: 2
+  learning_rate: 1.0e-4     # half the base default; LoRA at 2e-4 is explored in the sweep

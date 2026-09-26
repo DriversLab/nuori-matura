@@ -1,0 +1,38 @@
+# Sequential hyperparameter sweep around run1 (v0-safe). Each run is one `scripts/train.py` subprocess with --set
+# overrides: trained, merged, evaluated vs base and passed through the promotion gate, so the candidate only improves.
+#   python scripts/sweep.py --sweep configs/sweep.yaml --dry-run
+#   python scripts/sweep.py --sweep configs/sweep.yaml --budget-hours 10
+# Run1 reference point: lr 1e-4, r 16 / alpha 32, 2 epochs, general_ratio 0.3, default variant_mix.
+# general_ratio counts ROWS; the loss is token-weighted, so what a ratio changes is the share of loss tokens coming from
+# matura rows (train_metrics.loss_tokens.matura_share, ~20% at 0.3 with general answers capped at 500 chars).
+# A run name recorded with a different config is refused: rename a run when you edit its overrides.
+name: sweep1
+base_config: configs/run1.yaml
+budget_hours: 12
+
+runs:
+  # run1 under-fits: the usual LoRA LR (2e-4) learns format and facts faster within the same 2 epochs
+  - name: s1-lr2e-4
+    set: {train.learning_rate: 2.0e-4}
+  # adapter capacity is the bottleneck for facts across 8 subjects; alpha scales with r to keep alpha/r = 2
+  - name: s1-r32
+    set: {lora.r: 32, lora.alpha: 64}
+  # one pass already teaches the answer format; forgetting stays small, so fewer general rows (0.15: ~38% of loss
+  # tokens matura instead of ~20%) put more of the signal on matura
+  - name: s1-ep1-gen015
+    set: {train.epochs: 1, data.general_ratio: 0.15}
+  # more passes memorize more synthetic facts; more general rows (0.4: ~14% of loss tokens matura) keep general NLL
+  # inside the gate at the cost of a smaller matura share
+  - name: s1-ep3-gen040
+    set: {train.epochs: 3, data.general_ratio: 0.4}
+  # training on rationale-then-answer renders teaches why answers are right, which transfers to canonical prompts
+  - name: s1-reasoning
+    set: {data.variant_mix: {canonical: 0.45, bare: 0.15, payload_only: 0.10, reason_then_answer: 0.30}}
+  # ablation: 100% of loss tokens matura; does general replay protect general NLL / secondary sets, or only dilute the signal?
+  - name: s1-nogeneral
+    set: {data.general_ratio: 0.0}
+
+# Optional cartesian grid appended to `runs` (names are generated as g-<key>=<value>_...):
+# grid:
+#   train.learning_rate: [1.0e-4, 2.0e-4]
+#   lora.r: [16, 32]

@@ -1,0 +1,35 @@
+{"id": "syn-fizyka-08-1-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-1-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-1-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-1-04", "payload": "pęd", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-1-05", "payload": "495", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-1-06", "payload": "60", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-2-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-2-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-2-03", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-2-04", "payload": "siła elektrodynamiczna", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-2-05", "payload": "250", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-2-06", "payload": "7,8", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-05", "payload": "siły postronne", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-06", "payload": "0,71", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-3-07", "payload": "36", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-4-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-4-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-4-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-4-04", "payload": "ognisko", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-4-05", "payload": "33,3", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-4-06", "payload": "66,7", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-5-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-5-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-5-03", "payload": "F, P, F", "confidence": "medium", "concern": "Statement 2 omits 'relative to the contact surface': kinetic friction opposes the relative velocity, not necessarily the body's velocity in the ground frame (e.g., a box placed on a moving conveyor belt), so a careful student could mark F; the article's wording supports P."}
+{"id": "syn-fizyka-08-5-04", "payload": "3,21", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-6-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-6-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-6-03", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-6-04", "payload": "autotransformator", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-6-05", "payload": "13,8", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-08-6-06", "payload": "2,17", "confidence": "high", "concern": ""}

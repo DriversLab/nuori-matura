@@ -1,0 +1,126 @@
+# Defaults for every run. Run configs override only what they change (they implicitly inherit this file).
+# run_name defaults to the config file stem (configs/run1.yaml -> run1)
+tags: []
+seed: 42
+notes: ""
+
+model:
+  base: speakleash/Bielik-4.5B-v3.0-Instruct   # gated: `hf auth login` + accept license on the model page
+  quantization: auto        # auto -> 4bit NF4 QLoRA on CUDA, none (plain LoRA) on MPS/CPU; or "4bit" | "none"
+  dtype: auto               # auto -> bfloat16 if supported, else float16 (cuda) / float32 (cpu)
+  attn_implementation: auto # auto -> sdpa
+  max_length: 1024
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: all-linear
+  use_rslora: false
+
+data:
+  synthetic: data/synthetic/clean.jsonl
+  general_pool: data/general/train_pool.jsonl
+  general_heldout: data/eval/general_heldout.jsonl
+  n_matura: null            # null = use all clean synthetic items
+  general_ratio: 0.25       # fraction of final TRAIN ROWS that are general Polish instruction pairs. The loss is
+                            # token-weighted: a matura completion is ~12 tokens, an uncapped general one ~320, so
+                            # rows != gradient share (train_metrics.loss_tokens.matura_share logs the real split)
+  general_max_completion_chars: 500  # only pool rows whose assistant answer is <= this many chars (~220 Bielik
+                            # tokens; ~2600 of the 6000 pool rows): keeps replay without drowning the matura
+                            # signal (matura share of loss tokens at r=0.3: ~8% uncapped -> ~20%). null = no cap
+  val_fraction: 0.05        # of matura items -> val_matura (split by source article; general val uses the same fraction)
+  variant_mix:              # prompt variants the model learns to comply with (see eval/answer_format.py); a run
+                            # config's variant_mix REPLACES this table (a variant it leaves out gets weight 0)
+    canonical: 0.70
+    bare: 0.15
+    payload_only: 0.10
+    reason_then_answer: 0.05
+  system_prompt_prob: 0.3
+  system_prompts:
+    - "Jesteś pomocnym asystentem. Odpowiadaj po polsku."
+    - "Jesteś ekspertem pomagającym uczniom przygotować się do matury."
+  shuffle_options: true     # re-letter options so correct answers are balanced across A-D
+  renders_per_item: 1       # prompt renders per synthetic item (different variant/system prompt each)
+  general_val_n: 100        # general rows held out from the pool for val_general (train-distribution overfit check)
+  general_heldout_n: 300    # PLLuM-Align rows used as the independent general-capability check
+
+train:
+  epochs: 2
+  learning_rate: 2.0e-4
+  lr_scheduler: cosine
+  warmup_ratio: 0.03
+  per_device_batch_size: 4
+  grad_accum: 4
+  weight_decay: 0.0
+  max_grad_norm: 1.0
+  gradient_checkpointing: true
+  eval_steps: null          # null -> evaluate at the end of every epoch
+  logging_steps: 10
+  max_steps: -1
+  packing: false
+  save_strategy: "no"       # "epoch" -> trainer/checkpoint-<step>/ (a PEFT adapter) after every epoch, to compare epochs
+
+eval:
+  sets:
+    - path: data/eval/heldout.jsonl                # PRIMARY: 60 authored, blind-verified matura-style items (70 pts)
+      variants: [canonical, bare, payload_only]
+      loglik: true
+      organizer: true         # also score the mc items the organizers' way (eval/organizers.py: chat template, logits
+                              # at the FIRST answer position, argmax over the single-token letters). Diagnostic only:
+                              # the headline stays strict "Odpowiedź: X" grading. Non-mc items are skipped.
+      organizer_rotate: true  # repeat it with the options rotated by one: a letter-position bias shows up as a gap
+    - path: data/eval/ext_llmzszl_matura.jsonl     # secondary: 374 real CKE matura MC items (math/physics/biology)
+      variants: [canonical]
+      loglik: true
+      optional: true
+      organizer: true
+      organizer_rotate: true
+    - path: data/eval/ext_prawko_dev.jsonl         # organizer-only: 25 official Polish driving-licence items, the dev
+      variants: []                                 # split of the organizers' prawko-v2 set (scripts/import_prawko.py)
+      loglik: false
+      optional: true
+      organizer: true
+      organizer_rotate: true
+    - path: data/eval/ext_prawko_test.jsonl        # organizer-only: the 40-item prawko-v2 test split (their headline)
+      variants: []
+      loglik: false
+      optional: true
+      organizer: true
+      organizer_rotate: true
+  primary_set: heldout
+  primary_variant: canonical
+  max_new_tokens: 48
+  max_new_tokens_reasoning: 384
+  batch_size: 16            # part of the eval fingerprint (left-padding batch composition changes bf16 outputs)
+  quantization: none        # eval loads unquantized (the exported model); 4bit only to fit a big model on a small GPU
+  system_prompt: null
+  general_loss: true
+  general_loss_max_items: 300
+  limit: null               # debug only: cap items per set
+
+pipeline:
+  merge_after_train: true
+  auto_eval: true
+  keep_merged: candidate_only   # all | candidate_only
+
+gate:                            # a run is promoted to CANDIDATE only if ALL hold (docs/ARCHITECTURE.md#gate)
+  min_delta_points: 2.0          # heldout/canonical strict points over base (60 items / 70 pts: one lucky flip is not a gain)
+  max_parse_fail_rate_increase: 0.0
+  max_general_nll_increase: 0.05 # relative NLL increase on PLLuM-Align general heldout
+  max_variant_regression_points: 1.0
+  max_secondary_score_drop_pct: 1.0  # per non-primary set (ext: 374 real CKE items, 1 pp ~ 3.7 items)
+  min_net_score_pct: 0.0         # primary delta pp + every secondary set's drop in pp: drops must be paid for by gains
+  max_loglik_acc_drop_pct: 3.0
+  must_beat_current_candidate: true
+  min_improvement_points: 1.0    # rule 7 margin over the current candidate's delta (the sweep picks the max of noisy deltas)
+  max_lenient_regression_points: 0.0  # primary lenient (format-independent) points may not fall below base: the
+                                 # organizers' grader may be lenient, so a format gain must not hide lost knowledge
+  max_organizer_acc_drop_pct: 3.0  # rule 9: per eval set scored under the organizers' protocol (first-token letter
+                                 # argmax, no generated text), accuracy may drop at most this many pp below base.
+                                 # Sets without organizer data on both sides are skipped, never a failure
+
+paths:
+  results_root: results
+  checkpoints_root: checkpoints
+  processed_root: data/processed

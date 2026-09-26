@@ -1,0 +1,35 @@
+{"id": "syn-fizyka-09-1-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-1-03", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-1-04", "payload": "638", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-2-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-2-02", "payload": "C", "confidence": "high", "concern": "Trivia: asks for a name/date of the first pendulum clock; also the article gives 1656 (built) in the intro but 1657 (presented/patented) in the history section."}
+{"id": "syn-fizyka-09-2-03", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-2-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-2-05", "payload": "izochronizm", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-2-06", "payload": "99", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-2-07", "payload": "9,78", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-04", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-05", "payload": "inflacja kosmologiczna", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-06", "payload": "90", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-3-07", "payload": "14,0", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-4-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-4-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-4-03", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-4-04", "payload": "energia wewnętrzna", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-4-05", "payload": "8,5", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-4-06", "payload": "73,7", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-5-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-5-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-5-03", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-5-04", "payload": "2,08", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-6-01", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-6-02", "payload": "D", "confidence": "high", "concern": "Trivia: pure date-recall question (year of Principia), low matura relevance."}
+{"id": "syn-fizyka-09-6-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-6-04", "payload": "F, P, P", "confidence": "medium", "concern": "Statement 2 is debatable: the article says the first law is a special case of the second (so P), but many curricula treat the first law as an independent postulate about inertial frames, so a student could defensibly mark F."}
+{"id": "syn-fizyka-09-6-05", "payload": "inercjalne", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-6-06", "payload": "4,04", "confidence": "high", "concern": ""}
+{"id": "syn-fizyka-09-6-07", "payload": "330", "confidence": "high", "concern": ""}

@@ -1,0 +1,35 @@
+{"id": "syn-chemia-09-1-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-1-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-1-03", "payload": "P, F, P", "confidence": "medium", "concern": "Statement 1 is copied from the article, but it is imprecise: the rate formula also divides by V, m or S, so a careful student could mark it F."}
+{"id": "syn-chemia-09-1-04", "payload": "0,48", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-2-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-2-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-2-03", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-2-04", "payload": "F, P, P", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-2-05", "payload": "difluorek tlenu", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-2-06", "payload": "57,1", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-3-01", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-3-02", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-3-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-3-04", "payload": "P, F, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-3-05", "payload": "zmydlanie", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-3-06", "payload": "50,4", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-4-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-4-02", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-4-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-4-04", "payload": "F, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-4-05", "payload": "P, P, F", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-4-06", "payload": "gazy szlachetne", "confidence": "high", "concern": "The synonym 'helowce' should also be accepted."}
+{"id": "syn-chemia-09-4-07", "payload": "63,55", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-5-01", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-5-02", "payload": "B", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-5-03", "payload": "A", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-5-04", "payload": "F, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-5-05", "payload": "wiązanie koordynacyjne", "confidence": "high", "concern": "The synonym 'donorowo-akceptorowe' should also be accepted."}
+{"id": "syn-chemia-09-5-06", "payload": "18", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-6-01", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-6-02", "payload": "D", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-6-03", "payload": "C", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-6-04", "payload": "P, F, P", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-6-05", "payload": "międzycząsteczkowe", "confidence": "high", "concern": ""}
+{"id": "syn-chemia-09-6-06", "payload": "83,7", "confidence": "high", "concern": "The article does not give the ice H-bond energy (5.0 kcal/mol) or the 2 bonds per molecule; both are stated as assumptions in the item, so this is acceptable."}

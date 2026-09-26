@@ -1,0 +1,30 @@
+# The run1 (v0-safe) recipe on Bielik 11B. Needs a CUDA GPU: quantization auto -> 4-bit NF4 QLoRA via bitsandbytes;
+# the adapter is merged onto the UNQUANTIZED bf16 base afterwards (~22 GB on disk).
+# Results live under results/bielik-11b-v2.6-instruct/ with their own base eval and CANDIDATE.
+#   python scripts/train.py --config configs/bielik11b.yaml
+#
+# GPU memory: QLoRA training fits a 24 GB GPU, but the merge (device auto -> cuda) and both evals (eval.quantization:
+# none) load the FULL bf16 11B: 20.8 GiB of weights plus KV cache and logits. device_map="auto" needs >= ~23 GiB FREE
+# GPU memory, otherwise it offloads layers to CPU (3-5x slower eval, a RuntimeWarning) or OOMs after training; the
+# pipeline refuses before training when the weights exceed 80% of the GPU (train/pipeline.check_eval_vram).
+#   * >= 40 GB (A100/L40S/A6000/H100): run as is; the bf16 eval matches the bf16 model that is submitted.
+#   * <= 24 GB (L4/A10/4090): add --set eval.quantization=4bit (base and run are both evaluated in 4-bit, so the delta
+#     stays like-for-like; the fingerprint changes, so the base is re-evaluated) and consider --set eval.batch_size=4.
+#     The merge then offloads (slow); python scripts/merge_and_export.py --device cpu needs ~45 GB of RAM instead.
+inherit: run1.yaml
+run_name: bielik11b-v0
+tags: [bielik11b-v0]
+notes: >-
+  run1 recipe (lr 1e-4, r=16, 2 epochs, 30% general rows capped at 500 chars) on Bielik-11B-v2.6 with QLoRA;
+  effective batch 16 (2 x 8), like the 4.5B default (4 x 4).
+
+model:
+  base: speakleash/Bielik-11B-v2.6-Instruct   # gated; speakleash/Bielik-11B-v2.3-Instruct is the ungated alternative
+  quantization: auto
+
+train:
+  per_device_batch_size: 2
+  grad_accum: 8
+
+eval:
+  batch_size: 8
