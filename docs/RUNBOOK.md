@@ -500,15 +500,16 @@ tmux new -s final 'bash scripts/final_exam.sh exams/final final 2>&1 | tee runs/
 #   [+ EXAM_LORA=checkpoints/<run>/lora-f16.gguf in front if an adapter beat the harness-only system on the mock]
 # at the end it prints the two upload files and the model list:
 #   base : runs/final-base/answers.json   (untouched Bielik-11B, no adapter loaded, organizers' protocol)
-#   tuned: runs/final-tuned/answers.json  (Bielik-11B + harness for the short items, Gemma-4-12B for the essay)
+#   tuned: runs/final-tuned/answers.json  (Bielik-11B + harness, essay included; ESSAY_MODEL=gemma: Gemma writes the essay)
 ```
 
 The script runs one model at a time: Qwen3.5-4B image descriptions → untouched Bielik-11B base → Bielik-11B with the
-harness (RAG with relevance cutoff 50, 9 votes on closed items, label repair, planned essay as a fallback) → Gemma-4-12B
-IQ4_XS with thinking for the essay only → merge (`scripts/merge_answers.py`) → validate both files. It stops with
+harness (RAG with relevance cutoff 50, 9 votes on closed items, label repair, planned essay) → [only with
+ESSAY_MODEL=gemma: Gemma-4-12B IQ4_XS with thinking for the essay, merged with `scripts/merge_answers.py`] → validate. It stops with
 `FAILED: ...` on any error or if a server goes over the memory cap. Requests go out with `cache_prompt: false`, so a
-run is reproducible. Upload both files (Final exam; base first); in the model list give all three models (Bielik-11B
-GGUF link, Gemma-4-12B GGUF link, Qwen3.5-4B GGUF link), and tick "biggest improvement" on the tuned upload.
+run is reproducible. Upload both files (Final exam; base first); in the model list give every model the run used
+(Bielik-11B GGUF link and Qwen3.5-4B GGUF link; plus Gemma-4-12B only with ESSAY_MODEL=gemma), and tick "biggest
+improvement" on the tuned upload. Details: docs/SUNDAY_CHECKLIST.md.
 The detailed manual steps below remain as the fallback.
 
 **People:** presenter `<TBD>` and backup `<TBD>`, both on the registered lineup and on site (Kolektyw3) by 10:30;
