@@ -1,5 +1,17 @@
 # Sunday checklist (27.09, freeze and exam at 11:00)
 
+**Decide first: may the upload list more than one model?** (the upload form has "List every model in your solution"
+and an "Add another model" button; the kick-off FAQ allows several models, each under 8 GB)
+
+| | Command on the box | Models to list | Mock (our judge): base → ours |
+|---|---|---|---|
+| **A. several models allowed (default)** | `bash scripts/final_exam.sh exams/final final` | Bielik-11B + Qwen3.5-4B | 39 → **46** (+7) |
+| B. strictly one model | `MODEL=bielik bash scripts/final_exam_single.sh exams/final final` | Bielik-11B only | 33 → 37 (+4) |
+
+Variant B never sees the images (no descriptions), which costs about 9 points on the mock. Gemma-4-12B as a single
+model that reads the images itself measured 9.0–9.6 GB in image mode, over the 8.8 GB team cap, so it is not an option.
+Both commands write `runs/final-base/answers.json` and `runs/final-tuned/answers.json`.
+
 The system that sits the exam (decided on the judged mock, 26.09 night):
 
 - **All 37 items, essay included:** Bielik-11B-v3.0-Instruct, bartowski Q4_K_S GGUF, no adapter, with our harness
